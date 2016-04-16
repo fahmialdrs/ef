@@ -1,0 +1,14 @@
+c:\users\fahmi\documents\visual studio 2015\Projects\eform\eform\bin\Debug\eform.exe.config
+c:\users\fahmi\documents\visual studio 2015\Projects\eform\eform\bin\Debug\eform.exe
+c:\users\fahmi\documents\visual studio 2015\Projects\eform\eform\bin\Debug\eform.pdb
+c:\users\fahmi\documents\visual studio 2015\Projects\eform\eform\bin\Debug\eform.xml
+c:\users\fahmi\documents\visual studio 2015\Projects\eform\eform\obj\Debug\eform.vbprojResolveAssemblyReference.cache
+c:\users\fahmi\documents\visual studio 2015\Projects\eform\eform\obj\Debug\eform.Resources.resources
+c:\users\fahmi\documents\visual studio 2015\Projects\eform\eform\obj\Debug\eform.vbproj.GenerateResource.Cache
+c:\users\fahmi\documents\visual studio 2015\Projects\eform\eform\obj\Debug\eform.exe
+c:\users\fahmi\documents\visual studio 2015\Projects\eform\eform\obj\Debug\eform.xml
+c:\users\fahmi\documents\visual studio 2015\Projects\eform\eform\obj\Debug\eform.pdb
+c:\users\fahmi\documents\visual studio 2015\Projects\eform\eform\obj\Debug\eform.SplashScreen1.resources
+c:\users\fahmi\documents\visual studio 2015\Projects\eform\eform\obj\Debug\eform.mainmenu.resources
+C:\Users\fahmi\Documents\Visual Studio 2015\Projects\eform\eform\obj\Debug\eform.formPembelian.resources
+C:\Users\fahmi\Documents\Visual Studio 2015\Projects\eform\eform\obj\Debug\eform.Pembelian.resources
