@@ -78,10 +78,28 @@
     <Compile Include="mainmenu.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="maintain.Designer.vb">
+      <DependentUpon>maintain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="maintain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maintainmobile.Designer.vb">
+      <DependentUpon>maintainmobile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="maintainmobile.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="membermenu.Designer.vb">
       <DependentUpon>membermenu.vb</DependentUpon>
     </Compile>
     <Compile Include="membermenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mobilestockist.Designer.vb">
+      <DependentUpon>mobilestockist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="mobilestockist.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -111,6 +129,18 @@
     <Compile Include="Pembelian.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="pembeliannewmember.Designer.vb">
+      <DependentUpon>pembeliannewmember.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pembeliannewmember.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="register.Designer.vb">
+      <DependentUpon>register.vb</DependentUpon>
+    </Compile>
+    <Compile Include="register.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="SplashScreen1.Designer.vb">
       <DependentUpon>SplashScreen1.vb</DependentUpon>
     </Compile>
@@ -122,8 +152,17 @@
     <EmbeddedResource Include="mainmenu.resx">
       <DependentUpon>mainmenu.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="maintain.resx">
+      <DependentUpon>maintain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maintainmobile.resx">
+      <DependentUpon>maintainmobile.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="membermenu.resx">
       <DependentUpon>membermenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mobilestockist.resx">
+      <DependentUpon>mobilestockist.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -136,6 +175,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Pembelian.resx">
       <DependentUpon>Pembelian.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pembeliannewmember.resx">
+      <DependentUpon>pembeliannewmember.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="register.resx">
+      <DependentUpon>register.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SplashScreen1.resx">
       <DependentUpon>SplashScreen1.vb</DependentUpon>
