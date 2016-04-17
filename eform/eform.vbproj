@@ -72,6 +72,30 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="adminmenu.Designer.vb">
+      <DependentUpon>adminmenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="adminmenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="finance.Designer.vb">
+      <DependentUpon>finance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="finance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gudang.Designer.vb">
+      <DependentUpon>gudang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="gudang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.vb">
+      <DependentUpon>login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="login.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="mainmenu.Designer.vb">
       <DependentUpon>mainmenu.vb</DependentUpon>
     </Compile>
@@ -149,6 +173,18 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="adminmenu.resx">
+      <DependentUpon>adminmenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="finance.resx">
+      <DependentUpon>finance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gudang.resx">
+      <DependentUpon>gudang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="mainmenu.resx">
       <DependentUpon>mainmenu.vb</DependentUpon>
     </EmbeddedResource>

@@ -28,12 +28,11 @@ Partial Class mainmenu
         Me.Label1 = New System.Windows.Forms.Label()
         Me.member = New System.Windows.Forms.Button()
         Me.MenuStrip = New System.Windows.Forms.MenuStrip()
-        Me.FinanceToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.StocksToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SettingToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.BackupDatabaseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.StatusStrip = New System.Windows.Forms.StatusStrip()
+        Me.LoginToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -89,26 +88,12 @@ Partial Class mainmenu
         '
         'MenuStrip
         '
-        Me.MenuStrip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FinanceToolStripMenuItem, Me.StocksToolStripMenuItem, Me.SettingToolStripMenuItem, Me.ExitToolStripMenuItem})
+        Me.MenuStrip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.LoginToolStripMenuItem, Me.SettingToolStripMenuItem, Me.ExitToolStripMenuItem})
         Me.MenuStrip.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip.Name = "MenuStrip"
         Me.MenuStrip.Size = New System.Drawing.Size(995, 24)
         Me.MenuStrip.TabIndex = 13
         Me.MenuStrip.Text = "MenuStrip"
-        '
-        'FinanceToolStripMenuItem
-        '
-        Me.FinanceToolStripMenuItem.Image = CType(resources.GetObject("FinanceToolStripMenuItem.Image"), System.Drawing.Image)
-        Me.FinanceToolStripMenuItem.Name = "FinanceToolStripMenuItem"
-        Me.FinanceToolStripMenuItem.Size = New System.Drawing.Size(76, 20)
-        Me.FinanceToolStripMenuItem.Text = "Finance"
-        '
-        'StocksToolStripMenuItem
-        '
-        Me.StocksToolStripMenuItem.Image = CType(resources.GetObject("StocksToolStripMenuItem.Image"), System.Drawing.Image)
-        Me.StocksToolStripMenuItem.Name = "StocksToolStripMenuItem"
-        Me.StocksToolStripMenuItem.Size = New System.Drawing.Size(69, 20)
-        Me.StocksToolStripMenuItem.Text = "Stocks"
         '
         'SettingToolStripMenuItem
         '
@@ -140,6 +125,13 @@ Partial Class mainmenu
         Me.StatusStrip.TabIndex = 14
         Me.StatusStrip.Text = "StatusStrip"
         '
+        'LoginToolStripMenuItem
+        '
+        Me.LoginToolStripMenuItem.Image = CType(resources.GetObject("LoginToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.LoginToolStripMenuItem.Name = "LoginToolStripMenuItem"
+        Me.LoginToolStripMenuItem.Size = New System.Drawing.Size(65, 20)
+        Me.LoginToolStripMenuItem.Text = "Login"
+        '
         'mainmenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -167,10 +159,9 @@ Partial Class mainmenu
     Friend WithEvents Label1 As Label
     Friend WithEvents member As Button
     Friend WithEvents MenuStrip As MenuStrip
-    Friend WithEvents FinanceToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents StocksToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents SettingToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents BackupDatabaseToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ExitToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents StatusStrip As StatusStrip
+    Friend WithEvents LoginToolStripMenuItem As ToolStripMenuItem
 End Class
