@@ -164,6 +164,7 @@ Partial Class login
         Me.Controls.Add(Me.PictureBox1)
         Me.Name = "login"
         Me.Text = "login"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.MenuStrip.ResumeLayout(False)
         Me.MenuStrip.PerformLayout()

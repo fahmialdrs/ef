@@ -683,6 +683,7 @@ Partial Class mobilestockist
         Me.Controls.Add(Me.Panel1)
         Me.Name = "mobilestockist"
         Me.Text = "mobilestockist"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.TabPage2.ResumeLayout(False)
         Me.TabPage2.PerformLayout()
         CType(Me.firmax3r, System.ComponentModel.ISupportInitialize).EndInit()

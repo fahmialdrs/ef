@@ -183,6 +183,7 @@ Partial Class finance
         Me.Controls.Add(Me.MenuStrip)
         Me.Name = "finance"
         Me.Text = "finance"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.MenuStrip.ResumeLayout(False)
         Me.MenuStrip.PerformLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()

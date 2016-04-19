@@ -32,7 +32,6 @@ Partial Class mainmenu
         Me.SettingToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.BackupDatabaseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.StatusStrip = New System.Windows.Forms.StatusStrip()
         Me.MenuStrip.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -124,14 +123,6 @@ Partial Class mainmenu
         Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(53, 20)
         Me.ExitToolStripMenuItem.Text = "Exit"
         '
-        'StatusStrip
-        '
-        Me.StatusStrip.Location = New System.Drawing.Point(0, 510)
-        Me.StatusStrip.Name = "StatusStrip"
-        Me.StatusStrip.Size = New System.Drawing.Size(995, 22)
-        Me.StatusStrip.TabIndex = 14
-        Me.StatusStrip.Text = "StatusStrip"
-        '
         'mainmenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -144,9 +135,10 @@ Partial Class mainmenu
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.member)
         Me.Controls.Add(Me.MenuStrip)
-        Me.Controls.Add(Me.StatusStrip)
         Me.Name = "mainmenu"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "mainmenu"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.MenuStrip.ResumeLayout(False)
         Me.MenuStrip.PerformLayout()
         Me.ResumeLayout(False)
@@ -162,6 +154,5 @@ Partial Class mainmenu
     Friend WithEvents SettingToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents BackupDatabaseToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ExitToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents StatusStrip As StatusStrip
     Friend WithEvents LoginToolStripMenuItem As ToolStripMenuItem
 End Class

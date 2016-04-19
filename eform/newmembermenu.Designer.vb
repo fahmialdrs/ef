@@ -178,6 +178,7 @@ Partial Class newmembermenu
         Me.Controls.Add(Me.formregister)
         Me.Name = "newmembermenu"
         Me.Text = "newmembermenu"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.MenuStrip.ResumeLayout(False)
         Me.MenuStrip.PerformLayout()
         Me.ResumeLayout(False)

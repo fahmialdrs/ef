@@ -29,9 +29,9 @@ Partial Class adminmenu
         Me.member = New System.Windows.Forms.Button()
         Me.StatusStrip = New System.Windows.Forms.StatusStrip()
         Me.MenuStrip = New System.Windows.Forms.MenuStrip()
-        Me.LoginToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SettingToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.BackupDatabaseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.LoginToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip.SuspendLayout()
         Me.SuspendLayout()
@@ -103,13 +103,6 @@ Partial Class adminmenu
         Me.MenuStrip.TabIndex = 62
         Me.MenuStrip.Text = "MenuStrip"
         '
-        'LoginToolStripMenuItem
-        '
-        Me.LoginToolStripMenuItem.Image = CType(resources.GetObject("LoginToolStripMenuItem.Image"), System.Drawing.Image)
-        Me.LoginToolStripMenuItem.Name = "LoginToolStripMenuItem"
-        Me.LoginToolStripMenuItem.Size = New System.Drawing.Size(78, 20)
-        Me.LoginToolStripMenuItem.Text = "Log Out"
-        '
         'SettingToolStripMenuItem
         '
         Me.SettingToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BackupDatabaseToolStripMenuItem})
@@ -124,6 +117,13 @@ Partial Class adminmenu
         Me.BackupDatabaseToolStripMenuItem.Name = "BackupDatabaseToolStripMenuItem"
         Me.BackupDatabaseToolStripMenuItem.Size = New System.Drawing.Size(164, 22)
         Me.BackupDatabaseToolStripMenuItem.Text = "Backup Database"
+        '
+        'LoginToolStripMenuItem
+        '
+        Me.LoginToolStripMenuItem.Image = CType(resources.GetObject("LoginToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.LoginToolStripMenuItem.Name = "LoginToolStripMenuItem"
+        Me.LoginToolStripMenuItem.Size = New System.Drawing.Size(78, 20)
+        Me.LoginToolStripMenuItem.Text = "Log Out"
         '
         'ExitToolStripMenuItem
         '
@@ -147,6 +147,7 @@ Partial Class adminmenu
         Me.Controls.Add(Me.StatusStrip)
         Me.Name = "adminmenu"
         Me.Text = "adminmenu"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.MenuStrip.ResumeLayout(False)
         Me.MenuStrip.PerformLayout()
         Me.ResumeLayout(False)

@@ -978,6 +978,7 @@ Partial Class maintainmobile
         Me.Controls.Add(Me.Label22)
         Me.Name = "maintainmobile"
         Me.Text = "maintainmobile"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()

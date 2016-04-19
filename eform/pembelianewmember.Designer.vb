@@ -760,6 +760,7 @@ Partial Class pembelianewmember
         Me.Controls.Add(Me.Label22)
         Me.Name = "pembelianewmember"
         Me.Text = "pembelianewmember"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabControl1.ResumeLayout(False)
         Me.TabPage1.ResumeLayout(False)

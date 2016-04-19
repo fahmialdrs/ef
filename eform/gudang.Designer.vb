@@ -184,6 +184,7 @@ Partial Class gudang
         Me.Controls.Add(Me.Button1)
         Me.Name = "gudang"
         Me.Text = "gudang"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.MenuStrip.ResumeLayout(False)
         Me.MenuStrip.PerformLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()

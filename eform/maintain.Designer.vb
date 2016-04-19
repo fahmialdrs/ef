@@ -740,6 +740,7 @@ Partial Class maintain
         Me.Controls.Add(Me.Label22)
         Me.Name = "maintain"
         Me.Text = "maintain"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
