@@ -20,5 +20,7 @@ C:\Users\fahmi\Documents\Visual Studio 2015\Projects\eform\eform\obj\Debug\eform
 C:\Users\fahmi\Documents\Visual Studio 2015\Projects\eform\eform\obj\Debug\eform.membermenu.resources
 C:\Users\fahmi\Documents\Visual Studio 2015\Projects\eform\eform\obj\Debug\eform.mobilestockist.resources
 C:\Users\fahmi\Documents\Visual Studio 2015\Projects\eform\eform\obj\Debug\eform.newmembermenu.resources
-C:\Users\fahmi\Documents\Visual Studio 2015\Projects\eform\eform\obj\Debug\eform.pembeliannewmember.resources
 C:\Users\fahmi\Documents\Visual Studio 2015\Projects\eform\eform\obj\Debug\eform.register.resources
+C:\Users\fahmi\Documents\Visual Studio 2015\Projects\eform\eform\obj\Debug\eform.splash.resources
+C:\Users\fahmi\Documents\Visual Studio 2015\Projects\eform\eform\obj\Debug\eform.pembelianewmember.resources
+C:\Users\fahmi\Documents\Visual Studio 2015\Projects\eform\eform\obj\Debug\eform.menunewmember.resources

@@ -24,6 +24,8 @@ Partial Class mobilestockist
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(mobilestockist))
         Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.transferrwallet = New System.Windows.Forms.TextBox()
+        Me.Label28 = New System.Windows.Forms.Label()
         Me.Label16 = New System.Windows.Forms.Label()
         Me.Label17 = New System.Windows.Forms.Label()
         Me.amountr = New System.Windows.Forms.TextBox()
@@ -37,13 +39,9 @@ Partial Class mobilestockist
         Me.Label21 = New System.Windows.Forms.Label()
         Me.Label26 = New System.Windows.Forms.Label()
         Me.Label15 = New System.Windows.Forms.Label()
-        Me.Label31 = New System.Windows.Forms.Label()
         Me.Label22 = New System.Windows.Forms.Label()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label25 = New System.Windows.Forms.Label()
-        Me.back = New System.Windows.Forms.Button()
         Me.Label14 = New System.Windows.Forms.Label()
         Me.amountt = New System.Windows.Forms.TextBox()
         Me.Label13 = New System.Windows.Forms.Label()
@@ -57,7 +55,6 @@ Partial Class mobilestockist
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.tanggal = New System.Windows.Forms.DateTimePicker()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.Button3 = New System.Windows.Forms.Button()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.userid = New System.Windows.Forms.TextBox()
         Me.Label6 = New System.Windows.Forms.Label()
@@ -70,15 +67,18 @@ Partial Class mobilestockist
         Me.o2max3t = New System.Windows.Forms.NumericUpDown()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
+        Me.transfertwallet = New System.Windows.Forms.TextBox()
+        Me.Label27 = New System.Windows.Forms.Label()
         Me.Label24 = New System.Windows.Forms.Label()
         Me.Label23 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.notelpon = New System.Windows.Forms.TextBox()
         Me.Label32 = New System.Windows.Forms.Label()
-        Me.Label27 = New System.Windows.Forms.Label()
-        Me.transfertwallet = New System.Windows.Forms.TextBox()
-        Me.transferrwallet = New System.Windows.Forms.TextBox()
-        Me.Label28 = New System.Windows.Forms.Label()
+        Me.Label31 = New System.Windows.Forms.Label()
+        Me.back = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.TabPage2.SuspendLayout()
         CType(Me.firmax3r, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.o2max3r, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -114,6 +114,24 @@ Partial Class mobilestockist
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "Repeat Order"
         Me.TabPage2.UseVisualStyleBackColor = True
+        '
+        'transferrwallet
+        '
+        Me.transferrwallet.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.transferrwallet.Location = New System.Drawing.Point(174, 235)
+        Me.transferrwallet.Name = "transferrwallet"
+        Me.transferrwallet.Size = New System.Drawing.Size(735, 22)
+        Me.transferrwallet.TabIndex = 57
+        '
+        'Label28
+        '
+        Me.Label28.AutoSize = True
+        Me.Label28.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label28.Location = New System.Drawing.Point(22, 241)
+        Me.Label28.Name = "Label28"
+        Me.Label28.Size = New System.Drawing.Size(113, 16)
+        Me.Label28.TabIndex = 56
+        Me.Label28.Text = "Transfer R-Wallet"
         '
         'Label16
         '
@@ -234,17 +252,6 @@ Partial Class mobilestockist
         Me.Label15.TabIndex = 43
         Me.Label15.Text = "( R - Wallet )"
         '
-        'Label31
-        '
-        Me.Label31.AutoSize = True
-        Me.Label31.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label31.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label31.Location = New System.Drawing.Point(970, 709)
-        Me.Label31.Name = "Label31"
-        Me.Label31.Size = New System.Drawing.Size(179, 18)
-        Me.Label31.TabIndex = 53
-        Me.Label31.Text = "BACK TO MAIN MENU"
-        '
         'Label22
         '
         Me.Label22.AutoSize = True
@@ -254,32 +261,6 @@ Partial Class mobilestockist
         Me.Label22.Size = New System.Drawing.Size(51, 16)
         Me.Label22.TabIndex = 46
         Me.Label22.Text = "Nama :"
-        '
-        'Button2
-        '
-        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Button2.Image = CType(resources.GetObject("Button2.Image"), System.Drawing.Image)
-        Me.Button2.Location = New System.Drawing.Point(1003, 389)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(112, 116)
-        Me.Button2.TabIndex = 50
-        Me.Button2.Text = "Clear"
-        Me.Button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.Button2.UseVisualStyleBackColor = True
-        '
-        'Button1
-        '
-        Me.Button1.FlatAppearance.BorderSize = 0
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Button1.Image = CType(resources.GetObject("Button1.Image"), System.Drawing.Image)
-        Me.Button1.Location = New System.Drawing.Point(1004, 265)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(111, 117)
-        Me.Button1.TabIndex = 49
-        Me.Button1.Text = "Submit"
-        Me.Button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.Button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
-        Me.Button1.UseVisualStyleBackColor = True
         '
         'Label7
         '
@@ -300,17 +281,6 @@ Partial Class mobilestockist
         Me.Label25.Size = New System.Drawing.Size(107, 20)
         Me.Label25.TabIndex = 30
         Me.Label25.Text = "( T - Wallet )"
-        '
-        'back
-        '
-        Me.back.BackColor = System.Drawing.SystemColors.AppWorkspace
-        Me.back.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.back.Image = CType(resources.GetObject("back.Image"), System.Drawing.Image)
-        Me.back.Location = New System.Drawing.Point(1021, 634)
-        Me.back.Name = "back"
-        Me.back.Size = New System.Drawing.Size(77, 72)
-        Me.back.TabIndex = 52
-        Me.back.UseVisualStyleBackColor = False
         '
         'Label14
         '
@@ -429,18 +399,6 @@ Partial Class mobilestockist
         Me.Label3.Size = New System.Drawing.Size(65, 16)
         Me.Label3.TabIndex = 4
         Me.Label3.Text = "Tanggal :"
-        '
-        'Button3
-        '
-        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button3.Image = CType(resources.GetObject("Button3.Image"), System.Drawing.Image)
-        Me.Button3.Location = New System.Drawing.Point(1002, 512)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(114, 116)
-        Me.Button3.TabIndex = 51
-        Me.Button3.Text = "Print"
-        Me.Button3.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.Button3.UseVisualStyleBackColor = True
         '
         'Label4
         '
@@ -570,6 +528,24 @@ Partial Class mobilestockist
         Me.TabPage1.Text = "Pembelian Member / Aktivasi"
         Me.TabPage1.UseVisualStyleBackColor = True
         '
+        'transfertwallet
+        '
+        Me.transfertwallet.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.transfertwallet.Location = New System.Drawing.Point(172, 232)
+        Me.transfertwallet.Name = "transfertwallet"
+        Me.transfertwallet.Size = New System.Drawing.Size(735, 22)
+        Me.transfertwallet.TabIndex = 32
+        '
+        'Label27
+        '
+        Me.Label27.AutoSize = True
+        Me.Label27.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label27.Location = New System.Drawing.Point(20, 238)
+        Me.Label27.Name = "Label27"
+        Me.Label27.Size = New System.Drawing.Size(112, 16)
+        Me.Label27.TabIndex = 31
+        Me.Label27.Text = "Transfer T-Wallet"
+        '
         'Label24
         '
         Me.Label24.AutoSize = True
@@ -623,41 +599,65 @@ Partial Class mobilestockist
         Me.Label32.TabIndex = 54
         Me.Label32.Text = "( MOBILE STOCKIST )"
         '
-        'Label27
+        'Label31
         '
-        Me.Label27.AutoSize = True
-        Me.Label27.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label27.Location = New System.Drawing.Point(20, 238)
-        Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(112, 16)
-        Me.Label27.TabIndex = 31
-        Me.Label27.Text = "Transfer T-Wallet"
+        Me.Label31.AutoSize = True
+        Me.Label31.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Label31.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label31.Location = New System.Drawing.Point(1001, 684)
+        Me.Label31.Name = "Label31"
+        Me.Label31.Size = New System.Drawing.Size(179, 18)
+        Me.Label31.TabIndex = 59
+        Me.Label31.Text = "BACK TO MAIN MENU"
         '
-        'transfertwallet
+        'back
         '
-        Me.transfertwallet.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.transfertwallet.Location = New System.Drawing.Point(172, 232)
-        Me.transfertwallet.Name = "transfertwallet"
-        Me.transfertwallet.Size = New System.Drawing.Size(735, 22)
-        Me.transfertwallet.TabIndex = 32
+        Me.back.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.back.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.back.Image = CType(resources.GetObject("back.Image"), System.Drawing.Image)
+        Me.back.Location = New System.Drawing.Point(1042, 609)
+        Me.back.Name = "back"
+        Me.back.Size = New System.Drawing.Size(77, 72)
+        Me.back.TabIndex = 58
+        Me.back.UseVisualStyleBackColor = False
         '
-        'transferrwallet
+        'Button3
         '
-        Me.transferrwallet.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.transferrwallet.Location = New System.Drawing.Point(174, 235)
-        Me.transferrwallet.Name = "transferrwallet"
-        Me.transferrwallet.Size = New System.Drawing.Size(735, 22)
-        Me.transferrwallet.TabIndex = 57
+        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button3.Image = CType(resources.GetObject("Button3.Image"), System.Drawing.Image)
+        Me.Button3.Location = New System.Drawing.Point(1006, 443)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(98, 97)
+        Me.Button3.TabIndex = 57
+        Me.Button3.Text = "Print"
+        Me.Button3.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.Button3.UseVisualStyleBackColor = True
         '
-        'Label28
+        'Button2
         '
-        Me.Label28.AutoSize = True
-        Me.Label28.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label28.Location = New System.Drawing.Point(22, 241)
-        Me.Label28.Name = "Label28"
-        Me.Label28.Size = New System.Drawing.Size(113, 16)
-        Me.Label28.TabIndex = 56
-        Me.Label28.Text = "Transfer R-Wallet"
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button2.Image = CType(resources.GetObject("Button2.Image"), System.Drawing.Image)
+        Me.Button2.Location = New System.Drawing.Point(1006, 343)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(98, 97)
+        Me.Button2.TabIndex = 56
+        Me.Button2.Text = "Clear"
+        Me.Button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.Button2.UseVisualStyleBackColor = True
+        '
+        'Button1
+        '
+        Me.Button1.FlatAppearance.BorderSize = 0
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button1.Image = CType(resources.GetObject("Button1.Image"), System.Drawing.Image)
+        Me.Button1.Location = New System.Drawing.Point(1006, 240)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(98, 97)
+        Me.Button1.TabIndex = 55
+        Me.Button1.Text = "Submit"
+        Me.Button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.Button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.Button1.UseVisualStyleBackColor = True
         '
         'mobilestockist
         '
@@ -665,18 +665,18 @@ Partial Class mobilestockist
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.ClientSize = New System.Drawing.Size(1181, 733)
-        Me.Controls.Add(Me.Label32)
         Me.Controls.Add(Me.Label31)
-        Me.Controls.Add(Me.Label22)
+        Me.Controls.Add(Me.back)
+        Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.Label32)
+        Me.Controls.Add(Me.Label22)
         Me.Controls.Add(Me.Label7)
-        Me.Controls.Add(Me.back)
         Me.Controls.Add(Me.noform)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.TabControl1)
         Me.Controls.Add(Me.Label24)
         Me.Controls.Add(Me.Label23)
@@ -714,13 +714,9 @@ Partial Class mobilestockist
     Friend WithEvents Label21 As Label
     Friend WithEvents Label26 As Label
     Friend WithEvents Label15 As Label
-    Friend WithEvents Label31 As Label
     Friend WithEvents Label22 As Label
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button1 As Button
     Friend WithEvents Label7 As Label
     Friend WithEvents Label25 As Label
-    Friend WithEvents back As Button
     Friend WithEvents Label14 As Label
     Friend WithEvents amountt As TextBox
     Friend WithEvents Label13 As Label
@@ -734,7 +730,6 @@ Partial Class mobilestockist
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents tanggal As DateTimePicker
     Friend WithEvents Label3 As Label
-    Friend WithEvents Button3 As Button
     Friend WithEvents Label4 As Label
     Friend WithEvents userid As TextBox
     Friend WithEvents Label6 As Label
@@ -756,4 +751,9 @@ Partial Class mobilestockist
     Friend WithEvents Label28 As Label
     Friend WithEvents transfertwallet As TextBox
     Friend WithEvents Label27 As Label
+    Friend WithEvents Label31 As Label
+    Friend WithEvents back As Button
+    Friend WithEvents Button3 As Button
+    Friend WithEvents Button2 As Button
+    Friend WithEvents Button1 As Button
 End Class

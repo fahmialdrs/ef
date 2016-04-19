@@ -24,7 +24,6 @@ Partial Class maintain
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(maintain))
         Me.Label27 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.datainput = New System.Windows.Forms.TextBox()
         Me.finalcheck = New System.Windows.Forms.TextBox()
@@ -36,7 +35,6 @@ Partial Class maintain
         Me.Label28 = New System.Windows.Forms.Label()
         Me.note = New System.Windows.Forms.TextBox()
         Me.Label7 = New System.Windows.Forms.Label()
-        Me.back = New System.Windows.Forms.Button()
         Me.noform = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -50,12 +48,9 @@ Partial Class maintain
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.nama = New System.Windows.Forms.TextBox()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
         Me.Label24 = New System.Windows.Forms.Label()
         Me.Label23 = New System.Windows.Forms.Label()
         Me.Label22 = New System.Windows.Forms.Label()
-        Me.Label31 = New System.Windows.Forms.Label()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.Label16 = New System.Windows.Forms.Label()
         Me.Label17 = New System.Windows.Forms.Label()
@@ -80,6 +75,11 @@ Partial Class maintain
         Me.kurangbayar = New System.Windows.Forms.TextBox()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label15 = New System.Windows.Forms.Label()
+        Me.Label31 = New System.Windows.Forms.Label()
+        Me.back = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.Panel2.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
@@ -98,20 +98,6 @@ Partial Class maintain
         Me.Label27.Size = New System.Drawing.Size(43, 16)
         Me.Label27.TabIndex = 33
         Me.Label27.Text = "Note :"
-        '
-        'Button1
-        '
-        Me.Button1.FlatAppearance.BorderSize = 0
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Button1.Image = CType(resources.GetObject("Button1.Image"), System.Drawing.Image)
-        Me.Button1.Location = New System.Drawing.Point(998, 265)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(111, 117)
-        Me.Button1.TabIndex = 65
-        Me.Button1.Text = "Submit"
-        Me.Button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.Button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
-        Me.Button1.UseVisualStyleBackColor = True
         '
         'Panel2
         '
@@ -230,17 +216,6 @@ Partial Class maintain
         Me.Label7.Size = New System.Drawing.Size(51, 16)
         Me.Label7.TabIndex = 63
         Me.Label7.Text = "Nama :"
-        '
-        'back
-        '
-        Me.back.BackColor = System.Drawing.SystemColors.AppWorkspace
-        Me.back.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.back.Image = CType(resources.GetObject("back.Image"), System.Drawing.Image)
-        Me.back.Location = New System.Drawing.Point(1019, 634)
-        Me.back.Name = "back"
-        Me.back.Size = New System.Drawing.Size(77, 72)
-        Me.back.TabIndex = 68
-        Me.back.UseVisualStyleBackColor = False
         '
         'noform
         '
@@ -366,30 +341,6 @@ Partial Class maintain
         Me.nama.Size = New System.Drawing.Size(840, 22)
         Me.nama.TabIndex = 9
         '
-        'Button3
-        '
-        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button3.Image = CType(resources.GetObject("Button3.Image"), System.Drawing.Image)
-        Me.Button3.Location = New System.Drawing.Point(996, 512)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(114, 116)
-        Me.Button3.TabIndex = 67
-        Me.Button3.Text = "Print"
-        Me.Button3.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.Button3.UseVisualStyleBackColor = True
-        '
-        'Button2
-        '
-        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Button2.Image = CType(resources.GetObject("Button2.Image"), System.Drawing.Image)
-        Me.Button2.Location = New System.Drawing.Point(998, 389)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(112, 116)
-        Me.Button2.TabIndex = 66
-        Me.Button2.Text = "Clear"
-        Me.Button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.Button2.UseVisualStyleBackColor = True
-        '
         'Label24
         '
         Me.Label24.AutoSize = True
@@ -419,17 +370,6 @@ Partial Class maintain
         Me.Label22.Size = New System.Drawing.Size(51, 16)
         Me.Label22.TabIndex = 62
         Me.Label22.Text = "Nama :"
-        '
-        'Label31
-        '
-        Me.Label31.AutoSize = True
-        Me.Label31.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label31.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label31.Location = New System.Drawing.Point(993, 709)
-        Me.Label31.Name = "Label31"
-        Me.Label31.Size = New System.Drawing.Size(179, 18)
-        Me.Label31.TabIndex = 69
-        Me.Label31.Text = "BACK TO MAIN MENU"
         '
         'Panel3
         '
@@ -714,30 +654,90 @@ Partial Class maintain
         Me.Label15.TabIndex = 72
         Me.Label15.Text = "( M - Wallet )"
         '
+        'Label31
+        '
+        Me.Label31.AutoSize = True
+        Me.Label31.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Label31.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label31.Location = New System.Drawing.Point(997, 684)
+        Me.Label31.Name = "Label31"
+        Me.Label31.Size = New System.Drawing.Size(179, 18)
+        Me.Label31.TabIndex = 82
+        Me.Label31.Text = "BACK TO MAIN MENU"
+        '
+        'back
+        '
+        Me.back.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.back.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.back.Image = CType(resources.GetObject("back.Image"), System.Drawing.Image)
+        Me.back.Location = New System.Drawing.Point(1031, 597)
+        Me.back.Name = "back"
+        Me.back.Size = New System.Drawing.Size(77, 72)
+        Me.back.TabIndex = 81
+        Me.back.UseVisualStyleBackColor = False
+        '
+        'Button3
+        '
+        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button3.Image = CType(resources.GetObject("Button3.Image"), System.Drawing.Image)
+        Me.Button3.Location = New System.Drawing.Point(1010, 478)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(98, 97)
+        Me.Button3.TabIndex = 80
+        Me.Button3.Text = "Print"
+        Me.Button3.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.Button3.UseVisualStyleBackColor = True
+        '
+        'Button2
+        '
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button2.Image = CType(resources.GetObject("Button2.Image"), System.Drawing.Image)
+        Me.Button2.Location = New System.Drawing.Point(1010, 378)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(98, 97)
+        Me.Button2.TabIndex = 79
+        Me.Button2.Text = "Clear"
+        Me.Button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.Button2.UseVisualStyleBackColor = True
+        '
+        'Button1
+        '
+        Me.Button1.FlatAppearance.BorderSize = 0
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button1.Image = CType(resources.GetObject("Button1.Image"), System.Drawing.Image)
+        Me.Button1.Location = New System.Drawing.Point(1010, 275)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(98, 97)
+        Me.Button1.TabIndex = 78
+        Me.Button1.Text = "Submit"
+        Me.Button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.Button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'maintain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.ClientSize = New System.Drawing.Size(1156, 733)
+        Me.Controls.Add(Me.Label31)
+        Me.Controls.Add(Me.back)
+        Me.Controls.Add(Me.Button3)
+        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label15)
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Controls.Add(Me.Panel3)
-        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Label7)
-        Me.Controls.Add(Me.back)
         Me.Controls.Add(Me.noform)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Panel1)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Label24)
         Me.Controls.Add(Me.Label23)
         Me.Controls.Add(Me.Label22)
-        Me.Controls.Add(Me.Label31)
         Me.Name = "maintain"
         Me.Text = "maintain"
         Me.Panel2.ResumeLayout(False)
@@ -757,7 +757,6 @@ Partial Class maintain
     End Sub
 
     Friend WithEvents Label27 As Label
-    Friend WithEvents Button1 As Button
     Friend WithEvents Panel2 As Panel
     Friend WithEvents datainput As TextBox
     Friend WithEvents finalcheck As TextBox
@@ -769,7 +768,6 @@ Partial Class maintain
     Friend WithEvents Label28 As Label
     Friend WithEvents note As TextBox
     Friend WithEvents Label7 As Label
-    Friend WithEvents back As Button
     Friend WithEvents noform As TextBox
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
@@ -783,12 +781,9 @@ Partial Class maintain
     Friend WithEvents Label6 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents nama As TextBox
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button2 As Button
     Friend WithEvents Label24 As Label
     Friend WithEvents Label23 As Label
     Friend WithEvents Label22 As Label
-    Friend WithEvents Label31 As Label
     Friend WithEvents Panel3 As Panel
     Friend WithEvents Label16 As Label
     Friend WithEvents Label17 As Label
@@ -813,4 +808,9 @@ Partial Class maintain
     Friend WithEvents saldomaintainidr As TextBox
     Friend WithEvents kurangbayar As TextBox
     Friend WithEvents Label15 As Label
+    Friend WithEvents Label31 As Label
+    Friend WithEvents back As Button
+    Friend WithEvents Button3 As Button
+    Friend WithEvents Button2 As Button
+    Friend WithEvents Button1 As Button
 End Class

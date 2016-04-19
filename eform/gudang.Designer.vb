@@ -134,6 +134,7 @@ Partial Class gudang
         '
         Me.back.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.back.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.back.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.back.Image = CType(resources.GetObject("back.Image"), System.Drawing.Image)
         Me.back.Location = New System.Drawing.Point(163, 345)
         Me.back.Name = "back"
@@ -144,6 +145,7 @@ Partial Class gudang
         'Button2
         '
         Me.Button2.BackgroundImage = CType(resources.GetObject("Button2.BackgroundImage"), System.Drawing.Image)
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Image = CType(resources.GetObject("Button2.Image"), System.Drawing.Image)
         Me.Button2.Location = New System.Drawing.Point(374, 346)
         Me.Button2.Name = "Button2"

@@ -1,6 +1,6 @@
-﻿Public Class gudang
+﻿Public Class pembelianewmember
     Private Sub back_Click(sender As Object, e As EventArgs) Handles back.Click
-        adminmenu.Show()
+        newmembermenu.Show()
         Me.Hide()
     End Sub
 End Class

@@ -27,12 +27,6 @@ Partial Class membermenu
         Me.mobilemember = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.pembelianmember = New System.Windows.Forms.Button()
-        Me.MenuStrip = New System.Windows.Forms.MenuStrip()
-        Me.FinanceToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.StocksToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.SettingToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.BackupDatabaseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
@@ -43,6 +37,11 @@ Partial Class membermenu
         Me.Label8 = New System.Windows.Forms.Label()
         Me.back = New System.Windows.Forms.Button()
         Me.Label9 = New System.Windows.Forms.Label()
+        Me.MenuStrip = New System.Windows.Forms.MenuStrip()
+        Me.LoginToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SettingToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.BackupDatabaseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -95,51 +94,6 @@ Partial Class membermenu
         Me.pembelianmember.Size = New System.Drawing.Size(220, 203)
         Me.pembelianmember.TabIndex = 19
         Me.pembelianmember.UseVisualStyleBackColor = False
-        '
-        'MenuStrip
-        '
-        Me.MenuStrip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FinanceToolStripMenuItem, Me.StocksToolStripMenuItem, Me.SettingToolStripMenuItem, Me.ExitToolStripMenuItem})
-        Me.MenuStrip.Location = New System.Drawing.Point(0, 0)
-        Me.MenuStrip.Name = "MenuStrip"
-        Me.MenuStrip.Size = New System.Drawing.Size(1221, 24)
-        Me.MenuStrip.TabIndex = 23
-        Me.MenuStrip.Text = "MenuStrip"
-        '
-        'FinanceToolStripMenuItem
-        '
-        Me.FinanceToolStripMenuItem.Image = CType(resources.GetObject("FinanceToolStripMenuItem.Image"), System.Drawing.Image)
-        Me.FinanceToolStripMenuItem.Name = "FinanceToolStripMenuItem"
-        Me.FinanceToolStripMenuItem.Size = New System.Drawing.Size(76, 20)
-        Me.FinanceToolStripMenuItem.Text = "Finance"
-        '
-        'StocksToolStripMenuItem
-        '
-        Me.StocksToolStripMenuItem.Image = CType(resources.GetObject("StocksToolStripMenuItem.Image"), System.Drawing.Image)
-        Me.StocksToolStripMenuItem.Name = "StocksToolStripMenuItem"
-        Me.StocksToolStripMenuItem.Size = New System.Drawing.Size(69, 20)
-        Me.StocksToolStripMenuItem.Text = "Stocks"
-        '
-        'SettingToolStripMenuItem
-        '
-        Me.SettingToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BackupDatabaseToolStripMenuItem})
-        Me.SettingToolStripMenuItem.Image = CType(resources.GetObject("SettingToolStripMenuItem.Image"), System.Drawing.Image)
-        Me.SettingToolStripMenuItem.Name = "SettingToolStripMenuItem"
-        Me.SettingToolStripMenuItem.Size = New System.Drawing.Size(72, 20)
-        Me.SettingToolStripMenuItem.Text = "Setting"
-        '
-        'BackupDatabaseToolStripMenuItem
-        '
-        Me.BackupDatabaseToolStripMenuItem.Image = CType(resources.GetObject("BackupDatabaseToolStripMenuItem.Image"), System.Drawing.Image)
-        Me.BackupDatabaseToolStripMenuItem.Name = "BackupDatabaseToolStripMenuItem"
-        Me.BackupDatabaseToolStripMenuItem.Size = New System.Drawing.Size(164, 22)
-        Me.BackupDatabaseToolStripMenuItem.Text = "Backup Database"
-        '
-        'ExitToolStripMenuItem
-        '
-        Me.ExitToolStripMenuItem.Image = CType(resources.GetObject("ExitToolStripMenuItem.Image"), System.Drawing.Image)
-        Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(53, 20)
-        Me.ExitToolStripMenuItem.Text = "Exit"
         '
         'Label3
         '
@@ -258,6 +212,44 @@ Partial Class membermenu
         Me.Label9.TabIndex = 33
         Me.Label9.Text = "BACK TO MAIN MENU"
         '
+        'MenuStrip
+        '
+        Me.MenuStrip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.LoginToolStripMenuItem, Me.SettingToolStripMenuItem, Me.ExitToolStripMenuItem})
+        Me.MenuStrip.Location = New System.Drawing.Point(0, 0)
+        Me.MenuStrip.Name = "MenuStrip"
+        Me.MenuStrip.Size = New System.Drawing.Size(1221, 24)
+        Me.MenuStrip.TabIndex = 34
+        Me.MenuStrip.Text = "MenuStrip"
+        '
+        'LoginToolStripMenuItem
+        '
+        Me.LoginToolStripMenuItem.Image = CType(resources.GetObject("LoginToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.LoginToolStripMenuItem.Name = "LoginToolStripMenuItem"
+        Me.LoginToolStripMenuItem.Size = New System.Drawing.Size(65, 20)
+        Me.LoginToolStripMenuItem.Text = "Login"
+        '
+        'SettingToolStripMenuItem
+        '
+        Me.SettingToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BackupDatabaseToolStripMenuItem})
+        Me.SettingToolStripMenuItem.Image = CType(resources.GetObject("SettingToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.SettingToolStripMenuItem.Name = "SettingToolStripMenuItem"
+        Me.SettingToolStripMenuItem.Size = New System.Drawing.Size(72, 20)
+        Me.SettingToolStripMenuItem.Text = "Setting"
+        '
+        'BackupDatabaseToolStripMenuItem
+        '
+        Me.BackupDatabaseToolStripMenuItem.Image = CType(resources.GetObject("BackupDatabaseToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.BackupDatabaseToolStripMenuItem.Name = "BackupDatabaseToolStripMenuItem"
+        Me.BackupDatabaseToolStripMenuItem.Size = New System.Drawing.Size(164, 22)
+        Me.BackupDatabaseToolStripMenuItem.Text = "Backup Database"
+        '
+        'ExitToolStripMenuItem
+        '
+        Me.ExitToolStripMenuItem.Image = CType(resources.GetObject("ExitToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(53, 20)
+        Me.ExitToolStripMenuItem.Text = "Exit"
+        '
         'membermenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -265,6 +257,7 @@ Partial Class membermenu
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1221, 733)
+        Me.Controls.Add(Me.MenuStrip)
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.back)
         Me.Controls.Add(Me.Label8)
@@ -275,7 +268,6 @@ Partial Class membermenu
         Me.Controls.Add(Me.maintainmember)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.MenuStrip)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.mobilemember)
         Me.Controls.Add(Me.Label1)
@@ -293,12 +285,6 @@ Partial Class membermenu
     Friend WithEvents mobilemember As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents pembelianmember As Button
-    Friend WithEvents MenuStrip As MenuStrip
-    Friend WithEvents FinanceToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents StocksToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents SettingToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents BackupDatabaseToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents ExitToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
@@ -309,4 +295,9 @@ Partial Class membermenu
     Friend WithEvents Label8 As Label
     Friend WithEvents back As Button
     Friend WithEvents Label9 As Label
+    Friend WithEvents MenuStrip As MenuStrip
+    Friend WithEvents LoginToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents SettingToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents BackupDatabaseToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ExitToolStripMenuItem As ToolStripMenuItem
 End Class

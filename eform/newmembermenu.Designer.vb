@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class newmembermenu
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,21 +20,20 @@ Partial Class newmembermenu
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(newmembermenu))
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.MenuStrip = New System.Windows.Forms.MenuStrip()
-        Me.FinanceToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.StocksToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.SettingToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.BackupDatabaseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.pembeliannewmember = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.formregister = New System.Windows.Forms.Button()
         Me.Label9 = New System.Windows.Forms.Label()
+        Me.MenuStrip = New System.Windows.Forms.MenuStrip()
+        Me.LoginToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SettingToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.BackupDatabaseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.back = New System.Windows.Forms.Button()
         Me.MenuStrip.SuspendLayout()
         Me.SuspendLayout()
@@ -50,51 +49,6 @@ Partial Class newmembermenu
         Me.Label3.Size = New System.Drawing.Size(254, 31)
         Me.Label3.TabIndex = 30
         Me.Label3.Text = "FORM REGISTER"
-        '
-        'MenuStrip
-        '
-        Me.MenuStrip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FinanceToolStripMenuItem, Me.StocksToolStripMenuItem, Me.SettingToolStripMenuItem, Me.ExitToolStripMenuItem})
-        Me.MenuStrip.Location = New System.Drawing.Point(0, 0)
-        Me.MenuStrip.Name = "MenuStrip"
-        Me.MenuStrip.Size = New System.Drawing.Size(989, 24)
-        Me.MenuStrip.TabIndex = 29
-        Me.MenuStrip.Text = "MenuStrip"
-        '
-        'FinanceToolStripMenuItem
-        '
-        Me.FinanceToolStripMenuItem.Image = CType(resources.GetObject("FinanceToolStripMenuItem.Image"), System.Drawing.Image)
-        Me.FinanceToolStripMenuItem.Name = "FinanceToolStripMenuItem"
-        Me.FinanceToolStripMenuItem.Size = New System.Drawing.Size(76, 20)
-        Me.FinanceToolStripMenuItem.Text = "Finance"
-        '
-        'StocksToolStripMenuItem
-        '
-        Me.StocksToolStripMenuItem.Image = CType(resources.GetObject("StocksToolStripMenuItem.Image"), System.Drawing.Image)
-        Me.StocksToolStripMenuItem.Name = "StocksToolStripMenuItem"
-        Me.StocksToolStripMenuItem.Size = New System.Drawing.Size(69, 20)
-        Me.StocksToolStripMenuItem.Text = "Stocks"
-        '
-        'SettingToolStripMenuItem
-        '
-        Me.SettingToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BackupDatabaseToolStripMenuItem})
-        Me.SettingToolStripMenuItem.Image = CType(resources.GetObject("SettingToolStripMenuItem.Image"), System.Drawing.Image)
-        Me.SettingToolStripMenuItem.Name = "SettingToolStripMenuItem"
-        Me.SettingToolStripMenuItem.Size = New System.Drawing.Size(72, 20)
-        Me.SettingToolStripMenuItem.Text = "Setting"
-        '
-        'BackupDatabaseToolStripMenuItem
-        '
-        Me.BackupDatabaseToolStripMenuItem.Image = CType(resources.GetObject("BackupDatabaseToolStripMenuItem.Image"), System.Drawing.Image)
-        Me.BackupDatabaseToolStripMenuItem.Name = "BackupDatabaseToolStripMenuItem"
-        Me.BackupDatabaseToolStripMenuItem.Size = New System.Drawing.Size(164, 22)
-        Me.BackupDatabaseToolStripMenuItem.Text = "Backup Database"
-        '
-        'ExitToolStripMenuItem
-        '
-        Me.ExitToolStripMenuItem.Image = CType(resources.GetObject("ExitToolStripMenuItem.Image"), System.Drawing.Image)
-        Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(53, 20)
-        Me.ExitToolStripMenuItem.Text = "Exit"
         '
         'Label2
         '
@@ -157,15 +111,54 @@ Partial Class newmembermenu
         Me.Label9.TabIndex = 35
         Me.Label9.Text = "BACK TO MAIN MENU"
         '
+        'MenuStrip
+        '
+        Me.MenuStrip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.LoginToolStripMenuItem, Me.SettingToolStripMenuItem, Me.ExitToolStripMenuItem})
+        Me.MenuStrip.Location = New System.Drawing.Point(0, 0)
+        Me.MenuStrip.Name = "MenuStrip"
+        Me.MenuStrip.Size = New System.Drawing.Size(989, 24)
+        Me.MenuStrip.TabIndex = 36
+        Me.MenuStrip.Text = "MenuStrip"
+        '
+        'LoginToolStripMenuItem
+        '
+        Me.LoginToolStripMenuItem.Image = CType(resources.GetObject("LoginToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.LoginToolStripMenuItem.Name = "LoginToolStripMenuItem"
+        Me.LoginToolStripMenuItem.Size = New System.Drawing.Size(65, 20)
+        Me.LoginToolStripMenuItem.Text = "Login"
+        '
+        'SettingToolStripMenuItem
+        '
+        Me.SettingToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BackupDatabaseToolStripMenuItem})
+        Me.SettingToolStripMenuItem.Image = CType(resources.GetObject("SettingToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.SettingToolStripMenuItem.Name = "SettingToolStripMenuItem"
+        Me.SettingToolStripMenuItem.Size = New System.Drawing.Size(72, 20)
+        Me.SettingToolStripMenuItem.Text = "Setting"
+        '
+        'BackupDatabaseToolStripMenuItem
+        '
+        Me.BackupDatabaseToolStripMenuItem.Image = CType(resources.GetObject("BackupDatabaseToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.BackupDatabaseToolStripMenuItem.Name = "BackupDatabaseToolStripMenuItem"
+        Me.BackupDatabaseToolStripMenuItem.Size = New System.Drawing.Size(164, 22)
+        Me.BackupDatabaseToolStripMenuItem.Text = "Backup Database"
+        '
+        'ExitToolStripMenuItem
+        '
+        Me.ExitToolStripMenuItem.Image = CType(resources.GetObject("ExitToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(53, 20)
+        Me.ExitToolStripMenuItem.Text = "Exit"
+        '
         'back
         '
         Me.back.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.back.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.back.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.back.Image = CType(resources.GetObject("back.Image"), System.Drawing.Image)
-        Me.back.Location = New System.Drawing.Point(58, 458)
+        Me.back.Location = New System.Drawing.Point(60, 473)
         Me.back.Name = "back"
-        Me.back.Size = New System.Drawing.Size(77, 72)
-        Me.back.TabIndex = 34
+        Me.back.Size = New System.Drawing.Size(67, 57)
+        Me.back.TabIndex = 77
         Me.back.UseVisualStyleBackColor = False
         '
         'newmembermenu
@@ -175,10 +168,10 @@ Partial Class newmembermenu
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(989, 569)
-        Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.back)
-        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.MenuStrip)
+        Me.Controls.Add(Me.Label9)
+        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.pembeliannewmember)
         Me.Controls.Add(Me.Label1)
@@ -193,16 +186,15 @@ Partial Class newmembermenu
     End Sub
 
     Friend WithEvents Label3 As Label
-    Friend WithEvents MenuStrip As MenuStrip
-    Friend WithEvents FinanceToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents StocksToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents SettingToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents BackupDatabaseToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents ExitToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Label2 As Label
     Friend WithEvents pembeliannewmember As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents formregister As Button
     Friend WithEvents Label9 As Label
+    Friend WithEvents MenuStrip As MenuStrip
+    Friend WithEvents LoginToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents SettingToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents BackupDatabaseToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ExitToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents back As Button
 End Class
