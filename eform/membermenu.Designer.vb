@@ -281,7 +281,7 @@ Partial Class membermenu
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.pembelianmember)
         Me.Name = "membermenu"
-        Me.Text = "membermenu"
+        Me.Text = "Menu Member"
         Me.MenuStrip.ResumeLayout(False)
         Me.MenuStrip.PerformLayout()
         Me.ResumeLayout(False)

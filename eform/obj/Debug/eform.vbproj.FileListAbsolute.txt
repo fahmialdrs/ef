@@ -10,5 +10,15 @@ c:\users\fahmi\documents\visual studio 2015\Projects\eform\eform\obj\Debug\eform
 c:\users\fahmi\documents\visual studio 2015\Projects\eform\eform\obj\Debug\eform.pdb
 c:\users\fahmi\documents\visual studio 2015\Projects\eform\eform\obj\Debug\eform.SplashScreen1.resources
 c:\users\fahmi\documents\visual studio 2015\Projects\eform\eform\obj\Debug\eform.mainmenu.resources
-C:\Users\fahmi\Documents\Visual Studio 2015\Projects\eform\eform\obj\Debug\eform.formPembelian.resources
 C:\Users\fahmi\Documents\Visual Studio 2015\Projects\eform\eform\obj\Debug\eform.Pembelian.resources
+C:\Users\fahmi\Documents\Visual Studio 2015\Projects\eform\eform\obj\Debug\eform.adminmenu.resources
+C:\Users\fahmi\Documents\Visual Studio 2015\Projects\eform\eform\obj\Debug\eform.finance.resources
+C:\Users\fahmi\Documents\Visual Studio 2015\Projects\eform\eform\obj\Debug\eform.gudang.resources
+C:\Users\fahmi\Documents\Visual Studio 2015\Projects\eform\eform\obj\Debug\eform.login.resources
+C:\Users\fahmi\Documents\Visual Studio 2015\Projects\eform\eform\obj\Debug\eform.maintain.resources
+C:\Users\fahmi\Documents\Visual Studio 2015\Projects\eform\eform\obj\Debug\eform.maintainmobile.resources
+C:\Users\fahmi\Documents\Visual Studio 2015\Projects\eform\eform\obj\Debug\eform.membermenu.resources
+C:\Users\fahmi\Documents\Visual Studio 2015\Projects\eform\eform\obj\Debug\eform.mobilestockist.resources
+C:\Users\fahmi\Documents\Visual Studio 2015\Projects\eform\eform\obj\Debug\eform.newmembermenu.resources
+C:\Users\fahmi\Documents\Visual Studio 2015\Projects\eform\eform\obj\Debug\eform.pembeliannewmember.resources
+C:\Users\fahmi\Documents\Visual Studio 2015\Projects\eform\eform\obj\Debug\eform.register.resources

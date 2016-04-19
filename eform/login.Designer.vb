@@ -26,8 +26,8 @@ Partial Class login
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.username = New System.Windows.Forms.TextBox()
+        Me.password = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.MenuStrip = New System.Windows.Forms.MenuStrip()
         Me.LoginToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -71,21 +71,21 @@ Partial Class login
         Me.Label2.TabIndex = 57
         Me.Label2.Text = "PASSWORD"
         '
-        'TextBox1
+        'username
         '
-        Me.TextBox1.Location = New System.Drawing.Point(340, 207)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(331, 20)
-        Me.TextBox1.TabIndex = 58
+        Me.username.Location = New System.Drawing.Point(340, 207)
+        Me.username.Name = "username"
+        Me.username.Size = New System.Drawing.Size(331, 20)
+        Me.username.TabIndex = 58
         '
-        'TextBox2
+        'password
         '
-        Me.TextBox2.Location = New System.Drawing.Point(340, 243)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.TextBox2.Size = New System.Drawing.Size(331, 20)
-        Me.TextBox2.TabIndex = 59
-        Me.TextBox2.UseSystemPasswordChar = True
+        Me.password.Location = New System.Drawing.Point(340, 243)
+        Me.password.Name = "password"
+        Me.password.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
+        Me.password.Size = New System.Drawing.Size(331, 20)
+        Me.password.TabIndex = 59
+        Me.password.UseSystemPasswordChar = True
         '
         'Label3
         '
@@ -157,8 +157,8 @@ Partial Class login
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.MenuStrip)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.password)
+        Me.Controls.Add(Me.username)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
@@ -175,8 +175,8 @@ Partial Class login
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents username As TextBox
+    Friend WithEvents password As TextBox
     Friend WithEvents Label3 As Label
     Friend WithEvents MenuStrip As MenuStrip
     Friend WithEvents LoginToolStripMenuItem As ToolStripMenuItem

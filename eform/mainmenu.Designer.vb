@@ -28,11 +28,11 @@ Partial Class mainmenu
         Me.Label1 = New System.Windows.Forms.Label()
         Me.member = New System.Windows.Forms.Button()
         Me.MenuStrip = New System.Windows.Forms.MenuStrip()
+        Me.LoginToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SettingToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.BackupDatabaseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.StatusStrip = New System.Windows.Forms.StatusStrip()
-        Me.LoginToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -95,6 +95,13 @@ Partial Class mainmenu
         Me.MenuStrip.TabIndex = 13
         Me.MenuStrip.Text = "MenuStrip"
         '
+        'LoginToolStripMenuItem
+        '
+        Me.LoginToolStripMenuItem.Image = CType(resources.GetObject("LoginToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.LoginToolStripMenuItem.Name = "LoginToolStripMenuItem"
+        Me.LoginToolStripMenuItem.Size = New System.Drawing.Size(65, 20)
+        Me.LoginToolStripMenuItem.Text = "Login"
+        '
         'SettingToolStripMenuItem
         '
         Me.SettingToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BackupDatabaseToolStripMenuItem})
@@ -124,13 +131,6 @@ Partial Class mainmenu
         Me.StatusStrip.Size = New System.Drawing.Size(995, 22)
         Me.StatusStrip.TabIndex = 14
         Me.StatusStrip.Text = "StatusStrip"
-        '
-        'LoginToolStripMenuItem
-        '
-        Me.LoginToolStripMenuItem.Image = CType(resources.GetObject("LoginToolStripMenuItem.Image"), System.Drawing.Image)
-        Me.LoginToolStripMenuItem.Name = "LoginToolStripMenuItem"
-        Me.LoginToolStripMenuItem.Size = New System.Drawing.Size(65, 20)
-        Me.LoginToolStripMenuItem.Text = "Login"
         '
         'mainmenu
         '
