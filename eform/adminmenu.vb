@@ -13,7 +13,7 @@
         Me.Hide()
     End Sub
     Private Sub logoutToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles logoutToolStripMenuItem.Click
-        mainmenu.Show()
+        login.Show()
         Me.Hide()
     End Sub
 End Class

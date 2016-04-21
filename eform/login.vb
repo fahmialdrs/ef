@@ -3,12 +3,18 @@
         If username.Text = "manager" And password.Text = "12345" Then
             adminmenu.Show()
             Me.Hide()
+            username.Text = ""
+            password.Text = ""
         ElseIf username.Text = "akunting" And password.Text = "12345" Then
             finance.Show()
             Me.Hide()
+            username.Text = ""
+            password.Text = ""
         ElseIf username.Text = "gudang" And password.Text = "12345" Then
             gudang.Show()
             Me.Hide()
+            username.Text = ""
+            password.Text = ""
         End If
     End Sub
 

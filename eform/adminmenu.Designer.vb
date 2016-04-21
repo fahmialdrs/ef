@@ -107,7 +107,7 @@ Partial Class adminmenu
         Me.TextBox3.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.TextBox3.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox3.Location = New System.Drawing.Point(214, 687)
+        Me.TextBox3.Location = New System.Drawing.Point(217, 624)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(897, 19)
         Me.TextBox3.TabIndex = 66
@@ -119,7 +119,7 @@ Partial Class adminmenu
         Me.TextBox4.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.TextBox4.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox4.Location = New System.Drawing.Point(486, 650)
+        Me.TextBox4.Location = New System.Drawing.Point(489, 587)
         Me.TextBox4.Multiline = True
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(353, 31)
