@@ -23,7 +23,6 @@ C:\Users\fahmi\Documents\Visual Studio 2015\Projects\eform\eform\obj\Debug\eform
 C:\Users\fahmi\Documents\Visual Studio 2015\Projects\eform\eform\obj\Debug\eform.register.resources
 C:\Users\fahmi\Documents\Visual Studio 2015\Projects\eform\eform\obj\Debug\eform.splash.resources
 C:\Users\fahmi\Documents\Visual Studio 2015\Projects\eform\eform\obj\Debug\eform.pembelianewmember.resources
-C:\Users\fahmi\Documents\Visual Studio 2015\Projects\eform\eform\obj\Debug\eform.menunewmember.resources
 D:\Project\eform\eform\bin\Debug\eform.exe.config
 D:\Project\eform\eform\obj\Debug\eform.exe
 D:\Project\eform\eform\obj\Debug\eform.xml

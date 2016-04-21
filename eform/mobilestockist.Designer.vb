@@ -23,7 +23,30 @@ Partial Class mobilestockist
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(mobilestockist))
-        Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.Label22 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.noform = New System.Windows.Forms.TextBox()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.tanggal = New System.Windows.Forms.DateTimePicker()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.userid = New System.Windows.Forms.TextBox()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.nama = New System.Windows.Forms.TextBox()
+        Me.Label24 = New System.Windows.Forms.Label()
+        Me.Label23 = New System.Windows.Forms.Label()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.notelpon = New System.Windows.Forms.TextBox()
+        Me.Label32 = New System.Windows.Forms.Label()
+        Me.Label31 = New System.Windows.Forms.Label()
+        Me.back = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Panel3 = New System.Windows.Forms.Panel()
         Me.transferrwallet = New System.Windows.Forms.TextBox()
         Me.Label28 = New System.Windows.Forms.Label()
         Me.Label16 = New System.Windows.Forms.Label()
@@ -39,224 +62,18 @@ Partial Class mobilestockist
         Me.Label21 = New System.Windows.Forms.Label()
         Me.Label26 = New System.Windows.Forms.Label()
         Me.Label15 = New System.Windows.Forms.Label()
-        Me.Label22 = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.Label25 = New System.Windows.Forms.Label()
-        Me.Label14 = New System.Windows.Forms.Label()
-        Me.amountt = New System.Windows.Forms.TextBox()
-        Me.Label13 = New System.Windows.Forms.Label()
-        Me.totalsett = New System.Windows.Forms.TextBox()
-        Me.totalpcst = New System.Windows.Forms.TextBox()
-        Me.Label12 = New System.Windows.Forms.Label()
-        Me.Label11 = New System.Windows.Forms.Label()
-        Me.noform = New System.Windows.Forms.TextBox()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.tanggal = New System.Windows.Forms.DateTimePicker()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.userid = New System.Windows.Forms.TextBox()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.nama = New System.Windows.Forms.TextBox()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.Label10 = New System.Windows.Forms.Label()
-        Me.firmax3t = New System.Windows.Forms.NumericUpDown()
-        Me.o2max3t = New System.Windows.Forms.NumericUpDown()
-        Me.TabControl1 = New System.Windows.Forms.TabControl()
-        Me.TabPage1 = New System.Windows.Forms.TabPage()
-        Me.transfertwallet = New System.Windows.Forms.TextBox()
-        Me.Label27 = New System.Windows.Forms.Label()
-        Me.Label24 = New System.Windows.Forms.Label()
-        Me.Label23 = New System.Windows.Forms.Label()
-        Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.notelpon = New System.Windows.Forms.TextBox()
-        Me.Label32 = New System.Windows.Forms.Label()
-        Me.Label31 = New System.Windows.Forms.Label()
-        Me.back = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.TabPage2.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel1.SuspendLayout()
+        Me.Panel3.SuspendLayout()
         CType(Me.firmax3r, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.o2max3r, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.firmax3t, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.o2max3t, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.TabControl1.SuspendLayout()
-        Me.TabPage1.SuspendLayout()
-        Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
-        '
-        'TabPage2
-        '
-        Me.TabPage2.Controls.Add(Me.transferrwallet)
-        Me.TabPage2.Controls.Add(Me.Label28)
-        Me.TabPage2.Controls.Add(Me.Label16)
-        Me.TabPage2.Controls.Add(Me.Label17)
-        Me.TabPage2.Controls.Add(Me.amountr)
-        Me.TabPage2.Controls.Add(Me.Label18)
-        Me.TabPage2.Controls.Add(Me.Label19)
-        Me.TabPage2.Controls.Add(Me.Label20)
-        Me.TabPage2.Controls.Add(Me.totalset)
-        Me.TabPage2.Controls.Add(Me.firmax3r)
-        Me.TabPage2.Controls.Add(Me.totalpcs)
-        Me.TabPage2.Controls.Add(Me.o2max3r)
-        Me.TabPage2.Controls.Add(Me.Label21)
-        Me.TabPage2.Controls.Add(Me.Label26)
-        Me.TabPage2.Controls.Add(Me.Label15)
-        Me.TabPage2.Location = New System.Drawing.Point(4, 22)
-        Me.TabPage2.Name = "TabPage2"
-        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage2.Size = New System.Drawing.Size(961, 295)
-        Me.TabPage2.TabIndex = 1
-        Me.TabPage2.Text = "Repeat Order"
-        Me.TabPage2.UseVisualStyleBackColor = True
-        '
-        'transferrwallet
-        '
-        Me.transferrwallet.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.transferrwallet.Location = New System.Drawing.Point(174, 235)
-        Me.transferrwallet.Name = "transferrwallet"
-        Me.transferrwallet.Size = New System.Drawing.Size(735, 22)
-        Me.transferrwallet.TabIndex = 57
-        '
-        'Label28
-        '
-        Me.Label28.AutoSize = True
-        Me.Label28.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label28.Location = New System.Drawing.Point(22, 241)
-        Me.Label28.Name = "Label28"
-        Me.Label28.Size = New System.Drawing.Size(113, 16)
-        Me.Label28.TabIndex = 56
-        Me.Label28.Text = "Transfer R-Wallet"
-        '
-        'Label16
-        '
-        Me.Label16.AutoSize = True
-        Me.Label16.Location = New System.Drawing.Point(7, 210)
-        Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(135, 13)
-        Me.Label16.TabIndex = 53
-        Me.Label16.Text = "( Rp. 1.000.000 x total set )"
-        '
-        'Label17
-        '
-        Me.Label17.AutoSize = True
-        Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label17.Location = New System.Drawing.Point(311, 52)
-        Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(67, 16)
-        Me.Label17.TabIndex = 44
-        Me.Label17.Text = "FIRMAX 3"
-        '
-        'amountr
-        '
-        Me.amountr.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.amountr.Location = New System.Drawing.Point(174, 194)
-        Me.amountr.Name = "amountr"
-        Me.amountr.Size = New System.Drawing.Size(735, 22)
-        Me.amountr.TabIndex = 54
-        '
-        'Label18
-        '
-        Me.Label18.AutoSize = True
-        Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label18.Location = New System.Drawing.Point(43, 49)
-        Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(51, 16)
-        Me.Label18.TabIndex = 45
-        Me.Label18.Text = "Produk"
-        '
-        'Label19
-        '
-        Me.Label19.AutoSize = True
-        Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label19.Location = New System.Drawing.Point(43, 191)
-        Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(53, 16)
-        Me.Label19.TabIndex = 50
-        Me.Label19.Text = "Amount"
-        '
-        'Label20
-        '
-        Me.Label20.AutoSize = True
-        Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label20.Location = New System.Drawing.Point(615, 52)
-        Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(63, 16)
-        Me.Label20.TabIndex = 46
-        Me.Label20.Text = "O2 MAX3"
-        '
-        'totalset
-        '
-        Me.totalset.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.totalset.Location = New System.Drawing.Point(174, 157)
-        Me.totalset.Name = "totalset"
-        Me.totalset.Size = New System.Drawing.Size(735, 22)
-        Me.totalset.TabIndex = 51
-        '
-        'firmax3r
-        '
-        Me.firmax3r.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.firmax3r.Location = New System.Drawing.Point(218, 79)
-        Me.firmax3r.Name = "firmax3r"
-        Me.firmax3r.Size = New System.Drawing.Size(260, 22)
-        Me.firmax3r.TabIndex = 52
-        '
-        'totalpcs
-        '
-        Me.totalpcs.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.totalpcs.Location = New System.Drawing.Point(174, 118)
-        Me.totalpcs.Name = "totalpcs"
-        Me.totalpcs.Size = New System.Drawing.Size(735, 22)
-        Me.totalpcs.TabIndex = 47
-        '
-        'o2max3r
-        '
-        Me.o2max3r.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.o2max3r.Location = New System.Drawing.Point(512, 79)
-        Me.o2max3r.Name = "o2max3r"
-        Me.o2max3r.Size = New System.Drawing.Size(262, 22)
-        Me.o2max3r.TabIndex = 55
-        '
-        'Label21
-        '
-        Me.Label21.AutoSize = True
-        Me.Label21.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label21.Location = New System.Drawing.Point(43, 154)
-        Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(75, 16)
-        Me.Label21.TabIndex = 48
-        Me.Label21.Text = "TOTAL Set"
-        '
-        'Label26
-        '
-        Me.Label26.AutoSize = True
-        Me.Label26.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label26.Location = New System.Drawing.Point(43, 119)
-        Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(77, 16)
-        Me.Label26.TabIndex = 49
-        Me.Label26.Text = "TOTAL pcs"
-        '
-        'Label15
-        '
-        Me.Label15.AutoSize = True
-        Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.Location = New System.Drawing.Point(17, 18)
-        Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(110, 20)
-        Me.Label15.TabIndex = 43
-        Me.Label15.Text = "( R - Wallet )"
         '
         'Label22
         '
         Me.Label22.AutoSize = True
         Me.Label22.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label22.Location = New System.Drawing.Point(129, 652)
+        Me.Label22.Location = New System.Drawing.Point(135, 653)
         Me.Label22.Name = "Label22"
         Me.Label22.Size = New System.Drawing.Size(51, 16)
         Me.Label22.TabIndex = 46
@@ -266,84 +83,11 @@ Partial Class mobilestockist
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(647, 652)
+        Me.Label7.Location = New System.Drawing.Point(653, 653)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(51, 16)
         Me.Label7.TabIndex = 47
         Me.Label7.Text = "Nama :"
-        '
-        'Label25
-        '
-        Me.Label25.AutoSize = True
-        Me.Label25.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label25.Location = New System.Drawing.Point(21, 16)
-        Me.Label25.Name = "Label25"
-        Me.Label25.Size = New System.Drawing.Size(107, 20)
-        Me.Label25.TabIndex = 30
-        Me.Label25.Text = "( T - Wallet )"
-        '
-        'Label14
-        '
-        Me.Label14.AutoSize = True
-        Me.Label14.Location = New System.Drawing.Point(11, 203)
-        Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(135, 13)
-        Me.Label14.TabIndex = 18
-        Me.Label14.Text = "( Rp. 1.300.000 x total set )"
-        '
-        'amountt
-        '
-        Me.amountt.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.amountt.Location = New System.Drawing.Point(172, 190)
-        Me.amountt.Name = "amountt"
-        Me.amountt.Size = New System.Drawing.Size(735, 22)
-        Me.amountt.TabIndex = 18
-        '
-        'Label13
-        '
-        Me.Label13.AutoSize = True
-        Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.Location = New System.Drawing.Point(41, 187)
-        Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(53, 16)
-        Me.Label13.TabIndex = 17
-        Me.Label13.Text = "Amount"
-        '
-        'totalsett
-        '
-        Me.totalsett.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.totalsett.Location = New System.Drawing.Point(172, 153)
-        Me.totalsett.Name = "totalsett"
-        Me.totalsett.Size = New System.Drawing.Size(735, 22)
-        Me.totalsett.TabIndex = 17
-        '
-        'totalpcst
-        '
-        Me.totalpcst.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.totalpcst.Location = New System.Drawing.Point(172, 114)
-        Me.totalpcst.Name = "totalpcst"
-        Me.totalpcst.Size = New System.Drawing.Size(735, 22)
-        Me.totalpcst.TabIndex = 16
-        '
-        'Label12
-        '
-        Me.Label12.AutoSize = True
-        Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(41, 150)
-        Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(75, 16)
-        Me.Label12.TabIndex = 16
-        Me.Label12.Text = "TOTAL Set"
-        '
-        'Label11
-        '
-        Me.Label11.AutoSize = True
-        Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(41, 115)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(77, 16)
-        Me.Label11.TabIndex = 16
-        Me.Label11.Text = "TOTAL pcs"
         '
         'noform
         '
@@ -385,7 +129,7 @@ Partial Class mobilestockist
         '
         'tanggal
         '
-        Me.tanggal.Location = New System.Drawing.Point(89, 3)
+        Me.tanggal.Location = New System.Drawing.Point(199, 3)
         Me.tanggal.Name = "tanggal"
         Me.tanggal.Size = New System.Drawing.Size(840, 20)
         Me.tanggal.TabIndex = 5
@@ -393,27 +137,27 @@ Partial Class mobilestockist
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(3, 3)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(65, 16)
+        Me.Label3.Size = New System.Drawing.Size(74, 16)
         Me.Label3.TabIndex = 4
         Me.Label3.Text = "Tanggal :"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.Location = New System.Drawing.Point(3, 29)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(59, 16)
+        Me.Label4.Size = New System.Drawing.Size(68, 16)
         Me.Label4.TabIndex = 6
         Me.Label4.Text = "User ID :"
         '
         'userid
         '
         Me.userid.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.userid.Location = New System.Drawing.Point(89, 29)
+        Me.userid.Location = New System.Drawing.Point(199, 29)
         Me.userid.Name = "userid"
         Me.userid.Size = New System.Drawing.Size(840, 22)
         Me.userid.TabIndex = 7
@@ -421,136 +165,36 @@ Partial Class mobilestockist
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.Location = New System.Drawing.Point(3, 84)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(81, 16)
+        Me.Label6.Size = New System.Drawing.Size(93, 16)
         Me.Label6.TabIndex = 10
         Me.Label6.Text = "No. Telpon :"
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.Location = New System.Drawing.Point(3, 55)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(51, 16)
+        Me.Label5.Size = New System.Drawing.Size(57, 16)
         Me.Label5.TabIndex = 8
         Me.Label5.Text = "Nama :"
         '
         'nama
         '
         Me.nama.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.nama.Location = New System.Drawing.Point(89, 55)
+        Me.nama.Location = New System.Drawing.Point(199, 55)
         Me.nama.Name = "nama"
         Me.nama.Size = New System.Drawing.Size(840, 22)
         Me.nama.TabIndex = 9
-        '
-        'Label9
-        '
-        Me.Label9.AutoSize = True
-        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(309, 48)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(67, 16)
-        Me.Label9.TabIndex = 16
-        Me.Label9.Text = "FIRMAX 3"
-        '
-        'Label8
-        '
-        Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(41, 45)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(51, 16)
-        Me.Label8.TabIndex = 16
-        Me.Label8.Text = "Produk"
-        '
-        'Label10
-        '
-        Me.Label10.AutoSize = True
-        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(613, 48)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(63, 16)
-        Me.Label10.TabIndex = 16
-        Me.Label10.Text = "O2 MAX3"
-        '
-        'firmax3t
-        '
-        Me.firmax3t.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.firmax3t.Location = New System.Drawing.Point(216, 75)
-        Me.firmax3t.Name = "firmax3t"
-        Me.firmax3t.Size = New System.Drawing.Size(260, 22)
-        Me.firmax3t.TabIndex = 17
-        '
-        'o2max3t
-        '
-        Me.o2max3t.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.o2max3t.Location = New System.Drawing.Point(510, 75)
-        Me.o2max3t.Name = "o2max3t"
-        Me.o2max3t.Size = New System.Drawing.Size(262, 22)
-        Me.o2max3t.TabIndex = 18
-        '
-        'TabControl1
-        '
-        Me.TabControl1.Controls.Add(Me.TabPage1)
-        Me.TabControl1.Controls.Add(Me.TabPage2)
-        Me.TabControl1.Location = New System.Drawing.Point(12, 243)
-        Me.TabControl1.Name = "TabControl1"
-        Me.TabControl1.SelectedIndex = 0
-        Me.TabControl1.Size = New System.Drawing.Size(969, 321)
-        Me.TabControl1.SizeMode = System.Windows.Forms.TabSizeMode.FillToRight
-        Me.TabControl1.TabIndex = 45
-        '
-        'TabPage1
-        '
-        Me.TabPage1.Controls.Add(Me.transfertwallet)
-        Me.TabPage1.Controls.Add(Me.Label27)
-        Me.TabPage1.Controls.Add(Me.Label25)
-        Me.TabPage1.Controls.Add(Me.Label14)
-        Me.TabPage1.Controls.Add(Me.Label9)
-        Me.TabPage1.Controls.Add(Me.amountt)
-        Me.TabPage1.Controls.Add(Me.Label8)
-        Me.TabPage1.Controls.Add(Me.Label13)
-        Me.TabPage1.Controls.Add(Me.Label10)
-        Me.TabPage1.Controls.Add(Me.totalsett)
-        Me.TabPage1.Controls.Add(Me.firmax3t)
-        Me.TabPage1.Controls.Add(Me.totalpcst)
-        Me.TabPage1.Controls.Add(Me.o2max3t)
-        Me.TabPage1.Controls.Add(Me.Label12)
-        Me.TabPage1.Controls.Add(Me.Label11)
-        Me.TabPage1.Location = New System.Drawing.Point(4, 22)
-        Me.TabPage1.Name = "TabPage1"
-        Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage1.Size = New System.Drawing.Size(961, 295)
-        Me.TabPage1.TabIndex = 0
-        Me.TabPage1.Text = "Pembelian Member / Aktivasi"
-        Me.TabPage1.UseVisualStyleBackColor = True
-        '
-        'transfertwallet
-        '
-        Me.transfertwallet.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.transfertwallet.Location = New System.Drawing.Point(172, 232)
-        Me.transfertwallet.Name = "transfertwallet"
-        Me.transfertwallet.Size = New System.Drawing.Size(735, 22)
-        Me.transfertwallet.TabIndex = 32
-        '
-        'Label27
-        '
-        Me.Label27.AutoSize = True
-        Me.Label27.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label27.Location = New System.Drawing.Point(20, 238)
-        Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(112, 16)
-        Me.Label27.TabIndex = 31
-        Me.Label27.Text = "Transfer T-Wallet"
         '
         'Label24
         '
         Me.Label24.AutoSize = True
         Me.Label24.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label24.Location = New System.Drawing.Point(647, 567)
+        Me.Label24.Location = New System.Drawing.Point(727, 556)
         Me.Label24.Name = "Label24"
         Me.Label24.Size = New System.Drawing.Size(101, 16)
         Me.Label24.TabIndex = 44
@@ -560,7 +204,7 @@ Partial Class mobilestockist
         '
         Me.Label23.AutoSize = True
         Me.Label23.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label23.Location = New System.Drawing.Point(129, 567)
+        Me.Label23.Location = New System.Drawing.Point(209, 556)
         Me.Label23.Name = "Label23"
         Me.Label23.Size = New System.Drawing.Size(83, 16)
         Me.Label23.TabIndex = 43
@@ -578,13 +222,13 @@ Partial Class mobilestockist
         Me.Panel1.Controls.Add(Me.nama)
         Me.Panel1.Location = New System.Drawing.Point(13, 125)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(968, 112)
+        Me.Panel1.Size = New System.Drawing.Size(1062, 134)
         Me.Panel1.TabIndex = 42
         '
         'notelpon
         '
         Me.notelpon.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.notelpon.Location = New System.Drawing.Point(89, 81)
+        Me.notelpon.Location = New System.Drawing.Point(199, 81)
         Me.notelpon.Name = "notelpon"
         Me.notelpon.Size = New System.Drawing.Size(840, 22)
         Me.notelpon.TabIndex = 11
@@ -604,7 +248,7 @@ Partial Class mobilestockist
         Me.Label31.AutoSize = True
         Me.Label31.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.Label31.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label31.Location = New System.Drawing.Point(1001, 684)
+        Me.Label31.Location = New System.Drawing.Point(1107, 685)
         Me.Label31.Name = "Label31"
         Me.Label31.Size = New System.Drawing.Size(179, 18)
         Me.Label31.TabIndex = 59
@@ -615,7 +259,7 @@ Partial Class mobilestockist
         Me.back.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.back.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.back.Image = CType(resources.GetObject("back.Image"), System.Drawing.Image)
-        Me.back.Location = New System.Drawing.Point(1042, 609)
+        Me.back.Location = New System.Drawing.Point(1157, 610)
         Me.back.Name = "back"
         Me.back.Size = New System.Drawing.Size(77, 72)
         Me.back.TabIndex = 58
@@ -625,7 +269,7 @@ Partial Class mobilestockist
         '
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Image = CType(resources.GetObject("Button3.Image"), System.Drawing.Image)
-        Me.Button3.Location = New System.Drawing.Point(1006, 443)
+        Me.Button3.Location = New System.Drawing.Point(1147, 463)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(98, 97)
         Me.Button3.TabIndex = 57
@@ -637,7 +281,7 @@ Partial Class mobilestockist
         '
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button2.Image = CType(resources.GetObject("Button2.Image"), System.Drawing.Image)
-        Me.Button2.Location = New System.Drawing.Point(1006, 343)
+        Me.Button2.Location = New System.Drawing.Point(1147, 363)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(98, 97)
         Me.Button2.TabIndex = 56
@@ -650,7 +294,7 @@ Partial Class mobilestockist
         Me.Button1.FlatAppearance.BorderSize = 0
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button1.Image = CType(resources.GetObject("Button1.Image"), System.Drawing.Image)
-        Me.Button1.Location = New System.Drawing.Point(1006, 240)
+        Me.Button1.Location = New System.Drawing.Point(1147, 260)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(98, 97)
         Me.Button1.TabIndex = 55
@@ -659,12 +303,173 @@ Partial Class mobilestockist
         Me.Button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         Me.Button1.UseVisualStyleBackColor = True
         '
+        'Panel3
+        '
+        Me.Panel3.Controls.Add(Me.transferrwallet)
+        Me.Panel3.Controls.Add(Me.Label28)
+        Me.Panel3.Controls.Add(Me.Label16)
+        Me.Panel3.Controls.Add(Me.Label17)
+        Me.Panel3.Controls.Add(Me.amountr)
+        Me.Panel3.Controls.Add(Me.Label18)
+        Me.Panel3.Controls.Add(Me.Label19)
+        Me.Panel3.Controls.Add(Me.Label20)
+        Me.Panel3.Controls.Add(Me.totalset)
+        Me.Panel3.Controls.Add(Me.firmax3r)
+        Me.Panel3.Controls.Add(Me.totalpcs)
+        Me.Panel3.Controls.Add(Me.o2max3r)
+        Me.Panel3.Controls.Add(Me.Label21)
+        Me.Panel3.Controls.Add(Me.Label26)
+        Me.Panel3.Controls.Add(Me.Label15)
+        Me.Panel3.Location = New System.Drawing.Point(13, 260)
+        Me.Panel3.Name = "Panel3"
+        Me.Panel3.Size = New System.Drawing.Size(1061, 267)
+        Me.Panel3.TabIndex = 61
+        '
+        'transferrwallet
+        '
+        Me.transferrwallet.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.transferrwallet.Location = New System.Drawing.Point(199, 219)
+        Me.transferrwallet.Name = "transferrwallet"
+        Me.transferrwallet.Size = New System.Drawing.Size(840, 22)
+        Me.transferrwallet.TabIndex = 72
+        '
+        'Label28
+        '
+        Me.Label28.AutoSize = True
+        Me.Label28.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label28.Location = New System.Drawing.Point(28, 234)
+        Me.Label28.Name = "Label28"
+        Me.Label28.Size = New System.Drawing.Size(130, 16)
+        Me.Label28.TabIndex = 71
+        Me.Label28.Text = "Transfer R-Wallet"
+        '
+        'Label16
+        '
+        Me.Label16.AutoSize = True
+        Me.Label16.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label16.Location = New System.Drawing.Point(13, 203)
+        Me.Label16.Name = "Label16"
+        Me.Label16.Size = New System.Drawing.Size(152, 15)
+        Me.Label16.TabIndex = 68
+        Me.Label16.Text = "( Rp. 1.000.000 x total set )"
+        '
+        'Label17
+        '
+        Me.Label17.AutoSize = True
+        Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label17.Location = New System.Drawing.Point(336, 36)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(75, 16)
+        Me.Label17.TabIndex = 59
+        Me.Label17.Text = "FIRMAX 3"
+        '
+        'amountr
+        '
+        Me.amountr.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.amountr.Location = New System.Drawing.Point(199, 178)
+        Me.amountr.Name = "amountr"
+        Me.amountr.Size = New System.Drawing.Size(840, 22)
+        Me.amountr.TabIndex = 69
+        '
+        'Label18
+        '
+        Me.Label18.AutoSize = True
+        Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label18.Location = New System.Drawing.Point(49, 42)
+        Me.Label18.Name = "Label18"
+        Me.Label18.Size = New System.Drawing.Size(57, 16)
+        Me.Label18.TabIndex = 60
+        Me.Label18.Text = "Produk"
+        '
+        'Label19
+        '
+        Me.Label19.AutoSize = True
+        Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label19.Location = New System.Drawing.Point(49, 184)
+        Me.Label19.Name = "Label19"
+        Me.Label19.Size = New System.Drawing.Size(59, 16)
+        Me.Label19.TabIndex = 65
+        Me.Label19.Text = "Amount"
+        '
+        'Label20
+        '
+        Me.Label20.AutoSize = True
+        Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label20.Location = New System.Drawing.Point(640, 36)
+        Me.Label20.Name = "Label20"
+        Me.Label20.Size = New System.Drawing.Size(70, 16)
+        Me.Label20.TabIndex = 61
+        Me.Label20.Text = "O2 MAX3"
+        '
+        'totalset
+        '
+        Me.totalset.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.totalset.Location = New System.Drawing.Point(199, 141)
+        Me.totalset.Name = "totalset"
+        Me.totalset.Size = New System.Drawing.Size(840, 22)
+        Me.totalset.TabIndex = 66
+        '
+        'firmax3r
+        '
+        Me.firmax3r.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.firmax3r.Location = New System.Drawing.Point(243, 63)
+        Me.firmax3r.Name = "firmax3r"
+        Me.firmax3r.Size = New System.Drawing.Size(260, 22)
+        Me.firmax3r.TabIndex = 67
+        '
+        'totalpcs
+        '
+        Me.totalpcs.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.totalpcs.Location = New System.Drawing.Point(199, 102)
+        Me.totalpcs.Name = "totalpcs"
+        Me.totalpcs.Size = New System.Drawing.Size(840, 22)
+        Me.totalpcs.TabIndex = 62
+        '
+        'o2max3r
+        '
+        Me.o2max3r.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.o2max3r.Location = New System.Drawing.Point(537, 63)
+        Me.o2max3r.Name = "o2max3r"
+        Me.o2max3r.Size = New System.Drawing.Size(262, 22)
+        Me.o2max3r.TabIndex = 70
+        '
+        'Label21
+        '
+        Me.Label21.AutoSize = True
+        Me.Label21.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label21.Location = New System.Drawing.Point(49, 147)
+        Me.Label21.Name = "Label21"
+        Me.Label21.Size = New System.Drawing.Size(84, 16)
+        Me.Label21.TabIndex = 63
+        Me.Label21.Text = "TOTAL Set"
+        '
+        'Label26
+        '
+        Me.Label26.AutoSize = True
+        Me.Label26.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label26.Location = New System.Drawing.Point(49, 112)
+        Me.Label26.Name = "Label26"
+        Me.Label26.Size = New System.Drawing.Size(86, 16)
+        Me.Label26.TabIndex = 64
+        Me.Label26.Text = "TOTAL pcs"
+        '
+        'Label15
+        '
+        Me.Label15.AutoSize = True
+        Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label15.Location = New System.Drawing.Point(42, 2)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(110, 20)
+        Me.Label15.TabIndex = 58
+        Me.Label15.Text = "( R - Wallet )"
+        '
         'mobilestockist
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.ClientSize = New System.Drawing.Size(1181, 733)
+        Me.ClientSize = New System.Drawing.Size(1362, 741)
+        Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.Label31)
         Me.Controls.Add(Me.back)
         Me.Controls.Add(Me.Button3)
@@ -677,31 +482,49 @@ Partial Class mobilestockist
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Controls.Add(Me.TabControl1)
         Me.Controls.Add(Me.Label24)
         Me.Controls.Add(Me.Label23)
         Me.Controls.Add(Me.Panel1)
         Me.Name = "mobilestockist"
         Me.Text = "mobilestockist"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
-        Me.TabPage2.ResumeLayout(False)
-        Me.TabPage2.PerformLayout()
-        CType(Me.firmax3r, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.o2max3r, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.firmax3t, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.o2max3t, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.TabControl1.ResumeLayout(False)
-        Me.TabPage1.ResumeLayout(False)
-        Me.TabPage1.PerformLayout()
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
+        Me.Panel3.ResumeLayout(False)
+        Me.Panel3.PerformLayout()
+        CType(Me.firmax3r, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.o2max3r, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents TabPage2 As TabPage
+    Friend WithEvents Label22 As Label
+    Friend WithEvents Label7 As Label
+    Friend WithEvents noform As TextBox
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Label1 As Label
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents tanggal As DateTimePicker
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Label4 As Label
+    Friend WithEvents userid As TextBox
+    Friend WithEvents Label6 As Label
+    Friend WithEvents Label5 As Label
+    Friend WithEvents nama As TextBox
+    Friend WithEvents Label24 As Label
+    Friend WithEvents Label23 As Label
+    Friend WithEvents Panel1 As Panel
+    Friend WithEvents notelpon As TextBox
+    Friend WithEvents Label32 As Label
+    Friend WithEvents Label31 As Label
+    Friend WithEvents back As Button
+    Friend WithEvents Button3 As Button
+    Friend WithEvents Button2 As Button
+    Friend WithEvents Button1 As Button
+    Friend WithEvents Panel3 As Panel
+    Friend WithEvents transferrwallet As TextBox
+    Friend WithEvents Label28 As Label
     Friend WithEvents Label16 As Label
     Friend WithEvents Label17 As Label
     Friend WithEvents amountr As TextBox
@@ -715,46 +538,4 @@ Partial Class mobilestockist
     Friend WithEvents Label21 As Label
     Friend WithEvents Label26 As Label
     Friend WithEvents Label15 As Label
-    Friend WithEvents Label22 As Label
-    Friend WithEvents Label7 As Label
-    Friend WithEvents Label25 As Label
-    Friend WithEvents Label14 As Label
-    Friend WithEvents amountt As TextBox
-    Friend WithEvents Label13 As Label
-    Friend WithEvents totalsett As TextBox
-    Friend WithEvents totalpcst As TextBox
-    Friend WithEvents Label12 As Label
-    Friend WithEvents Label11 As Label
-    Friend WithEvents noform As TextBox
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Label1 As Label
-    Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents tanggal As DateTimePicker
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Label4 As Label
-    Friend WithEvents userid As TextBox
-    Friend WithEvents Label6 As Label
-    Friend WithEvents Label5 As Label
-    Friend WithEvents nama As TextBox
-    Friend WithEvents Label9 As Label
-    Friend WithEvents Label8 As Label
-    Friend WithEvents Label10 As Label
-    Friend WithEvents firmax3t As NumericUpDown
-    Friend WithEvents o2max3t As NumericUpDown
-    Friend WithEvents TabControl1 As TabControl
-    Friend WithEvents TabPage1 As TabPage
-    Friend WithEvents Label24 As Label
-    Friend WithEvents Label23 As Label
-    Friend WithEvents Panel1 As Panel
-    Friend WithEvents notelpon As TextBox
-    Friend WithEvents Label32 As Label
-    Friend WithEvents transferrwallet As TextBox
-    Friend WithEvents Label28 As Label
-    Friend WithEvents transfertwallet As TextBox
-    Friend WithEvents Label27 As Label
-    Friend WithEvents Label31 As Label
-    Friend WithEvents back As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button1 As Button
 End Class
