@@ -36,8 +36,12 @@ Partial Class finance
         Me.Label2 = New System.Windows.Forms.Label()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.Label3 = New System.Windows.Forms.Label()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.MenuStrip.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'MenuStrip
@@ -45,7 +49,7 @@ Partial Class finance
         Me.MenuStrip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SettingToolStripMenuItem, Me.LoginToolStripMenuItem, Me.ExitToolStripMenuItem})
         Me.MenuStrip.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip.Name = "MenuStrip"
-        Me.MenuStrip.Size = New System.Drawing.Size(890, 24)
+        Me.MenuStrip.Size = New System.Drawing.Size(1362, 24)
         Me.MenuStrip.TabIndex = 63
         Me.MenuStrip.Text = "MenuStrip"
         '
@@ -83,7 +87,7 @@ Partial Class finance
         Me.Label31.AutoSize = True
         Me.Label31.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.Label31.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label31.Location = New System.Drawing.Point(107, 389)
+        Me.Label31.Location = New System.Drawing.Point(357, 596)
         Me.Label31.Name = "Label31"
         Me.Label31.Size = New System.Drawing.Size(179, 18)
         Me.Label31.TabIndex = 68
@@ -94,7 +98,7 @@ Partial Class finance
         Me.back.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.back.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.back.Image = CType(resources.GetObject("back.Image"), System.Drawing.Image)
-        Me.back.Location = New System.Drawing.Point(159, 329)
+        Me.back.Location = New System.Drawing.Point(409, 536)
         Me.back.Name = "back"
         Me.back.Size = New System.Drawing.Size(67, 57)
         Me.back.TabIndex = 67
@@ -104,7 +108,7 @@ Partial Class finance
         '
         Me.Button2.BackgroundImage = CType(resources.GetObject("Button2.BackgroundImage"), System.Drawing.Image)
         Me.Button2.Image = CType(resources.GetObject("Button2.Image"), System.Drawing.Image)
-        Me.Button2.Location = New System.Drawing.Point(370, 330)
+        Me.Button2.Location = New System.Drawing.Point(620, 537)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(67, 55)
         Me.Button2.TabIndex = 65
@@ -116,7 +120,7 @@ Partial Class finance
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.Image = CType(resources.GetObject("Button1.Image"), System.Drawing.Image)
-        Me.Button1.Location = New System.Drawing.Point(583, 329)
+        Me.Button1.Location = New System.Drawing.Point(833, 536)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(67, 56)
         Me.Button1.TabIndex = 64
@@ -128,7 +132,7 @@ Partial Class finance
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(374, 388)
+        Me.Label1.Location = New System.Drawing.Point(624, 595)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(56, 18)
         Me.Label1.TabIndex = 69
@@ -139,7 +143,7 @@ Partial Class finance
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(593, 388)
+        Me.Label2.Location = New System.Drawing.Point(843, 595)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(43, 18)
         Me.Label2.TabIndex = 70
@@ -148,21 +152,58 @@ Partial Class finance
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(159, 109)
+        Me.DataGridView1.Location = New System.Drawing.Point(43, 240)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(491, 203)
+        Me.DataGridView1.Size = New System.Drawing.Size(1138, 290)
         Me.DataGridView1.TabIndex = 71
         '
         'Label3
         '
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.SystemColors.AppWorkspace
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(325, 54)
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(509, 188)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(168, 18)
+        Me.Label3.Size = New System.Drawing.Size(272, 29)
         Me.Label3.TabIndex = 72
-        Me.Label3.Text = "FINANCE'S REPORT"
+        Me.Label3.Text = "LAPORAN AKUNTING"
+        '
+        'TextBox2
+        '
+        Me.TextBox2.BackColor = System.Drawing.SystemColors.AppWorkspace
+        Me.TextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox2.Location = New System.Drawing.Point(191, 678)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(897, 19)
+        Me.TextBox2.TabIndex = 74
+        Me.TextBox2.Text = "Gedung Gajah Unit AP - Jl. Dr. Sahardjo No.111, Tebet Barat, Tebet 12810 Jakarta " &
+    "Selatan Telp. 021-8310351"
+        '
+        'TextBox1
+        '
+        Me.TextBox1.BackColor = System.Drawing.SystemColors.AppWorkspace
+        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox1.Location = New System.Drawing.Point(463, 641)
+        Me.TextBox1.Multiline = True
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(353, 31)
+        Me.TextBox1.TabIndex = 73
+        Me.TextBox1.Text = "PT. RF3 WORLD INDONESIA "
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
+        Me.PictureBox1.Location = New System.Drawing.Point(522, 48)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(259, 107)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.PictureBox1.TabIndex = 75
+        Me.PictureBox1.TabStop = False
         '
         'finance
         '
@@ -171,7 +212,10 @@ Partial Class finance
         Me.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(890, 419)
+        Me.ClientSize = New System.Drawing.Size(1362, 741)
+        Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.Label2)
@@ -187,6 +231,7 @@ Partial Class finance
         Me.MenuStrip.ResumeLayout(False)
         Me.MenuStrip.PerformLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -205,4 +250,7 @@ Partial Class finance
     Friend WithEvents Label2 As Label
     Friend WithEvents DataGridView1 As DataGridView
     Friend WithEvents Label3 As Label
+    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents PictureBox1 As PictureBox
 End Class

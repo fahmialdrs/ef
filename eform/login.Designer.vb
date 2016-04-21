@@ -30,11 +30,13 @@ Partial Class login
         Me.password = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.MenuStrip = New System.Windows.Forms.MenuStrip()
-        Me.LoginToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.mainmenuToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SettingToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.BackupDatabaseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.TextBox4 = New System.Windows.Forms.TextBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MenuStrip.SuspendLayout()
         Me.SuspendLayout()
@@ -42,7 +44,7 @@ Partial Class login
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(22, 36)
+        Me.PictureBox1.Location = New System.Drawing.Point(526, 47)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(259, 107)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
@@ -53,10 +55,10 @@ Partial Class login
         '
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.SystemColors.AppWorkspace
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(213, 207)
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(375, 306)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(109, 20)
+        Me.Label1.Size = New System.Drawing.Size(139, 25)
         Me.Label1.TabIndex = 56
         Me.Label1.Text = "USERNAME"
         '
@@ -64,23 +66,27 @@ Partial Class login
         '
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.SystemColors.AppWorkspace
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(213, 243)
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(373, 360)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(111, 20)
+        Me.Label2.Size = New System.Drawing.Size(142, 25)
         Me.Label2.TabIndex = 57
         Me.Label2.Text = "PASSWORD"
         '
         'username
         '
-        Me.username.Location = New System.Drawing.Point(340, 207)
+        Me.username.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.username.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.username.Location = New System.Drawing.Point(535, 307)
         Me.username.Name = "username"
-        Me.username.Size = New System.Drawing.Size(331, 20)
+        Me.username.Size = New System.Drawing.Size(331, 22)
         Me.username.TabIndex = 58
         '
         'password
         '
-        Me.password.Location = New System.Drawing.Point(340, 243)
+        Me.password.Location = New System.Drawing.Point(535, 362)
         Me.password.Name = "password"
         Me.password.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.password.Size = New System.Drawing.Size(331, 20)
@@ -92,7 +98,7 @@ Partial Class login
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(406, 72)
+        Me.Label3.Location = New System.Drawing.Point(613, 222)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(111, 33)
         Me.Label3.TabIndex = 60
@@ -100,19 +106,19 @@ Partial Class login
         '
         'MenuStrip
         '
-        Me.MenuStrip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.LoginToolStripMenuItem, Me.SettingToolStripMenuItem, Me.ExitToolStripMenuItem})
+        Me.MenuStrip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.mainmenuToolStripMenuItem, Me.SettingToolStripMenuItem, Me.ExitToolStripMenuItem})
         Me.MenuStrip.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip.Name = "MenuStrip"
-        Me.MenuStrip.Size = New System.Drawing.Size(896, 24)
+        Me.MenuStrip.Size = New System.Drawing.Size(1362, 24)
         Me.MenuStrip.TabIndex = 61
         Me.MenuStrip.Text = "MenuStrip"
         '
-        'LoginToolStripMenuItem
+        'mainmenuToolStripMenuItem
         '
-        Me.LoginToolStripMenuItem.Image = CType(resources.GetObject("LoginToolStripMenuItem.Image"), System.Drawing.Image)
-        Me.LoginToolStripMenuItem.Name = "LoginToolStripMenuItem"
-        Me.LoginToolStripMenuItem.Size = New System.Drawing.Size(96, 20)
-        Me.LoginToolStripMenuItem.Text = "Main Menu"
+        Me.mainmenuToolStripMenuItem.Image = CType(resources.GetObject("mainmenuToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.mainmenuToolStripMenuItem.Name = "mainmenuToolStripMenuItem"
+        Me.mainmenuToolStripMenuItem.Size = New System.Drawing.Size(96, 20)
+        Me.mainmenuToolStripMenuItem.Text = "Main Menu"
         '
         'SettingToolStripMenuItem
         '
@@ -140,12 +146,36 @@ Partial Class login
         '
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(390, 284)
+        Me.Button1.Location = New System.Drawing.Point(595, 433)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(139, 35)
+        Me.Button1.Size = New System.Drawing.Size(190, 63)
         Me.Button1.TabIndex = 62
         Me.Button1.Text = "SIGN IN"
         Me.Button1.UseVisualStyleBackColor = True
+        '
+        'TextBox3
+        '
+        Me.TextBox3.BackColor = System.Drawing.SystemColors.AppWorkspace
+        Me.TextBox3.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox3.Location = New System.Drawing.Point(223, 610)
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.Size = New System.Drawing.Size(897, 19)
+        Me.TextBox3.TabIndex = 68
+        Me.TextBox3.Text = "Gedung Gajah Unit AP - Jl. Dr. Sahardjo No.111, Tebet Barat, Tebet 12810 Jakarta " &
+    "Selatan Telp. 021-8310351"
+        '
+        'TextBox4
+        '
+        Me.TextBox4.BackColor = System.Drawing.SystemColors.AppWorkspace
+        Me.TextBox4.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox4.Location = New System.Drawing.Point(495, 573)
+        Me.TextBox4.Multiline = True
+        Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.Size = New System.Drawing.Size(353, 31)
+        Me.TextBox4.TabIndex = 67
+        Me.TextBox4.Text = "PT. RF3 WORLD INDONESIA "
         '
         'login
         '
@@ -153,7 +183,9 @@ Partial Class login
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(896, 380)
+        Me.ClientSize = New System.Drawing.Size(1362, 741)
+        Me.Controls.Add(Me.TextBox3)
+        Me.Controls.Add(Me.TextBox4)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.MenuStrip)
         Me.Controls.Add(Me.Label3)
@@ -180,9 +212,11 @@ Partial Class login
     Friend WithEvents password As TextBox
     Friend WithEvents Label3 As Label
     Friend WithEvents MenuStrip As MenuStrip
-    Friend WithEvents LoginToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents mainmenuToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents SettingToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents BackupDatabaseToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ExitToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Button1 As Button
+    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents TextBox4 As TextBox
 End Class
