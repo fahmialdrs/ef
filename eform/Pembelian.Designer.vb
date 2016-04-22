@@ -57,34 +57,43 @@ Partial Class Pembelian
         Me.Label31 = New System.Windows.Forms.Label()
         Me.back = New System.Windows.Forms.Button()
         Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
         Me.Label16 = New System.Windows.Forms.Label()
-        Me.Label17 = New System.Windows.Forms.Label()
-        Me.amountr = New System.Windows.Forms.TextBox()
-        Me.Label18 = New System.Windows.Forms.Label()
-        Me.Label19 = New System.Windows.Forms.Label()
-        Me.Label20 = New System.Windows.Forms.Label()
-        Me.totalset = New System.Windows.Forms.TextBox()
-        Me.firmax3r = New System.Windows.Forms.NumericUpDown()
-        Me.totalpcs = New System.Windows.Forms.TextBox()
-        Me.o2max3r = New System.Windows.Forms.NumericUpDown()
-        Me.Label21 = New System.Windows.Forms.Label()
-        Me.Label26 = New System.Windows.Forms.Label()
         Me.Label15 = New System.Windows.Forms.Label()
+        Me.Label17 = New System.Windows.Forms.Label()
+        Me.Label26 = New System.Windows.Forms.Label()
+        Me.amountr = New System.Windows.Forms.TextBox()
+        Me.Label21 = New System.Windows.Forms.Label()
+        Me.Label18 = New System.Windows.Forms.Label()
+        Me.o2max3r = New System.Windows.Forms.NumericUpDown()
+        Me.Label19 = New System.Windows.Forms.Label()
+        Me.totalpcs = New System.Windows.Forms.TextBox()
+        Me.Label20 = New System.Windows.Forms.Label()
+        Me.firmax3r = New System.Windows.Forms.NumericUpDown()
+        Me.totalset = New System.Windows.Forms.TextBox()
+        Me.ordered = New System.Windows.Forms.TextBox()
+        Me.proceeded = New System.Windows.Forms.TextBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.Panel3.SuspendLayout()
-        CType(Me.firmax3r, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.o2max3r, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.firmax3r, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'noform
         '
+        Me.noform.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.noform.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.noform.Location = New System.Drawing.Point(492, 66)
         Me.noform.Name = "noform"
         Me.noform.Size = New System.Drawing.Size(253, 22)
-        Me.noform.TabIndex = 21
+        Me.noform.TabIndex = 1
+        Me.noform.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label2
         '
@@ -121,7 +130,7 @@ Partial Class Pembelian
         Me.tanggal.Location = New System.Drawing.Point(177, 3)
         Me.tanggal.Name = "tanggal"
         Me.tanggal.Size = New System.Drawing.Size(840, 20)
-        Me.tanggal.TabIndex = 5
+        Me.tanggal.TabIndex = 2
         '
         'Label3
         '
@@ -149,7 +158,8 @@ Partial Class Pembelian
         Me.notelpon.Location = New System.Drawing.Point(177, 81)
         Me.notelpon.Name = "notelpon"
         Me.notelpon.Size = New System.Drawing.Size(840, 22)
-        Me.notelpon.TabIndex = 11
+        Me.notelpon.TabIndex = 5
+        Me.notelpon.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'userid
         '
@@ -157,7 +167,8 @@ Partial Class Pembelian
         Me.userid.Location = New System.Drawing.Point(177, 29)
         Me.userid.Name = "userid"
         Me.userid.Size = New System.Drawing.Size(840, 22)
-        Me.userid.TabIndex = 7
+        Me.userid.TabIndex = 3
+        Me.userid.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label6
         '
@@ -185,7 +196,8 @@ Partial Class Pembelian
         Me.nama.Location = New System.Drawing.Point(177, 55)
         Me.nama.Name = "nama"
         Me.nama.Size = New System.Drawing.Size(840, 22)
-        Me.nama.TabIndex = 9
+        Me.nama.TabIndex = 4
+        Me.nama.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel1
         '
@@ -202,14 +214,14 @@ Partial Class Pembelian
         Me.Panel1.Controls.Add(Me.nama)
         Me.Panel1.Location = New System.Drawing.Point(37, 125)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1046, 148)
+        Me.Panel1.Size = New System.Drawing.Size(1038, 140)
         Me.Panel1.TabIndex = 23
         '
         'Label23
         '
         Me.Label23.AutoSize = True
         Me.Label23.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label23.Location = New System.Drawing.Point(160, 477)
+        Me.Label23.Location = New System.Drawing.Point(225, 477)
         Me.Label23.Name = "Label23"
         Me.Label23.Size = New System.Drawing.Size(83, 16)
         Me.Label23.TabIndex = 27
@@ -219,7 +231,7 @@ Partial Class Pembelian
         '
         Me.Label24.AutoSize = True
         Me.Label24.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label24.Location = New System.Drawing.Point(569, 477)
+        Me.Label24.Location = New System.Drawing.Point(719, 477)
         Me.Label24.Name = "Label24"
         Me.Label24.Size = New System.Drawing.Size(101, 16)
         Me.Label24.TabIndex = 28
@@ -229,7 +241,7 @@ Partial Class Pembelian
         '
         Me.Label22.AutoSize = True
         Me.Label22.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label22.Location = New System.Drawing.Point(63, 527)
+        Me.Label22.Location = New System.Drawing.Point(77, 527)
         Me.Label22.Name = "Label22"
         Me.Label22.Size = New System.Drawing.Size(51, 16)
         Me.Label22.TabIndex = 30
@@ -239,7 +251,7 @@ Partial Class Pembelian
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(479, 527)
+        Me.Label7.Location = New System.Drawing.Point(579, 527)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(51, 16)
         Me.Label7.TabIndex = 31
@@ -269,7 +281,8 @@ Partial Class Pembelian
         Me.datainput.Multiline = True
         Me.datainput.Name = "datainput"
         Me.datainput.Size = New System.Drawing.Size(217, 56)
-        Me.datainput.TabIndex = 35
+        Me.datainput.TabIndex = 15
+        Me.datainput.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'finalcheck
         '
@@ -278,7 +291,8 @@ Partial Class Pembelian
         Me.finalcheck.Multiline = True
         Me.finalcheck.Name = "finalcheck"
         Me.finalcheck.Size = New System.Drawing.Size(217, 56)
-        Me.finalcheck.TabIndex = 34
+        Me.finalcheck.TabIndex = 14
+        Me.finalcheck.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label30
         '
@@ -307,7 +321,7 @@ Partial Class Pembelian
         Me.tunai.Location = New System.Drawing.Point(371, 59)
         Me.tunai.Name = "tunai"
         Me.tunai.Size = New System.Drawing.Size(60, 20)
-        Me.tunai.TabIndex = 34
+        Me.tunai.TabIndex = 13
         Me.tunai.TabStop = True
         Me.tunai.Text = "Tunai"
         Me.tunai.UseVisualStyleBackColor = True
@@ -319,7 +333,7 @@ Partial Class Pembelian
         Me.mandiri.Location = New System.Drawing.Point(236, 59)
         Me.mandiri.Name = "mandiri"
         Me.mandiri.Size = New System.Drawing.Size(123, 20)
-        Me.mandiri.TabIndex = 34
+        Me.mandiri.TabIndex = 12
         Me.mandiri.TabStop = True
         Me.mandiri.Text = "Transfer Mandiri"
         Me.mandiri.UseVisualStyleBackColor = True
@@ -331,7 +345,7 @@ Partial Class Pembelian
         Me.bca.Location = New System.Drawing.Point(124, 59)
         Me.bca.Name = "bca"
         Me.bca.Size = New System.Drawing.Size(106, 20)
-        Me.bca.TabIndex = 33
+        Me.bca.TabIndex = 11
         Me.bca.TabStop = True
         Me.bca.Text = "Transfer BCA"
         Me.bca.UseVisualStyleBackColor = True
@@ -352,7 +366,8 @@ Partial Class Pembelian
         Me.note.Location = New System.Drawing.Point(127, 25)
         Me.note.Name = "note"
         Me.note.Size = New System.Drawing.Size(304, 22)
-        Me.note.TabIndex = 33
+        Me.note.TabIndex = 10
+        Me.note.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label27
         '
@@ -372,7 +387,7 @@ Partial Class Pembelian
         Me.Button1.Location = New System.Drawing.Point(1162, 265)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(98, 97)
-        Me.Button1.TabIndex = 33
+        Me.Button1.TabIndex = 16
         Me.Button1.Text = "Submit"
         Me.Button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.Button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
@@ -385,7 +400,7 @@ Partial Class Pembelian
         Me.Button2.Location = New System.Drawing.Point(1162, 368)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(98, 97)
-        Me.Button2.TabIndex = 34
+        Me.Button2.TabIndex = 17
         Me.Button2.Text = "Clear"
         Me.Button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.Button2.UseVisualStyleBackColor = True
@@ -397,7 +412,7 @@ Partial Class Pembelian
         Me.Button3.Location = New System.Drawing.Point(1162, 468)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(98, 97)
-        Me.Button3.TabIndex = 35
+        Me.Button3.TabIndex = 18
         Me.Button3.Text = "Print"
         Me.Button3.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.Button3.UseVisualStyleBackColor = True
@@ -421,11 +436,14 @@ Partial Class Pembelian
         Me.back.Location = New System.Drawing.Point(1171, 591)
         Me.back.Name = "back"
         Me.back.Size = New System.Drawing.Size(77, 72)
-        Me.back.TabIndex = 36
+        Me.back.TabIndex = 19
         Me.back.UseVisualStyleBackColor = False
         '
         'Panel3
         '
+        Me.Panel3.Controls.Add(Me.Label10)
+        Me.Panel3.Controls.Add(Me.Label9)
+        Me.Panel3.Controls.Add(Me.Label8)
         Me.Panel3.Controls.Add(Me.Label16)
         Me.Panel3.Controls.Add(Me.Label15)
         Me.Panel3.Controls.Add(Me.Label17)
@@ -444,6 +462,39 @@ Partial Class Pembelian
         Me.Panel3.Size = New System.Drawing.Size(1046, 200)
         Me.Panel3.TabIndex = 38
         '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.BackColor = System.Drawing.SystemColors.ControlLight
+        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.Location = New System.Drawing.Point(174, 165)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(32, 16)
+        Me.Label10.TabIndex = 62
+        Me.Label10.Text = "Rp."
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.BackColor = System.Drawing.SystemColors.ControlLight
+        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Location = New System.Drawing.Point(975, 128)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(29, 16)
+        Me.Label9.TabIndex = 61
+        Me.Label9.Text = "set"
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.BackColor = System.Drawing.SystemColors.ControlLight
+        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(975, 88)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(33, 16)
+        Me.Label8.TabIndex = 60
+        Me.Label8.Text = "pcs"
+        '
         'Label16
         '
         Me.Label16.AutoSize = True
@@ -452,106 +503,6 @@ Partial Class Pembelian
         Me.Label16.Size = New System.Drawing.Size(135, 13)
         Me.Label16.TabIndex = 66
         Me.Label16.Text = "( Rp. 1.000.000 x total set )"
-        '
-        'Label17
-        '
-        Me.Label17.AutoSize = True
-        Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label17.Location = New System.Drawing.Point(409, 31)
-        Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(75, 16)
-        Me.Label17.TabIndex = 57
-        Me.Label17.Text = "FIRMAX 3"
-        '
-        'amountr
-        '
-        Me.amountr.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.amountr.Location = New System.Drawing.Point(171, 162)
-        Me.amountr.Name = "amountr"
-        Me.amountr.Size = New System.Drawing.Size(846, 22)
-        Me.amountr.TabIndex = 67
-        '
-        'Label18
-        '
-        Me.Label18.AutoSize = True
-        Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label18.Location = New System.Drawing.Point(40, 43)
-        Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(57, 16)
-        Me.Label18.TabIndex = 58
-        Me.Label18.Text = "Produk"
-        '
-        'Label19
-        '
-        Me.Label19.AutoSize = True
-        Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label19.Location = New System.Drawing.Point(40, 159)
-        Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(59, 16)
-        Me.Label19.TabIndex = 63
-        Me.Label19.Text = "Amount"
-        '
-        'Label20
-        '
-        Me.Label20.AutoSize = True
-        Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label20.Location = New System.Drawing.Point(713, 31)
-        Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(70, 16)
-        Me.Label20.TabIndex = 59
-        Me.Label20.Text = "O2 MAX3"
-        '
-        'totalset
-        '
-        Me.totalset.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.totalset.Location = New System.Drawing.Point(171, 125)
-        Me.totalset.Name = "totalset"
-        Me.totalset.Size = New System.Drawing.Size(846, 22)
-        Me.totalset.TabIndex = 64
-        '
-        'firmax3r
-        '
-        Me.firmax3r.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.firmax3r.Location = New System.Drawing.Point(316, 58)
-        Me.firmax3r.Name = "firmax3r"
-        Me.firmax3r.Size = New System.Drawing.Size(260, 22)
-        Me.firmax3r.TabIndex = 65
-        '
-        'totalpcs
-        '
-        Me.totalpcs.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.totalpcs.Location = New System.Drawing.Point(171, 86)
-        Me.totalpcs.Name = "totalpcs"
-        Me.totalpcs.Size = New System.Drawing.Size(846, 22)
-        Me.totalpcs.TabIndex = 60
-        '
-        'o2max3r
-        '
-        Me.o2max3r.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.o2max3r.Location = New System.Drawing.Point(610, 58)
-        Me.o2max3r.Name = "o2max3r"
-        Me.o2max3r.Size = New System.Drawing.Size(262, 22)
-        Me.o2max3r.TabIndex = 68
-        '
-        'Label21
-        '
-        Me.Label21.AutoSize = True
-        Me.Label21.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label21.Location = New System.Drawing.Point(40, 122)
-        Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(84, 16)
-        Me.Label21.TabIndex = 61
-        Me.Label21.Text = "TOTAL Set"
-        '
-        'Label26
-        '
-        Me.Label26.AutoSize = True
-        Me.Label26.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label26.Location = New System.Drawing.Point(40, 87)
-        Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(86, 16)
-        Me.Label26.TabIndex = 62
-        Me.Label26.Text = "TOTAL pcs"
         '
         'Label15
         '
@@ -563,12 +514,139 @@ Partial Class Pembelian
         Me.Label15.TabIndex = 56
         Me.Label15.Text = "( R - Wallet )"
         '
+        'Label17
+        '
+        Me.Label17.AutoSize = True
+        Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label17.Location = New System.Drawing.Point(409, 31)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(75, 16)
+        Me.Label17.TabIndex = 57
+        Me.Label17.Text = "FIRMAX 3"
+        '
+        'Label26
+        '
+        Me.Label26.AutoSize = True
+        Me.Label26.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label26.Location = New System.Drawing.Point(40, 87)
+        Me.Label26.Name = "Label26"
+        Me.Label26.Size = New System.Drawing.Size(86, 16)
+        Me.Label26.TabIndex = 62
+        Me.Label26.Text = "TOTAL pcs"
+        '
+        'amountr
+        '
+        Me.amountr.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.amountr.Location = New System.Drawing.Point(171, 162)
+        Me.amountr.Name = "amountr"
+        Me.amountr.ReadOnly = True
+        Me.amountr.Size = New System.Drawing.Size(846, 22)
+        Me.amountr.TabIndex = 22
+        Me.amountr.TabStop = False
+        Me.amountr.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Label21
+        '
+        Me.Label21.AutoSize = True
+        Me.Label21.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label21.Location = New System.Drawing.Point(40, 122)
+        Me.Label21.Name = "Label21"
+        Me.Label21.Size = New System.Drawing.Size(84, 16)
+        Me.Label21.TabIndex = 61
+        Me.Label21.Text = "TOTAL Set"
+        '
+        'Label18
+        '
+        Me.Label18.AutoSize = True
+        Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label18.Location = New System.Drawing.Point(40, 43)
+        Me.Label18.Name = "Label18"
+        Me.Label18.Size = New System.Drawing.Size(57, 16)
+        Me.Label18.TabIndex = 58
+        Me.Label18.Text = "Produk"
+        '
+        'o2max3r
+        '
+        Me.o2max3r.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.o2max3r.Location = New System.Drawing.Point(610, 58)
+        Me.o2max3r.Name = "o2max3r"
+        Me.o2max3r.Size = New System.Drawing.Size(262, 22)
+        Me.o2max3r.TabIndex = 7
+        '
+        'Label19
+        '
+        Me.Label19.AutoSize = True
+        Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label19.Location = New System.Drawing.Point(40, 159)
+        Me.Label19.Name = "Label19"
+        Me.Label19.Size = New System.Drawing.Size(59, 16)
+        Me.Label19.TabIndex = 63
+        Me.Label19.Text = "Amount"
+        '
+        'totalpcs
+        '
+        Me.totalpcs.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.totalpcs.Location = New System.Drawing.Point(171, 86)
+        Me.totalpcs.Name = "totalpcs"
+        Me.totalpcs.ReadOnly = True
+        Me.totalpcs.Size = New System.Drawing.Size(846, 22)
+        Me.totalpcs.TabIndex = 20
+        Me.totalpcs.TabStop = False
+        Me.totalpcs.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Label20
+        '
+        Me.Label20.AutoSize = True
+        Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label20.Location = New System.Drawing.Point(713, 31)
+        Me.Label20.Name = "Label20"
+        Me.Label20.Size = New System.Drawing.Size(70, 16)
+        Me.Label20.TabIndex = 59
+        Me.Label20.Text = "O2 MAX3"
+        '
+        'firmax3r
+        '
+        Me.firmax3r.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.firmax3r.Location = New System.Drawing.Point(316, 58)
+        Me.firmax3r.Name = "firmax3r"
+        Me.firmax3r.Size = New System.Drawing.Size(260, 22)
+        Me.firmax3r.TabIndex = 6
+        '
+        'totalset
+        '
+        Me.totalset.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.totalset.Location = New System.Drawing.Point(171, 125)
+        Me.totalset.Name = "totalset"
+        Me.totalset.ReadOnly = True
+        Me.totalset.Size = New System.Drawing.Size(846, 22)
+        Me.totalset.TabIndex = 21
+        Me.totalset.TabStop = False
+        Me.totalset.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'ordered
+        '
+        Me.ordered.Location = New System.Drawing.Point(176, 527)
+        Me.ordered.Name = "ordered"
+        Me.ordered.Size = New System.Drawing.Size(172, 20)
+        Me.ordered.TabIndex = 8
+        Me.ordered.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'proceeded
+        '
+        Me.proceeded.Location = New System.Drawing.Point(686, 527)
+        Me.proceeded.Name = "proceeded"
+        Me.proceeded.Size = New System.Drawing.Size(172, 20)
+        Me.proceeded.TabIndex = 9
+        Me.proceeded.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
         'Pembelian
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.ClientSize = New System.Drawing.Size(1362, 741)
+        Me.ClientSize = New System.Drawing.Size(1354, 733)
+        Me.Controls.Add(Me.proceeded)
+        Me.Controls.Add(Me.ordered)
         Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.Label31)
         Me.Controls.Add(Me.back)
@@ -595,8 +673,8 @@ Partial Class Pembelian
         Me.Panel2.PerformLayout()
         Me.Panel3.ResumeLayout(False)
         Me.Panel3.PerformLayout()
-        CType(Me.firmax3r, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.o2max3r, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.firmax3r, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -648,4 +726,9 @@ Partial Class Pembelian
     Friend WithEvents Label20 As Label
     Friend WithEvents firmax3r As NumericUpDown
     Friend WithEvents totalset As TextBox
+    Friend WithEvents ordered As TextBox
+    Friend WithEvents proceeded As TextBox
+    Friend WithEvents Label10 As Label
+    Friend WithEvents Label9 As Label
+    Friend WithEvents Label8 As Label
 End Class
