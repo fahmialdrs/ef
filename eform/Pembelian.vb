@@ -3,56 +3,35 @@
 
     End Sub
 
-    Private Sub Label22_Click(sender As Object, e As EventArgs) Handles Label22.Click
-
-    End Sub
-
-    Private Sub Label7_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub Label18_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub Label17_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub Label20_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub NumericUpDown4_ValueChanged(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub NumericUpDown3_ValueChanged(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub Label26_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub Label21_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub Label19_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub Label16_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub TabPage2_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
     Private Sub back_Click(sender As Object, e As EventArgs) Handles back.Click
         membermenu.Show()
         Me.Hide()
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        noform.Text = ""
+        userid.Text = ""
+        nama.Text = ""
+        notelpon.Text = ""
+        firmax3r.Value = 0
+        o2max3r.Value = 0
+        totalpcs.Text = ""
+        totalset.Text = ""
+        amountr.Text = ""
+        ordered.Text = ""
+        proceeded.Text = ""
+        finalcheck.Text = ""
+        datainput.Text = ""
+    End Sub
+
+    Private Sub firmax3r_ValueChanged(sender As Object, e As EventArgs) Handles firmax3r.ValueChanged
+        totalpcs.Text = firmax3r.Value + o2max3r.Value
+        totalset.Text = totalpcs.Text / 2
+    End Sub
+
+    Private Sub o2max3r_ValueChanged(sender As Object, e As EventArgs) Handles o2max3r.ValueChanged
+        totalpcs.Text = firmax3r.Value + o2max3r.Value
+        totalset.Text = totalpcs.Text / 2
+        amountr.Text = totalset.Text * 1000000
     End Sub
 End Class
