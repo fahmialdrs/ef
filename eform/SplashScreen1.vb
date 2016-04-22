@@ -32,12 +32,19 @@
         Copyright.Text = My.Application.Info.Copyright
     End Sub
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
-        Dim membermenu As New membermenu
+        Dim mainmenu As New mainmenu
         Timer1.Enabled = True
         If Timer1.Interval = 5000 Then
-            membermenu.Show()
-            Me.Close()
+            Timer1.Dispose()
+            Me.Visible = False
+            mainmenu = New mainmenu
+            mainmenu.Show()
+
         End If
     End Sub
 
+
+    Private Sub ApplicationTitle_Click(sender As Object, e As EventArgs) Handles ApplicationTitle.Click
+
+    End Sub
 End Class
