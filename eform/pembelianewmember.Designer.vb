@@ -552,7 +552,7 @@ Partial Class pembelianewmember
         Me.Panel1.Controls.Add(Me.nama)
         Me.Panel1.Location = New System.Drawing.Point(50, 145)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1046, 148)
+        Me.Panel1.Size = New System.Drawing.Size(1038, 140)
         Me.Panel1.TabIndex = 43
         '
         'nama
@@ -569,7 +569,7 @@ Partial Class pembelianewmember
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(1362, 741)
+        Me.ClientSize = New System.Drawing.Size(1354, 733)
         Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.Label31)
         Me.Controls.Add(Me.back)

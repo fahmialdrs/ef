@@ -81,7 +81,7 @@ Partial Class login
         Me.username.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.username.Location = New System.Drawing.Point(535, 307)
         Me.username.Name = "username"
-        Me.username.Size = New System.Drawing.Size(331, 22)
+        Me.username.Size = New System.Drawing.Size(323, 22)
         Me.username.TabIndex = 58
         '
         'password
@@ -109,7 +109,7 @@ Partial Class login
         Me.MenuStrip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.mainmenuToolStripMenuItem, Me.SettingToolStripMenuItem, Me.ExitToolStripMenuItem})
         Me.MenuStrip.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip.Name = "MenuStrip"
-        Me.MenuStrip.Size = New System.Drawing.Size(1362, 24)
+        Me.MenuStrip.Size = New System.Drawing.Size(1354, 24)
         Me.MenuStrip.TabIndex = 61
         Me.MenuStrip.Text = "MenuStrip"
         '
@@ -183,7 +183,7 @@ Partial Class login
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(1362, 741)
+        Me.ClientSize = New System.Drawing.Size(1354, 733)
         Me.Controls.Add(Me.TextBox3)
         Me.Controls.Add(Me.TextBox4)
         Me.Controls.Add(Me.Button1)
