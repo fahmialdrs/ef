@@ -54,7 +54,6 @@ Partial Class Pembelian
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
-        Me.Label31 = New System.Windows.Forms.Label()
         Me.back = New System.Windows.Forms.Button()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.Label10 = New System.Windows.Forms.Label()
@@ -75,6 +74,7 @@ Partial Class Pembelian
         Me.totalset = New System.Windows.Forms.TextBox()
         Me.ordered = New System.Windows.Forms.TextBox()
         Me.proceeded = New System.Windows.Forms.TextBox()
+        Me.Label31 = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
@@ -417,23 +417,12 @@ Partial Class Pembelian
         Me.Button3.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.Button3.UseVisualStyleBackColor = True
         '
-        'Label31
-        '
-        Me.Label31.AutoSize = True
-        Me.Label31.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label31.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label31.Location = New System.Drawing.Point(1121, 670)
-        Me.Label31.Name = "Label31"
-        Me.Label31.Size = New System.Drawing.Size(179, 18)
-        Me.Label31.TabIndex = 37
-        Me.Label31.Text = "BACK TO MAIN MENU"
-        '
         'back
         '
         Me.back.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.back.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.back.Image = CType(resources.GetObject("back.Image"), System.Drawing.Image)
-        Me.back.Location = New System.Drawing.Point(1171, 591)
+        Me.back.Location = New System.Drawing.Point(1172, 587)
         Me.back.Name = "back"
         Me.back.Size = New System.Drawing.Size(77, 72)
         Me.back.TabIndex = 19
@@ -639,16 +628,27 @@ Partial Class Pembelian
         Me.proceeded.TabIndex = 9
         Me.proceeded.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
+        'Label31
+        '
+        Me.Label31.AutoSize = True
+        Me.Label31.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Label31.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label31.Location = New System.Drawing.Point(1100, 664)
+        Me.Label31.Name = "Label31"
+        Me.Label31.Size = New System.Drawing.Size(212, 18)
+        Me.Label31.TabIndex = 78
+        Me.Label31.Text = "BACK TO MEMBER MENU"
+        '
         'Pembelian
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.ClientSize = New System.Drawing.Size(1354, 733)
+        Me.Controls.Add(Me.Label31)
         Me.Controls.Add(Me.proceeded)
         Me.Controls.Add(Me.ordered)
         Me.Controls.Add(Me.Panel3)
-        Me.Controls.Add(Me.Label31)
         Me.Controls.Add(Me.back)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
@@ -710,7 +710,6 @@ Partial Class Pembelian
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents Button3 As Button
-    Friend WithEvents Label31 As Label
     Friend WithEvents back As Button
     Friend WithEvents Panel3 As Panel
     Friend WithEvents Label16 As Label
@@ -731,4 +730,5 @@ Partial Class Pembelian
     Friend WithEvents Label10 As Label
     Friend WithEvents Label9 As Label
     Friend WithEvents Label8 As Label
+    Friend WithEvents Label31 As Label
 End Class
