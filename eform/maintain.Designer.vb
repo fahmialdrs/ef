@@ -52,7 +52,10 @@ Partial Class maintain
         Me.Label23 = New System.Windows.Forms.Label()
         Me.Label22 = New System.Windows.Forms.Label()
         Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.Label25 = New System.Windows.Forms.Label()
         Me.Label16 = New System.Windows.Forms.Label()
+        Me.Label32 = New System.Windows.Forms.Label()
         Me.Label17 = New System.Windows.Forms.Label()
         Me.amountr = New System.Windows.Forms.TextBox()
         Me.Label18 = New System.Windows.Forms.Label()
@@ -75,11 +78,13 @@ Partial Class maintain
         Me.kurangbayar = New System.Windows.Forms.TextBox()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label15 = New System.Windows.Forms.Label()
-        Me.Label31 = New System.Windows.Forms.Label()
         Me.back = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.Label31 = New System.Windows.Forms.Label()
+        Me.proceeded = New System.Windows.Forms.TextBox()
+        Me.ordered = New System.Windows.Forms.TextBox()
         Me.Panel2.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
@@ -211,7 +216,7 @@ Partial Class maintain
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(555, 597)
+        Me.Label7.Location = New System.Drawing.Point(610, 594)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(51, 16)
         Me.Label7.TabIndex = 63
@@ -345,7 +350,7 @@ Partial Class maintain
         '
         Me.Label24.AutoSize = True
         Me.Label24.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label24.Location = New System.Drawing.Point(630, 529)
+        Me.Label24.Location = New System.Drawing.Point(743, 529)
         Me.Label24.Name = "Label24"
         Me.Label24.Size = New System.Drawing.Size(101, 16)
         Me.Label24.TabIndex = 60
@@ -355,7 +360,7 @@ Partial Class maintain
         '
         Me.Label23.AutoSize = True
         Me.Label23.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label23.Location = New System.Drawing.Point(112, 529)
+        Me.Label23.Location = New System.Drawing.Point(225, 529)
         Me.Label23.Name = "Label23"
         Me.Label23.Size = New System.Drawing.Size(83, 16)
         Me.Label23.TabIndex = 59
@@ -365,7 +370,7 @@ Partial Class maintain
         '
         Me.Label22.AutoSize = True
         Me.Label22.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label22.Location = New System.Drawing.Point(37, 597)
+        Me.Label22.Location = New System.Drawing.Point(92, 594)
         Me.Label22.Name = "Label22"
         Me.Label22.Size = New System.Drawing.Size(51, 16)
         Me.Label22.TabIndex = 62
@@ -373,7 +378,10 @@ Partial Class maintain
         '
         'Panel3
         '
+        Me.Panel3.Controls.Add(Me.Label14)
+        Me.Panel3.Controls.Add(Me.Label25)
         Me.Panel3.Controls.Add(Me.Label16)
+        Me.Panel3.Controls.Add(Me.Label32)
         Me.Panel3.Controls.Add(Me.Label17)
         Me.Panel3.Controls.Add(Me.amountr)
         Me.Panel3.Controls.Add(Me.Label18)
@@ -390,6 +398,28 @@ Partial Class maintain
         Me.Panel3.Size = New System.Drawing.Size(1035, 151)
         Me.Panel3.TabIndex = 70
         '
+        'Label14
+        '
+        Me.Label14.AutoSize = True
+        Me.Label14.BackColor = System.Drawing.SystemColors.ControlLight
+        Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label14.Location = New System.Drawing.Point(185, 127)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(32, 16)
+        Me.Label14.TabIndex = 85
+        Me.Label14.Text = "Rp."
+        '
+        'Label25
+        '
+        Me.Label25.AutoSize = True
+        Me.Label25.BackColor = System.Drawing.SystemColors.ControlLight
+        Me.Label25.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label25.Location = New System.Drawing.Point(968, 97)
+        Me.Label25.Name = "Label25"
+        Me.Label25.Size = New System.Drawing.Size(29, 16)
+        Me.Label25.TabIndex = 84
+        Me.Label25.Text = "set"
+        '
         'Label16
         '
         Me.Label16.AutoSize = True
@@ -399,11 +429,22 @@ Partial Class maintain
         Me.Label16.TabIndex = 77
         Me.Label16.Text = "( Rp. 1.000.000 x total set )"
         '
+        'Label32
+        '
+        Me.Label32.AutoSize = True
+        Me.Label32.BackColor = System.Drawing.SystemColors.ControlLight
+        Me.Label32.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label32.Location = New System.Drawing.Point(968, 70)
+        Me.Label32.Name = "Label32"
+        Me.Label32.Size = New System.Drawing.Size(33, 16)
+        Me.Label32.TabIndex = 83
+        Me.Label32.Text = "pcs"
+        '
         'Label17
         '
         Me.Label17.AutoSize = True
         Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label17.Location = New System.Drawing.Point(314, 13)
+        Me.Label17.Location = New System.Drawing.Point(444, 12)
         Me.Label17.Name = "Label17"
         Me.Label17.Size = New System.Drawing.Size(75, 16)
         Me.Label17.TabIndex = 68
@@ -414,6 +455,7 @@ Partial Class maintain
         Me.amountr.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.amountr.Location = New System.Drawing.Point(177, 124)
         Me.amountr.Name = "amountr"
+        Me.amountr.ReadOnly = True
         Me.amountr.Size = New System.Drawing.Size(837, 22)
         Me.amountr.TabIndex = 78
         '
@@ -441,7 +483,7 @@ Partial Class maintain
         '
         Me.Label20.AutoSize = True
         Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label20.Location = New System.Drawing.Point(618, 13)
+        Me.Label20.Location = New System.Drawing.Point(748, 12)
         Me.Label20.Name = "Label20"
         Me.Label20.Size = New System.Drawing.Size(70, 16)
         Me.Label20.TabIndex = 70
@@ -452,13 +494,14 @@ Partial Class maintain
         Me.totalset.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.totalset.Location = New System.Drawing.Point(177, 94)
         Me.totalset.Name = "totalset"
+        Me.totalset.ReadOnly = True
         Me.totalset.Size = New System.Drawing.Size(837, 22)
         Me.totalset.TabIndex = 75
         '
         'firmax3r
         '
         Me.firmax3r.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.firmax3r.Location = New System.Drawing.Point(221, 40)
+        Me.firmax3r.Location = New System.Drawing.Point(351, 39)
         Me.firmax3r.Name = "firmax3r"
         Me.firmax3r.Size = New System.Drawing.Size(260, 22)
         Me.firmax3r.TabIndex = 76
@@ -468,13 +511,14 @@ Partial Class maintain
         Me.totalpcs.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.totalpcs.Location = New System.Drawing.Point(177, 67)
         Me.totalpcs.Name = "totalpcs"
+        Me.totalpcs.ReadOnly = True
         Me.totalpcs.Size = New System.Drawing.Size(837, 22)
         Me.totalpcs.TabIndex = 71
         '
         'o2max3r
         '
         Me.o2max3r.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.o2max3r.Location = New System.Drawing.Point(515, 40)
+        Me.o2max3r.Location = New System.Drawing.Point(645, 39)
         Me.o2max3r.Name = "o2max3r"
         Me.o2max3r.Size = New System.Drawing.Size(262, 22)
         Me.o2max3r.TabIndex = 79
@@ -524,7 +568,7 @@ Partial Class maintain
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(1040, 112)
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(1032, 104)
         Me.TableLayoutPanel1.TabIndex = 71
         '
         'Label13
@@ -533,10 +577,10 @@ Partial Class maintain
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label13.AutoSize = True
-        Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.Location = New System.Drawing.Point(3, 74)
+        Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label13.Location = New System.Drawing.Point(3, 68)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(144, 38)
+        Me.Label13.Size = New System.Drawing.Size(143, 36)
         Me.Label13.TabIndex = 75
         Me.Label13.Text = "Kurang Bayar"
         Me.Label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -548,9 +592,9 @@ Partial Class maintain
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label12.AutoSize = True
         Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(153, 74)
+        Me.Label12.Location = New System.Drawing.Point(152, 68)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(162, 38)
+        Me.Label12.Size = New System.Drawing.Size(161, 36)
         Me.Label12.TabIndex = 74
         Me.Label12.Text = "IDR"
         Me.Label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -562,9 +606,9 @@ Partial Class maintain
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(3, 37)
+        Me.Label9.Location = New System.Drawing.Point(3, 34)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(144, 37)
+        Me.Label9.Size = New System.Drawing.Size(143, 34)
         Me.Label9.TabIndex = 71
         Me.Label9.Text = "Saldo Maintain"
         Me.Label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -576,9 +620,9 @@ Partial Class maintain
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(153, 0)
+        Me.Label10.Location = New System.Drawing.Point(152, 0)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(162, 37)
+        Me.Label10.Size = New System.Drawing.Size(161, 34)
         Me.Label10.TabIndex = 72
         Me.Label10.Text = "RM"
         Me.Label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -590,9 +634,9 @@ Partial Class maintain
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(153, 37)
+        Me.Label11.Location = New System.Drawing.Point(152, 34)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(162, 37)
+        Me.Label11.Size = New System.Drawing.Size(161, 34)
         Me.Label11.TabIndex = 73
         Me.Label11.Text = "IDR x ( Rp.3.300 )"
         Me.Label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -603,9 +647,9 @@ Partial Class maintain
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.saldomaintainrm.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.saldomaintainrm.Location = New System.Drawing.Point(321, 3)
+        Me.saldomaintainrm.Location = New System.Drawing.Point(319, 3)
         Me.saldomaintainrm.Name = "saldomaintainrm"
-        Me.saldomaintainrm.Size = New System.Drawing.Size(716, 22)
+        Me.saldomaintainrm.Size = New System.Drawing.Size(710, 22)
         Me.saldomaintainrm.TabIndex = 76
         '
         'saldomaintainidr
@@ -614,9 +658,10 @@ Partial Class maintain
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.saldomaintainidr.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.saldomaintainidr.Location = New System.Drawing.Point(321, 40)
+        Me.saldomaintainidr.Location = New System.Drawing.Point(319, 37)
         Me.saldomaintainidr.Name = "saldomaintainidr"
-        Me.saldomaintainidr.Size = New System.Drawing.Size(716, 22)
+        Me.saldomaintainidr.ReadOnly = True
+        Me.saldomaintainidr.Size = New System.Drawing.Size(710, 22)
         Me.saldomaintainidr.TabIndex = 77
         '
         'kurangbayar
@@ -625,9 +670,9 @@ Partial Class maintain
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.kurangbayar.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.kurangbayar.Location = New System.Drawing.Point(321, 77)
+        Me.kurangbayar.Location = New System.Drawing.Point(319, 71)
         Me.kurangbayar.Name = "kurangbayar"
-        Me.kurangbayar.Size = New System.Drawing.Size(716, 22)
+        Me.kurangbayar.Size = New System.Drawing.Size(710, 22)
         Me.kurangbayar.TabIndex = 78
         '
         'Label8
@@ -639,7 +684,7 @@ Partial Class maintain
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.Location = New System.Drawing.Point(3, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(144, 37)
+        Me.Label8.Size = New System.Drawing.Size(143, 34)
         Me.Label8.TabIndex = 70
         Me.Label8.Text = "Saldo Maintain"
         Me.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -653,17 +698,6 @@ Partial Class maintain
         Me.Label15.Size = New System.Drawing.Size(111, 20)
         Me.Label15.TabIndex = 72
         Me.Label15.Text = "( M - Wallet )"
-        '
-        'Label31
-        '
-        Me.Label31.AutoSize = True
-        Me.Label31.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label31.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label31.Location = New System.Drawing.Point(1139, 664)
-        Me.Label31.Name = "Label31"
-        Me.Label31.Size = New System.Drawing.Size(179, 18)
-        Me.Label31.TabIndex = 82
-        Me.Label31.Text = "BACK TO MAIN MENU"
         '
         'back
         '
@@ -714,12 +748,41 @@ Partial Class maintain
         Me.Button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         Me.Button1.UseVisualStyleBackColor = True
         '
+        'Label31
+        '
+        Me.Label31.AutoSize = True
+        Me.Label31.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Label31.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label31.Location = New System.Drawing.Point(1121, 675)
+        Me.Label31.Name = "Label31"
+        Me.Label31.Size = New System.Drawing.Size(212, 18)
+        Me.Label31.TabIndex = 82
+        Me.Label31.Text = "BACK TO MEMBER MENU"
+        '
+        'proceeded
+        '
+        Me.proceeded.Location = New System.Drawing.Point(691, 590)
+        Me.proceeded.Name = "proceeded"
+        Me.proceeded.Size = New System.Drawing.Size(172, 20)
+        Me.proceeded.TabIndex = 84
+        Me.proceeded.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'ordered
+        '
+        Me.ordered.Location = New System.Drawing.Point(181, 590)
+        Me.ordered.Name = "ordered"
+        Me.ordered.Size = New System.Drawing.Size(172, 20)
+        Me.ordered.TabIndex = 83
+        Me.ordered.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
         'maintain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.ClientSize = New System.Drawing.Size(1362, 741)
+        Me.ClientSize = New System.Drawing.Size(1354, 733)
+        Me.Controls.Add(Me.proceeded)
+        Me.Controls.Add(Me.ordered)
         Me.Controls.Add(Me.Label31)
         Me.Controls.Add(Me.back)
         Me.Controls.Add(Me.Button3)
@@ -809,9 +872,14 @@ Partial Class maintain
     Friend WithEvents saldomaintainidr As TextBox
     Friend WithEvents kurangbayar As TextBox
     Friend WithEvents Label15 As Label
-    Friend WithEvents Label31 As Label
     Friend WithEvents back As Button
     Friend WithEvents Button3 As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents Button1 As Button
+    Friend WithEvents Label14 As Label
+    Friend WithEvents Label25 As Label
+    Friend WithEvents Label32 As Label
+    Friend WithEvents Label31 As Label
+    Friend WithEvents proceeded As TextBox
+    Friend WithEvents ordered As TextBox
 End Class
