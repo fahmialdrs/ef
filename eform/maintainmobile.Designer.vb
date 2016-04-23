@@ -51,24 +51,6 @@ Partial Class maintainmobile
         Me.Label23 = New System.Windows.Forms.Label()
         Me.Label22 = New System.Windows.Forms.Label()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
-        Me.TextBox61 = New System.Windows.Forms.TextBox()
-        Me.TextBox60 = New System.Windows.Forms.TextBox()
-        Me.TextBox57 = New System.Windows.Forms.TextBox()
-        Me.TextBox56 = New System.Windows.Forms.TextBox()
-        Me.TextBox54 = New System.Windows.Forms.TextBox()
-        Me.TextBox50 = New System.Windows.Forms.TextBox()
-        Me.TextBox42 = New System.Windows.Forms.TextBox()
-        Me.TextBox41 = New System.Windows.Forms.TextBox()
-        Me.TextBox40 = New System.Windows.Forms.TextBox()
-        Me.TextBox39 = New System.Windows.Forms.TextBox()
-        Me.TextBox38 = New System.Windows.Forms.TextBox()
-        Me.TextBox37 = New System.Windows.Forms.TextBox()
-        Me.TextBox36 = New System.Windows.Forms.TextBox()
-        Me.TextBox35 = New System.Windows.Forms.TextBox()
-        Me.TextBox34 = New System.Windows.Forms.TextBox()
-        Me.TextBox33 = New System.Windows.Forms.TextBox()
-        Me.TextBox32 = New System.Windows.Forms.TextBox()
-        Me.TextBox31 = New System.Windows.Forms.TextBox()
         Me.TextBox30 = New System.Windows.Forms.TextBox()
         Me.TextBox29 = New System.Windows.Forms.TextBox()
         Me.TextBox27 = New System.Windows.Forms.TextBox()
@@ -94,30 +76,50 @@ Partial Class maintainmobile
         Me.TextBox7 = New System.Windows.Forms.TextBox()
         Me.TextBox6 = New System.Windows.Forms.TextBox()
         Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label8 = New System.Windows.Forms.Label()
+        Me.TextBox28 = New System.Windows.Forms.TextBox()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.TextBox31 = New System.Windows.Forms.TextBox()
+        Me.TextBox32 = New System.Windows.Forms.TextBox()
+        Me.TextBox33 = New System.Windows.Forms.TextBox()
+        Me.TextBox34 = New System.Windows.Forms.TextBox()
+        Me.TextBox36 = New System.Windows.Forms.TextBox()
+        Me.TextBox37 = New System.Windows.Forms.TextBox()
+        Me.TextBox35 = New System.Windows.Forms.TextBox()
+        Me.TextBox38 = New System.Windows.Forms.TextBox()
+        Me.TextBox39 = New System.Windows.Forms.TextBox()
+        Me.TextBox40 = New System.Windows.Forms.TextBox()
+        Me.TextBox41 = New System.Windows.Forms.TextBox()
+        Me.TextBox42 = New System.Windows.Forms.TextBox()
         Me.TextBox43 = New System.Windows.Forms.TextBox()
         Me.TextBox44 = New System.Windows.Forms.TextBox()
         Me.TextBox45 = New System.Windows.Forms.TextBox()
         Me.TextBox46 = New System.Windows.Forms.TextBox()
         Me.TextBox47 = New System.Windows.Forms.TextBox()
         Me.TextBox48 = New System.Windows.Forms.TextBox()
+        Me.TextBox49 = New System.Windows.Forms.TextBox()
+        Me.TextBox50 = New System.Windows.Forms.TextBox()
         Me.TextBox51 = New System.Windows.Forms.TextBox()
         Me.TextBox52 = New System.Windows.Forms.TextBox()
+        Me.TextBox53 = New System.Windows.Forms.TextBox()
+        Me.TextBox54 = New System.Windows.Forms.TextBox()
         Me.TextBox55 = New System.Windows.Forms.TextBox()
-        Me.TextBox58 = New System.Windows.Forms.TextBox()
-        Me.TextBox49 = New System.Windows.Forms.TextBox()
-        Me.TextBox28 = New System.Windows.Forms.TextBox()
-        Me.Label14 = New System.Windows.Forms.Label()
-        Me.Label13 = New System.Windows.Forms.Label()
         Me.Label15 = New System.Windows.Forms.Label()
+        Me.TextBox56 = New System.Windows.Forms.TextBox()
+        Me.TextBox57 = New System.Windows.Forms.TextBox()
+        Me.TextBox58 = New System.Windows.Forms.TextBox()
+        Me.TextBox59 = New System.Windows.Forms.TextBox()
+        Me.TextBox60 = New System.Windows.Forms.TextBox()
+        Me.TextBox61 = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label32 = New System.Windows.Forms.Label()
         Me.Label31 = New System.Windows.Forms.Label()
@@ -127,8 +129,6 @@ Partial Class maintainmobile
         Me.Button1 = New System.Windows.Forms.Button()
         Me.proceeded = New System.Windows.Forms.TextBox()
         Me.ordered = New System.Windows.Forms.TextBox()
-        Me.TextBox53 = New System.Windows.Forms.TextBox()
-        Me.TextBox59 = New System.Windows.Forms.TextBox()
         Me.Panel2.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
@@ -510,149 +510,23 @@ Partial Class maintainmobile
         Me.TableLayoutPanel1.Size = New System.Drawing.Size(1041, 215)
         Me.TableLayoutPanel1.TabIndex = 70
         '
-        'TextBox61
-        '
-        Me.TextBox61.Location = New System.Drawing.Point(212, 283)
-        Me.TextBox61.Name = "TextBox61"
-        Me.TextBox61.Size = New System.Drawing.Size(203, 20)
-        Me.TextBox61.TabIndex = 78
-        '
-        'TextBox60
-        '
-        Me.TextBox60.Location = New System.Drawing.Point(212, 263)
-        Me.TextBox60.Name = "TextBox60"
-        Me.TextBox60.Size = New System.Drawing.Size(203, 20)
-        Me.TextBox60.TabIndex = 84
-        '
-        'TextBox57
-        '
-        Me.TextBox57.Location = New System.Drawing.Point(421, 243)
-        Me.TextBox57.Name = "TextBox57"
-        Me.TextBox57.Size = New System.Drawing.Size(183, 20)
-        Me.TextBox57.TabIndex = 78
-        '
-        'TextBox56
-        '
-        Me.TextBox56.Location = New System.Drawing.Point(212, 243)
-        Me.TextBox56.Name = "TextBox56"
-        Me.TextBox56.Size = New System.Drawing.Size(183, 20)
-        Me.TextBox56.TabIndex = 78
-        '
-        'TextBox54
-        '
-        Me.TextBox54.Location = New System.Drawing.Point(630, 223)
-        Me.TextBox54.Name = "TextBox54"
-        Me.TextBox54.Size = New System.Drawing.Size(183, 20)
-        Me.TextBox54.TabIndex = 78
-        '
-        'TextBox50
-        '
-        Me.TextBox50.Location = New System.Drawing.Point(839, 203)
-        Me.TextBox50.Name = "TextBox50"
-        Me.TextBox50.Size = New System.Drawing.Size(183, 20)
-        Me.TextBox50.TabIndex = 78
-        '
-        'TextBox42
-        '
-        Me.TextBox42.Location = New System.Drawing.Point(212, 183)
-        Me.TextBox42.Name = "TextBox42"
-        Me.TextBox42.Size = New System.Drawing.Size(183, 20)
-        Me.TextBox42.TabIndex = 49
-        '
-        'TextBox41
-        '
-        Me.TextBox41.Location = New System.Drawing.Point(3, 183)
-        Me.TextBox41.Name = "TextBox41"
-        Me.TextBox41.Size = New System.Drawing.Size(183, 20)
-        Me.TextBox41.TabIndex = 48
-        '
-        'TextBox40
-        '
-        Me.TextBox40.Location = New System.Drawing.Point(839, 163)
-        Me.TextBox40.Name = "TextBox40"
-        Me.TextBox40.Size = New System.Drawing.Size(183, 20)
-        Me.TextBox40.TabIndex = 47
-        '
-        'TextBox39
-        '
-        Me.TextBox39.Location = New System.Drawing.Point(630, 163)
-        Me.TextBox39.Name = "TextBox39"
-        Me.TextBox39.Size = New System.Drawing.Size(183, 20)
-        Me.TextBox39.TabIndex = 46
-        '
-        'TextBox38
-        '
-        Me.TextBox38.Location = New System.Drawing.Point(421, 163)
-        Me.TextBox38.Name = "TextBox38"
-        Me.TextBox38.Size = New System.Drawing.Size(183, 20)
-        Me.TextBox38.TabIndex = 45
-        '
-        'TextBox37
-        '
-        Me.TextBox37.Location = New System.Drawing.Point(212, 163)
-        Me.TextBox37.Name = "TextBox37"
-        Me.TextBox37.Size = New System.Drawing.Size(183, 20)
-        Me.TextBox37.TabIndex = 44
-        '
-        'TextBox36
-        '
-        Me.TextBox36.Location = New System.Drawing.Point(3, 163)
-        Me.TextBox36.Name = "TextBox36"
-        Me.TextBox36.Size = New System.Drawing.Size(183, 20)
-        Me.TextBox36.TabIndex = 43
-        '
-        'TextBox35
-        '
-        Me.TextBox35.Location = New System.Drawing.Point(839, 143)
-        Me.TextBox35.Name = "TextBox35"
-        Me.TextBox35.Size = New System.Drawing.Size(183, 20)
-        Me.TextBox35.TabIndex = 42
-        '
-        'TextBox34
-        '
-        Me.TextBox34.Location = New System.Drawing.Point(630, 143)
-        Me.TextBox34.Name = "TextBox34"
-        Me.TextBox34.Size = New System.Drawing.Size(183, 20)
-        Me.TextBox34.TabIndex = 41
-        '
-        'TextBox33
-        '
-        Me.TextBox33.Location = New System.Drawing.Point(421, 143)
-        Me.TextBox33.Name = "TextBox33"
-        Me.TextBox33.Size = New System.Drawing.Size(183, 20)
-        Me.TextBox33.TabIndex = 40
-        '
-        'TextBox32
-        '
-        Me.TextBox32.Location = New System.Drawing.Point(212, 143)
-        Me.TextBox32.Name = "TextBox32"
-        Me.TextBox32.Size = New System.Drawing.Size(183, 20)
-        Me.TextBox32.TabIndex = 39
-        '
-        'TextBox31
-        '
-        Me.TextBox31.Location = New System.Drawing.Point(3, 143)
-        Me.TextBox31.Name = "TextBox31"
-        Me.TextBox31.Size = New System.Drawing.Size(183, 20)
-        Me.TextBox31.TabIndex = 38
-        '
         'TextBox30
         '
-        Me.TextBox30.Location = New System.Drawing.Point(839, 123)
+        Me.TextBox30.Location = New System.Drawing.Point(835, 123)
         Me.TextBox30.Name = "TextBox30"
         Me.TextBox30.Size = New System.Drawing.Size(183, 20)
         Me.TextBox30.TabIndex = 37
         '
         'TextBox29
         '
-        Me.TextBox29.Location = New System.Drawing.Point(630, 123)
+        Me.TextBox29.Location = New System.Drawing.Point(627, 123)
         Me.TextBox29.Name = "TextBox29"
         Me.TextBox29.Size = New System.Drawing.Size(183, 20)
         Me.TextBox29.TabIndex = 36
         '
         'TextBox27
         '
-        Me.TextBox27.Location = New System.Drawing.Point(212, 123)
+        Me.TextBox27.Location = New System.Drawing.Point(211, 123)
         Me.TextBox27.Name = "TextBox27"
         Me.TextBox27.Size = New System.Drawing.Size(183, 20)
         Me.TextBox27.TabIndex = 34
@@ -666,28 +540,28 @@ Partial Class maintainmobile
         '
         'TextBox25
         '
-        Me.TextBox25.Location = New System.Drawing.Point(839, 103)
+        Me.TextBox25.Location = New System.Drawing.Point(835, 103)
         Me.TextBox25.Name = "TextBox25"
         Me.TextBox25.Size = New System.Drawing.Size(183, 20)
         Me.TextBox25.TabIndex = 32
         '
         'TextBox24
         '
-        Me.TextBox24.Location = New System.Drawing.Point(630, 103)
+        Me.TextBox24.Location = New System.Drawing.Point(627, 103)
         Me.TextBox24.Name = "TextBox24"
         Me.TextBox24.Size = New System.Drawing.Size(183, 20)
         Me.TextBox24.TabIndex = 31
         '
         'TextBox23
         '
-        Me.TextBox23.Location = New System.Drawing.Point(421, 103)
+        Me.TextBox23.Location = New System.Drawing.Point(419, 103)
         Me.TextBox23.Name = "TextBox23"
         Me.TextBox23.Size = New System.Drawing.Size(183, 20)
         Me.TextBox23.TabIndex = 30
         '
         'TextBox22
         '
-        Me.TextBox22.Location = New System.Drawing.Point(212, 103)
+        Me.TextBox22.Location = New System.Drawing.Point(211, 103)
         Me.TextBox22.Name = "TextBox22"
         Me.TextBox22.Size = New System.Drawing.Size(183, 20)
         Me.TextBox22.TabIndex = 29
@@ -701,28 +575,28 @@ Partial Class maintainmobile
         '
         'TextBox20
         '
-        Me.TextBox20.Location = New System.Drawing.Point(839, 83)
+        Me.TextBox20.Location = New System.Drawing.Point(835, 83)
         Me.TextBox20.Name = "TextBox20"
         Me.TextBox20.Size = New System.Drawing.Size(183, 20)
         Me.TextBox20.TabIndex = 27
         '
         'TextBox19
         '
-        Me.TextBox19.Location = New System.Drawing.Point(630, 83)
+        Me.TextBox19.Location = New System.Drawing.Point(627, 83)
         Me.TextBox19.Name = "TextBox19"
         Me.TextBox19.Size = New System.Drawing.Size(183, 20)
         Me.TextBox19.TabIndex = 26
         '
         'TextBox18
         '
-        Me.TextBox18.Location = New System.Drawing.Point(421, 83)
+        Me.TextBox18.Location = New System.Drawing.Point(419, 83)
         Me.TextBox18.Name = "TextBox18"
         Me.TextBox18.Size = New System.Drawing.Size(183, 20)
         Me.TextBox18.TabIndex = 25
         '
         'TextBox17
         '
-        Me.TextBox17.Location = New System.Drawing.Point(212, 83)
+        Me.TextBox17.Location = New System.Drawing.Point(211, 83)
         Me.TextBox17.Name = "TextBox17"
         Me.TextBox17.Size = New System.Drawing.Size(183, 20)
         Me.TextBox17.TabIndex = 24
@@ -736,28 +610,28 @@ Partial Class maintainmobile
         '
         'TextBox15
         '
-        Me.TextBox15.Location = New System.Drawing.Point(839, 63)
+        Me.TextBox15.Location = New System.Drawing.Point(835, 63)
         Me.TextBox15.Name = "TextBox15"
         Me.TextBox15.Size = New System.Drawing.Size(183, 20)
         Me.TextBox15.TabIndex = 22
         '
         'TextBox14
         '
-        Me.TextBox14.Location = New System.Drawing.Point(630, 63)
+        Me.TextBox14.Location = New System.Drawing.Point(627, 63)
         Me.TextBox14.Name = "TextBox14"
         Me.TextBox14.Size = New System.Drawing.Size(183, 20)
         Me.TextBox14.TabIndex = 21
         '
         'TextBox13
         '
-        Me.TextBox13.Location = New System.Drawing.Point(421, 63)
+        Me.TextBox13.Location = New System.Drawing.Point(419, 63)
         Me.TextBox13.Name = "TextBox13"
         Me.TextBox13.Size = New System.Drawing.Size(183, 20)
         Me.TextBox13.TabIndex = 20
         '
         'TextBox12
         '
-        Me.TextBox12.Location = New System.Drawing.Point(212, 63)
+        Me.TextBox12.Location = New System.Drawing.Point(211, 63)
         Me.TextBox12.Name = "TextBox12"
         Me.TextBox12.Size = New System.Drawing.Size(183, 20)
         Me.TextBox12.TabIndex = 19
@@ -771,28 +645,28 @@ Partial Class maintainmobile
         '
         'TextBox10
         '
-        Me.TextBox10.Location = New System.Drawing.Point(839, 43)
+        Me.TextBox10.Location = New System.Drawing.Point(835, 43)
         Me.TextBox10.Name = "TextBox10"
         Me.TextBox10.Size = New System.Drawing.Size(183, 20)
         Me.TextBox10.TabIndex = 17
         '
         'TextBox9
         '
-        Me.TextBox9.Location = New System.Drawing.Point(630, 43)
+        Me.TextBox9.Location = New System.Drawing.Point(627, 43)
         Me.TextBox9.Name = "TextBox9"
         Me.TextBox9.Size = New System.Drawing.Size(183, 20)
         Me.TextBox9.TabIndex = 16
         '
         'TextBox8
         '
-        Me.TextBox8.Location = New System.Drawing.Point(421, 43)
+        Me.TextBox8.Location = New System.Drawing.Point(419, 43)
         Me.TextBox8.Name = "TextBox8"
         Me.TextBox8.Size = New System.Drawing.Size(183, 20)
         Me.TextBox8.TabIndex = 15
         '
         'TextBox7
         '
-        Me.TextBox7.Location = New System.Drawing.Point(212, 43)
+        Me.TextBox7.Location = New System.Drawing.Point(211, 43)
         Me.TextBox7.Name = "TextBox7"
         Me.TextBox7.Size = New System.Drawing.Size(183, 20)
         Me.TextBox7.TabIndex = 14
@@ -806,31 +680,10 @@ Partial Class maintainmobile
         '
         'TextBox5
         '
-        Me.TextBox5.Location = New System.Drawing.Point(839, 23)
+        Me.TextBox5.Location = New System.Drawing.Point(835, 23)
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(183, 20)
         Me.TextBox5.TabIndex = 12
-        '
-        'TextBox4
-        '
-        Me.TextBox4.Location = New System.Drawing.Point(630, 23)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(183, 20)
-        Me.TextBox4.TabIndex = 11
-        '
-        'TextBox3
-        '
-        Me.TextBox3.Location = New System.Drawing.Point(421, 23)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(183, 20)
-        Me.TextBox3.TabIndex = 10
-        '
-        'TextBox2
-        '
-        Me.TextBox2.Location = New System.Drawing.Point(212, 23)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(183, 20)
-        Me.TextBox2.TabIndex = 9
         '
         'Label12
         '
@@ -839,9 +692,9 @@ Partial Class maintainmobile
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label12.AutoSize = True
         Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(839, 0)
+        Me.Label12.Location = New System.Drawing.Point(835, 0)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(207, 20)
+        Me.Label12.Size = New System.Drawing.Size(203, 20)
         Me.Label12.TabIndex = 5
         Me.Label12.Text = "O2MAX3"
         Me.Label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -853,9 +706,9 @@ Partial Class maintainmobile
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(630, 0)
+        Me.Label11.Location = New System.Drawing.Point(627, 0)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(203, 20)
+        Me.Label11.Size = New System.Drawing.Size(202, 20)
         Me.Label11.TabIndex = 4
         Me.Label11.Text = "FIRMAX3"
         Me.Label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -867,9 +720,9 @@ Partial Class maintainmobile
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(421, 0)
+        Me.Label10.Location = New System.Drawing.Point(419, 0)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(203, 20)
+        Me.Label10.Size = New System.Drawing.Size(202, 20)
         Me.Label10.TabIndex = 3
         Me.Label10.Text = "R-WALLET TERPAKAI"
         Me.Label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -881,19 +734,12 @@ Partial Class maintainmobile
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(212, 0)
+        Me.Label9.Location = New System.Drawing.Point(211, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(203, 20)
+        Me.Label9.Size = New System.Drawing.Size(202, 20)
         Me.Label9.TabIndex = 2
         Me.Label9.Text = "M-WALLET"
         Me.Label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'TextBox1
-        '
-        Me.TextBox1.Location = New System.Drawing.Point(3, 23)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(183, 20)
-        Me.TextBox1.TabIndex = 0
         '
         'Label8
         '
@@ -904,93 +750,14 @@ Partial Class maintainmobile
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.Location = New System.Drawing.Point(3, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(203, 20)
+        Me.Label8.Size = New System.Drawing.Size(202, 20)
         Me.Label8.TabIndex = 1
         Me.Label8.Text = "MEMBER ID"
         Me.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'TextBox43
-        '
-        Me.TextBox43.Location = New System.Drawing.Point(421, 183)
-        Me.TextBox43.Name = "TextBox43"
-        Me.TextBox43.Size = New System.Drawing.Size(183, 20)
-        Me.TextBox43.TabIndex = 50
-        '
-        'TextBox44
-        '
-        Me.TextBox44.Location = New System.Drawing.Point(630, 183)
-        Me.TextBox44.Name = "TextBox44"
-        Me.TextBox44.Size = New System.Drawing.Size(183, 20)
-        Me.TextBox44.TabIndex = 51
-        '
-        'TextBox45
-        '
-        Me.TextBox45.Location = New System.Drawing.Point(839, 183)
-        Me.TextBox45.Name = "TextBox45"
-        Me.TextBox45.Size = New System.Drawing.Size(183, 20)
-        Me.TextBox45.TabIndex = 52
-        '
-        'TextBox46
-        '
-        Me.TextBox46.Location = New System.Drawing.Point(3, 203)
-        Me.TextBox46.Name = "TextBox46"
-        Me.TextBox46.Size = New System.Drawing.Size(183, 20)
-        Me.TextBox46.TabIndex = 53
-        '
-        'TextBox47
-        '
-        Me.TextBox47.Location = New System.Drawing.Point(212, 203)
-        Me.TextBox47.Name = "TextBox47"
-        Me.TextBox47.Size = New System.Drawing.Size(183, 20)
-        Me.TextBox47.TabIndex = 54
-        '
-        'TextBox48
-        '
-        Me.TextBox48.Location = New System.Drawing.Point(421, 203)
-        Me.TextBox48.Name = "TextBox48"
-        Me.TextBox48.Size = New System.Drawing.Size(183, 20)
-        Me.TextBox48.TabIndex = 55
-        '
-        'TextBox51
-        '
-        Me.TextBox51.Location = New System.Drawing.Point(3, 223)
-        Me.TextBox51.Name = "TextBox51"
-        Me.TextBox51.Size = New System.Drawing.Size(183, 20)
-        Me.TextBox51.TabIndex = 79
-        '
-        'TextBox52
-        '
-        Me.TextBox52.Location = New System.Drawing.Point(212, 223)
-        Me.TextBox52.Name = "TextBox52"
-        Me.TextBox52.Size = New System.Drawing.Size(183, 20)
-        Me.TextBox52.TabIndex = 80
-        '
-        'TextBox55
-        '
-        Me.TextBox55.Location = New System.Drawing.Point(839, 223)
-        Me.TextBox55.Name = "TextBox55"
-        Me.TextBox55.Size = New System.Drawing.Size(183, 20)
-        Me.TextBox55.TabIndex = 82
-        '
-        'TextBox58
-        '
-        Me.TextBox58.Location = New System.Drawing.Point(630, 243)
-        Me.TextBox58.Name = "TextBox58"
-        Me.TextBox58.Size = New System.Drawing.Size(183, 20)
-        Me.TextBox58.TabIndex = 83
-        Me.TextBox58.Text = "pcs"
-        Me.TextBox58.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
-        '
-        'TextBox49
-        '
-        Me.TextBox49.Location = New System.Drawing.Point(630, 203)
-        Me.TextBox49.Name = "TextBox49"
-        Me.TextBox49.Size = New System.Drawing.Size(183, 20)
-        Me.TextBox49.TabIndex = 56
-        '
         'TextBox28
         '
-        Me.TextBox28.Location = New System.Drawing.Point(421, 123)
+        Me.TextBox28.Location = New System.Drawing.Point(419, 123)
         Me.TextBox28.Name = "TextBox28"
         Me.TextBox28.Size = New System.Drawing.Size(183, 20)
         Me.TextBox28.TabIndex = 35
@@ -1004,7 +771,7 @@ Partial Class maintainmobile
         Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label14.Location = New System.Drawing.Point(3, 260)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(203, 20)
+        Me.Label14.Size = New System.Drawing.Size(202, 20)
         Me.Label14.TabIndex = 7
         Me.Label14.Text = "TOTAL ( Rp )"
         Me.Label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1018,10 +785,213 @@ Partial Class maintainmobile
         Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label13.Location = New System.Drawing.Point(3, 240)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(203, 20)
+        Me.Label13.Size = New System.Drawing.Size(202, 20)
         Me.Label13.TabIndex = 6
         Me.Label13.Text = "TOTAL ( RM )"
         Me.Label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(3, 23)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(183, 20)
+        Me.TextBox1.TabIndex = 0
+        '
+        'TextBox2
+        '
+        Me.TextBox2.Location = New System.Drawing.Point(211, 23)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(183, 20)
+        Me.TextBox2.TabIndex = 9
+        '
+        'TextBox4
+        '
+        Me.TextBox4.Location = New System.Drawing.Point(627, 23)
+        Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.Size = New System.Drawing.Size(183, 20)
+        Me.TextBox4.TabIndex = 11
+        '
+        'TextBox3
+        '
+        Me.TextBox3.Location = New System.Drawing.Point(419, 23)
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.Size = New System.Drawing.Size(183, 20)
+        Me.TextBox3.TabIndex = 10
+        '
+        'TextBox31
+        '
+        Me.TextBox31.Location = New System.Drawing.Point(3, 143)
+        Me.TextBox31.Name = "TextBox31"
+        Me.TextBox31.Size = New System.Drawing.Size(183, 20)
+        Me.TextBox31.TabIndex = 38
+        '
+        'TextBox32
+        '
+        Me.TextBox32.Location = New System.Drawing.Point(211, 143)
+        Me.TextBox32.Name = "TextBox32"
+        Me.TextBox32.Size = New System.Drawing.Size(183, 20)
+        Me.TextBox32.TabIndex = 39
+        '
+        'TextBox33
+        '
+        Me.TextBox33.Location = New System.Drawing.Point(419, 143)
+        Me.TextBox33.Name = "TextBox33"
+        Me.TextBox33.Size = New System.Drawing.Size(183, 20)
+        Me.TextBox33.TabIndex = 40
+        '
+        'TextBox34
+        '
+        Me.TextBox34.Location = New System.Drawing.Point(627, 143)
+        Me.TextBox34.Name = "TextBox34"
+        Me.TextBox34.Size = New System.Drawing.Size(183, 20)
+        Me.TextBox34.TabIndex = 41
+        '
+        'TextBox36
+        '
+        Me.TextBox36.Location = New System.Drawing.Point(3, 163)
+        Me.TextBox36.Name = "TextBox36"
+        Me.TextBox36.Size = New System.Drawing.Size(183, 20)
+        Me.TextBox36.TabIndex = 43
+        '
+        'TextBox37
+        '
+        Me.TextBox37.Location = New System.Drawing.Point(211, 163)
+        Me.TextBox37.Name = "TextBox37"
+        Me.TextBox37.Size = New System.Drawing.Size(183, 20)
+        Me.TextBox37.TabIndex = 44
+        '
+        'TextBox35
+        '
+        Me.TextBox35.Location = New System.Drawing.Point(835, 143)
+        Me.TextBox35.Name = "TextBox35"
+        Me.TextBox35.Size = New System.Drawing.Size(183, 20)
+        Me.TextBox35.TabIndex = 42
+        '
+        'TextBox38
+        '
+        Me.TextBox38.Location = New System.Drawing.Point(419, 163)
+        Me.TextBox38.Name = "TextBox38"
+        Me.TextBox38.Size = New System.Drawing.Size(183, 20)
+        Me.TextBox38.TabIndex = 45
+        '
+        'TextBox39
+        '
+        Me.TextBox39.Location = New System.Drawing.Point(627, 163)
+        Me.TextBox39.Name = "TextBox39"
+        Me.TextBox39.Size = New System.Drawing.Size(183, 20)
+        Me.TextBox39.TabIndex = 46
+        '
+        'TextBox40
+        '
+        Me.TextBox40.Location = New System.Drawing.Point(835, 163)
+        Me.TextBox40.Name = "TextBox40"
+        Me.TextBox40.Size = New System.Drawing.Size(183, 20)
+        Me.TextBox40.TabIndex = 47
+        '
+        'TextBox41
+        '
+        Me.TextBox41.Location = New System.Drawing.Point(3, 183)
+        Me.TextBox41.Name = "TextBox41"
+        Me.TextBox41.Size = New System.Drawing.Size(183, 20)
+        Me.TextBox41.TabIndex = 48
+        '
+        'TextBox42
+        '
+        Me.TextBox42.Location = New System.Drawing.Point(211, 183)
+        Me.TextBox42.Name = "TextBox42"
+        Me.TextBox42.Size = New System.Drawing.Size(183, 20)
+        Me.TextBox42.TabIndex = 49
+        '
+        'TextBox43
+        '
+        Me.TextBox43.Location = New System.Drawing.Point(419, 183)
+        Me.TextBox43.Name = "TextBox43"
+        Me.TextBox43.Size = New System.Drawing.Size(183, 20)
+        Me.TextBox43.TabIndex = 50
+        '
+        'TextBox44
+        '
+        Me.TextBox44.Location = New System.Drawing.Point(627, 183)
+        Me.TextBox44.Name = "TextBox44"
+        Me.TextBox44.Size = New System.Drawing.Size(183, 20)
+        Me.TextBox44.TabIndex = 51
+        '
+        'TextBox45
+        '
+        Me.TextBox45.Location = New System.Drawing.Point(835, 183)
+        Me.TextBox45.Name = "TextBox45"
+        Me.TextBox45.Size = New System.Drawing.Size(183, 20)
+        Me.TextBox45.TabIndex = 52
+        '
+        'TextBox46
+        '
+        Me.TextBox46.Location = New System.Drawing.Point(3, 203)
+        Me.TextBox46.Name = "TextBox46"
+        Me.TextBox46.Size = New System.Drawing.Size(183, 20)
+        Me.TextBox46.TabIndex = 53
+        '
+        'TextBox47
+        '
+        Me.TextBox47.Location = New System.Drawing.Point(211, 203)
+        Me.TextBox47.Name = "TextBox47"
+        Me.TextBox47.Size = New System.Drawing.Size(183, 20)
+        Me.TextBox47.TabIndex = 54
+        '
+        'TextBox48
+        '
+        Me.TextBox48.Location = New System.Drawing.Point(419, 203)
+        Me.TextBox48.Name = "TextBox48"
+        Me.TextBox48.Size = New System.Drawing.Size(183, 20)
+        Me.TextBox48.TabIndex = 55
+        '
+        'TextBox49
+        '
+        Me.TextBox49.Location = New System.Drawing.Point(627, 203)
+        Me.TextBox49.Name = "TextBox49"
+        Me.TextBox49.Size = New System.Drawing.Size(183, 20)
+        Me.TextBox49.TabIndex = 56
+        '
+        'TextBox50
+        '
+        Me.TextBox50.Location = New System.Drawing.Point(835, 203)
+        Me.TextBox50.Name = "TextBox50"
+        Me.TextBox50.Size = New System.Drawing.Size(183, 20)
+        Me.TextBox50.TabIndex = 78
+        '
+        'TextBox51
+        '
+        Me.TextBox51.Location = New System.Drawing.Point(3, 223)
+        Me.TextBox51.Name = "TextBox51"
+        Me.TextBox51.Size = New System.Drawing.Size(183, 20)
+        Me.TextBox51.TabIndex = 79
+        '
+        'TextBox52
+        '
+        Me.TextBox52.Location = New System.Drawing.Point(211, 223)
+        Me.TextBox52.Name = "TextBox52"
+        Me.TextBox52.Size = New System.Drawing.Size(183, 20)
+        Me.TextBox52.TabIndex = 80
+        '
+        'TextBox53
+        '
+        Me.TextBox53.Location = New System.Drawing.Point(419, 223)
+        Me.TextBox53.Name = "TextBox53"
+        Me.TextBox53.Size = New System.Drawing.Size(183, 20)
+        Me.TextBox53.TabIndex = 89
+        '
+        'TextBox54
+        '
+        Me.TextBox54.Location = New System.Drawing.Point(627, 223)
+        Me.TextBox54.Name = "TextBox54"
+        Me.TextBox54.Size = New System.Drawing.Size(183, 20)
+        Me.TextBox54.TabIndex = 78
+        '
+        'TextBox55
+        '
+        Me.TextBox55.Location = New System.Drawing.Point(835, 223)
+        Me.TextBox55.Name = "TextBox55"
+        Me.TextBox55.Size = New System.Drawing.Size(183, 20)
+        Me.TextBox55.TabIndex = 82
         '
         'Label15
         '
@@ -1032,10 +1002,56 @@ Partial Class maintainmobile
         Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label15.Location = New System.Drawing.Point(3, 280)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(203, 23)
+        Me.Label15.Size = New System.Drawing.Size(202, 23)
         Me.Label15.TabIndex = 8
         Me.Label15.Text = "YANG DIBAYAR"
         Me.Label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'TextBox56
+        '
+        Me.TextBox56.Location = New System.Drawing.Point(211, 243)
+        Me.TextBox56.Name = "TextBox56"
+        Me.TextBox56.Size = New System.Drawing.Size(183, 20)
+        Me.TextBox56.TabIndex = 78
+        '
+        'TextBox57
+        '
+        Me.TextBox57.Location = New System.Drawing.Point(419, 243)
+        Me.TextBox57.Name = "TextBox57"
+        Me.TextBox57.Size = New System.Drawing.Size(183, 20)
+        Me.TextBox57.TabIndex = 78
+        '
+        'TextBox58
+        '
+        Me.TextBox58.Location = New System.Drawing.Point(627, 243)
+        Me.TextBox58.Name = "TextBox58"
+        Me.TextBox58.Size = New System.Drawing.Size(183, 20)
+        Me.TextBox58.TabIndex = 83
+        Me.TextBox58.Text = "pcs"
+        Me.TextBox58.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'TextBox59
+        '
+        Me.TextBox59.Location = New System.Drawing.Point(835, 243)
+        Me.TextBox59.Name = "TextBox59"
+        Me.TextBox59.Size = New System.Drawing.Size(183, 20)
+        Me.TextBox59.TabIndex = 90
+        Me.TextBox59.Text = "pcs"
+        Me.TextBox59.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'TextBox60
+        '
+        Me.TextBox60.Location = New System.Drawing.Point(211, 263)
+        Me.TextBox60.Name = "TextBox60"
+        Me.TextBox60.Size = New System.Drawing.Size(202, 20)
+        Me.TextBox60.TabIndex = 84
+        '
+        'TextBox61
+        '
+        Me.TextBox61.Location = New System.Drawing.Point(211, 283)
+        Me.TextBox61.Name = "TextBox61"
+        Me.TextBox61.Size = New System.Drawing.Size(202, 20)
+        Me.TextBox61.TabIndex = 78
         '
         'Label1
         '
@@ -1132,22 +1148,6 @@ Partial Class maintainmobile
         Me.ordered.Size = New System.Drawing.Size(172, 20)
         Me.ordered.TabIndex = 78
         Me.ordered.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox53
-        '
-        Me.TextBox53.Location = New System.Drawing.Point(421, 223)
-        Me.TextBox53.Name = "TextBox53"
-        Me.TextBox53.Size = New System.Drawing.Size(183, 20)
-        Me.TextBox53.TabIndex = 89
-        '
-        'TextBox59
-        '
-        Me.TextBox59.Location = New System.Drawing.Point(839, 243)
-        Me.TextBox59.Name = "TextBox59"
-        Me.TextBox59.Size = New System.Drawing.Size(183, 20)
-        Me.TextBox59.TabIndex = 90
-        Me.TextBox59.Text = "pcs"
-        Me.TextBox59.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'maintainmobile
         '

@@ -458,6 +458,7 @@ Partial Class maintain
         Me.amountr.ReadOnly = True
         Me.amountr.Size = New System.Drawing.Size(837, 22)
         Me.amountr.TabIndex = 78
+        Me.amountr.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label18
         '
@@ -497,6 +498,7 @@ Partial Class maintain
         Me.totalset.ReadOnly = True
         Me.totalset.Size = New System.Drawing.Size(837, 22)
         Me.totalset.TabIndex = 75
+        Me.totalset.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'firmax3r
         '
@@ -514,6 +516,7 @@ Partial Class maintain
         Me.totalpcs.ReadOnly = True
         Me.totalpcs.Size = New System.Drawing.Size(837, 22)
         Me.totalpcs.TabIndex = 71
+        Me.totalpcs.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'o2max3r
         '
@@ -651,6 +654,7 @@ Partial Class maintain
         Me.saldomaintainrm.Name = "saldomaintainrm"
         Me.saldomaintainrm.Size = New System.Drawing.Size(710, 22)
         Me.saldomaintainrm.TabIndex = 76
+        Me.saldomaintainrm.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'saldomaintainidr
         '
@@ -663,6 +667,7 @@ Partial Class maintain
         Me.saldomaintainidr.ReadOnly = True
         Me.saldomaintainidr.Size = New System.Drawing.Size(710, 22)
         Me.saldomaintainidr.TabIndex = 77
+        Me.saldomaintainidr.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'kurangbayar
         '
@@ -674,6 +679,7 @@ Partial Class maintain
         Me.kurangbayar.Name = "kurangbayar"
         Me.kurangbayar.Size = New System.Drawing.Size(710, 22)
         Me.kurangbayar.TabIndex = 78
+        Me.kurangbayar.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label8
         '
