@@ -83,6 +83,8 @@ Partial Class maintain
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label31 = New System.Windows.Forms.Label()
+        Me.proceeded = New System.Windows.Forms.TextBox()
+        Me.ordered = New System.Windows.Forms.TextBox()
         Me.Panel2.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
@@ -214,7 +216,7 @@ Partial Class maintain
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(555, 597)
+        Me.Label7.Location = New System.Drawing.Point(610, 594)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(51, 16)
         Me.Label7.TabIndex = 63
@@ -348,7 +350,7 @@ Partial Class maintain
         '
         Me.Label24.AutoSize = True
         Me.Label24.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label24.Location = New System.Drawing.Point(630, 529)
+        Me.Label24.Location = New System.Drawing.Point(743, 529)
         Me.Label24.Name = "Label24"
         Me.Label24.Size = New System.Drawing.Size(101, 16)
         Me.Label24.TabIndex = 60
@@ -358,7 +360,7 @@ Partial Class maintain
         '
         Me.Label23.AutoSize = True
         Me.Label23.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label23.Location = New System.Drawing.Point(112, 529)
+        Me.Label23.Location = New System.Drawing.Point(225, 529)
         Me.Label23.Name = "Label23"
         Me.Label23.Size = New System.Drawing.Size(83, 16)
         Me.Label23.TabIndex = 59
@@ -368,7 +370,7 @@ Partial Class maintain
         '
         Me.Label22.AutoSize = True
         Me.Label22.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label22.Location = New System.Drawing.Point(37, 597)
+        Me.Label22.Location = New System.Drawing.Point(92, 594)
         Me.Label22.Name = "Label22"
         Me.Label22.Size = New System.Drawing.Size(51, 16)
         Me.Label22.TabIndex = 62
@@ -757,12 +759,30 @@ Partial Class maintain
         Me.Label31.TabIndex = 82
         Me.Label31.Text = "BACK TO MEMBER MENU"
         '
+        'proceeded
+        '
+        Me.proceeded.Location = New System.Drawing.Point(691, 590)
+        Me.proceeded.Name = "proceeded"
+        Me.proceeded.Size = New System.Drawing.Size(172, 20)
+        Me.proceeded.TabIndex = 84
+        Me.proceeded.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'ordered
+        '
+        Me.ordered.Location = New System.Drawing.Point(181, 590)
+        Me.ordered.Name = "ordered"
+        Me.ordered.Size = New System.Drawing.Size(172, 20)
+        Me.ordered.TabIndex = 83
+        Me.ordered.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
         'maintain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.ClientSize = New System.Drawing.Size(1354, 733)
+        Me.Controls.Add(Me.proceeded)
+        Me.Controls.Add(Me.ordered)
         Me.Controls.Add(Me.Label31)
         Me.Controls.Add(Me.back)
         Me.Controls.Add(Me.Button3)
@@ -860,4 +880,6 @@ Partial Class maintain
     Friend WithEvents Label25 As Label
     Friend WithEvents Label32 As Label
     Friend WithEvents Label31 As Label
+    Friend WithEvents proceeded As TextBox
+    Friend WithEvents ordered As TextBox
 End Class
