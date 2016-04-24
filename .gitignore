@@ -2,5 +2,5 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-\!.vs/
-\program tester connect database/WindowsApplication7/WindowsApplication7/bin/Debug
+/!.vs/
+/program tester connect database/WindowsApplication7/WindowsApplication7/bin/Debug
