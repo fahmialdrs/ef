@@ -20,6 +20,7 @@
         amountr.Text = ""
         ordered.Text = ""
         proceeded.Text = ""
+        note.Text = ""
         finalcheck.Text = ""
         datainput.Text = ""
     End Sub
@@ -74,18 +75,28 @@
             Dim SQL As String
             Try
                 If Not con.State = ConnectionState.Open Then Open_Koneksi()
-                SQL = "INSERT INTO TabMHS (NIM, Nama, Semester, Jurusan) VALUES " &
-                          "('" & TextBox1.Text & "', '" & TextBox2.Text & "', '" & TextBox3.Text & "', '" & ComboBox1.Text & "')"
+                SQL = "INSERT INTO Form-Pembelian-lama (Tanggal, User_ID, Nama, No_Telp, Prod_firmax3-R, Prod_O2_max3-R, TOTAL_pcs-R, TOTAL_set-R, Amount-R, Note, Final_Check, Data_Input, Ordered_By, Proceed_By) VALUES " &
+                          "('" & tanggal.Text & "', '" & userid.Text & "', '" & nama.Text & "', '" & notelpon.Text & "', '" & firmax3r.Value & "', '" & o2max3r.Value & "', '" & totalpcs.Text & "', '" & totalset.Text & "', '" & amountr.Text & "', '" & note.Text & "', '" & finalcheck.Text & "', '" & datainput.Text & "', '" & ordered.Text & "', '" & proceeded.Text & "')"
 
 
                 myCommand.Connection = con
                 myCommand.CommandText = SQL
                 myCommand.ExecuteNonQuery()
 
-                TextBox1.Text = String.Empty
-                TextBox2.Text = String.Empty
-                TextBox3.Text = String.Empty
-                ComboBox1.Text = String.Empty
+                noform.Text = String.Empty
+                userid.Text = String.Empty
+                nama.Text = String.Empty
+                notelpon.Text = String.Empty
+                firmax3r.Value = String.Empty
+                o2max3r.Value = String.Empty
+                totalpcs.Text = String.Empty
+                totalset.Text = String.Empty
+                amountr.Text = String.Empty
+                ordered.Text = String.Empty
+                proceeded.Text = String.Empty
+                note.Text = String.Empty
+                finalcheck.Text = String.Empty
+                datainput.Text = String.Empty
 
                 Data_Load()
                 con.Close()
