@@ -22,6 +22,7 @@ Partial Class finance
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(finance))
         Me.MenuStrip = New System.Windows.Forms.MenuStrip()
         Me.SettingToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -39,9 +40,29 @@ Partial Class finance
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.DatabaseDataSet1 = New eform.databaseDataSet1()
+        Me.AkuntingBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.AkuntingTableAdapter = New eform.databaseDataSet1TableAdapters.akuntingTableAdapter()
+        Me.TableAdapterManager = New eform.databaseDataSet1TableAdapters.TableAdapterManager()
+        Me.NoDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TanggalDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.UserIDDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.NamaDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.NoTelpDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.ProdFirmax3TDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.ProdO2max3TDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TOTALpcsTDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TOTALSetTDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.AmountTDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TotaluangmskDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.NoteDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.OrderedByDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.ProceedByDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.MenuStrip.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DatabaseDataSet1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.AkuntingBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'MenuStrip
@@ -151,7 +172,10 @@ Partial Class finance
         '
         'DataGridView1
         '
+        Me.DataGridView1.AutoGenerateColumns = False
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.NoDataGridViewTextBoxColumn, Me.TanggalDataGridViewTextBoxColumn, Me.UserIDDataGridViewTextBoxColumn, Me.NamaDataGridViewTextBoxColumn, Me.NoTelpDataGridViewTextBoxColumn, Me.ProdFirmax3TDataGridViewTextBoxColumn, Me.ProdO2max3TDataGridViewTextBoxColumn, Me.TOTALpcsTDataGridViewTextBoxColumn, Me.TOTALSetTDataGridViewTextBoxColumn, Me.AmountTDataGridViewTextBoxColumn, Me.TotaluangmskDataGridViewTextBoxColumn, Me.NoteDataGridViewTextBoxColumn, Me.OrderedByDataGridViewTextBoxColumn, Me.ProceedByDataGridViewTextBoxColumn})
+        Me.DataGridView1.DataSource = Me.AkuntingBindingSource
         Me.DataGridView1.Location = New System.Drawing.Point(43, 240)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.Size = New System.Drawing.Size(1138, 290)
@@ -205,6 +229,117 @@ Partial Class finance
         Me.PictureBox1.TabIndex = 75
         Me.PictureBox1.TabStop = False
         '
+        'DatabaseDataSet1
+        '
+        Me.DatabaseDataSet1.DataSetName = "databaseDataSet1"
+        Me.DatabaseDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
+        '
+        'AkuntingBindingSource
+        '
+        Me.AkuntingBindingSource.DataMember = "akunting"
+        Me.AkuntingBindingSource.DataSource = Me.DatabaseDataSet1
+        '
+        'AkuntingTableAdapter
+        '
+        Me.AkuntingTableAdapter.ClearBeforeFill = True
+        '
+        'TableAdapterManager
+        '
+        Me.TableAdapterManager.akuntingTableAdapter = Me.AkuntingTableAdapter
+        Me.TableAdapterManager.BackupDataSetBeforeUpdate = False
+        Me.TableAdapterManager.Form_Claim_Maintain__Mobile_Stockist_TableAdapter = Nothing
+        Me.TableAdapterManager.Form_Pembalian_MaintainTableAdapter = Nothing
+        Me.TableAdapterManager.Form_Pembelian__Mobile_Stockist_TableAdapter = Nothing
+        Me.TableAdapterManager.Form_Pembelian_baruTableAdapter = Nothing
+        Me.TableAdapterManager.Form_Pembelian_LamaTableAdapter = Nothing
+        Me.TableAdapterManager.Form_RegisterTableAdapter = Nothing
+        Me.TableAdapterManager.gudangTableAdapter = Nothing
+        Me.TableAdapterManager.UpdateOrder = eform.databaseDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete
+        '
+        'NoDataGridViewTextBoxColumn
+        '
+        Me.NoDataGridViewTextBoxColumn.DataPropertyName = "No"
+        Me.NoDataGridViewTextBoxColumn.HeaderText = "No"
+        Me.NoDataGridViewTextBoxColumn.Name = "NoDataGridViewTextBoxColumn"
+        '
+        'TanggalDataGridViewTextBoxColumn
+        '
+        Me.TanggalDataGridViewTextBoxColumn.DataPropertyName = "Tanggal"
+        Me.TanggalDataGridViewTextBoxColumn.HeaderText = "Tanggal"
+        Me.TanggalDataGridViewTextBoxColumn.Name = "TanggalDataGridViewTextBoxColumn"
+        '
+        'UserIDDataGridViewTextBoxColumn
+        '
+        Me.UserIDDataGridViewTextBoxColumn.DataPropertyName = "User_ID"
+        Me.UserIDDataGridViewTextBoxColumn.HeaderText = "User_ID"
+        Me.UserIDDataGridViewTextBoxColumn.Name = "UserIDDataGridViewTextBoxColumn"
+        '
+        'NamaDataGridViewTextBoxColumn
+        '
+        Me.NamaDataGridViewTextBoxColumn.DataPropertyName = "Nama"
+        Me.NamaDataGridViewTextBoxColumn.HeaderText = "Nama"
+        Me.NamaDataGridViewTextBoxColumn.Name = "NamaDataGridViewTextBoxColumn"
+        '
+        'NoTelpDataGridViewTextBoxColumn
+        '
+        Me.NoTelpDataGridViewTextBoxColumn.DataPropertyName = "No_Telp"
+        Me.NoTelpDataGridViewTextBoxColumn.HeaderText = "No_Telp"
+        Me.NoTelpDataGridViewTextBoxColumn.Name = "NoTelpDataGridViewTextBoxColumn"
+        '
+        'ProdFirmax3TDataGridViewTextBoxColumn
+        '
+        Me.ProdFirmax3TDataGridViewTextBoxColumn.DataPropertyName = "Prod firmax3-T"
+        Me.ProdFirmax3TDataGridViewTextBoxColumn.HeaderText = "Prod firmax3-T"
+        Me.ProdFirmax3TDataGridViewTextBoxColumn.Name = "ProdFirmax3TDataGridViewTextBoxColumn"
+        '
+        'ProdO2max3TDataGridViewTextBoxColumn
+        '
+        Me.ProdO2max3TDataGridViewTextBoxColumn.DataPropertyName = "Prod_O2max3-T"
+        Me.ProdO2max3TDataGridViewTextBoxColumn.HeaderText = "Prod_O2max3-T"
+        Me.ProdO2max3TDataGridViewTextBoxColumn.Name = "ProdO2max3TDataGridViewTextBoxColumn"
+        '
+        'TOTALpcsTDataGridViewTextBoxColumn
+        '
+        Me.TOTALpcsTDataGridViewTextBoxColumn.DataPropertyName = "TOTAL_pcs-T"
+        Me.TOTALpcsTDataGridViewTextBoxColumn.HeaderText = "TOTAL_pcs-T"
+        Me.TOTALpcsTDataGridViewTextBoxColumn.Name = "TOTALpcsTDataGridViewTextBoxColumn"
+        '
+        'TOTALSetTDataGridViewTextBoxColumn
+        '
+        Me.TOTALSetTDataGridViewTextBoxColumn.DataPropertyName = "TOTAL_Set-T"
+        Me.TOTALSetTDataGridViewTextBoxColumn.HeaderText = "TOTAL_Set-T"
+        Me.TOTALSetTDataGridViewTextBoxColumn.Name = "TOTALSetTDataGridViewTextBoxColumn"
+        '
+        'AmountTDataGridViewTextBoxColumn
+        '
+        Me.AmountTDataGridViewTextBoxColumn.DataPropertyName = "Amount-T"
+        Me.AmountTDataGridViewTextBoxColumn.HeaderText = "Amount-T"
+        Me.AmountTDataGridViewTextBoxColumn.Name = "AmountTDataGridViewTextBoxColumn"
+        '
+        'TotaluangmskDataGridViewTextBoxColumn
+        '
+        Me.TotaluangmskDataGridViewTextBoxColumn.DataPropertyName = "Total-uang-msk"
+        Me.TotaluangmskDataGridViewTextBoxColumn.HeaderText = "Total-uang-msk"
+        Me.TotaluangmskDataGridViewTextBoxColumn.Name = "TotaluangmskDataGridViewTextBoxColumn"
+        '
+        'NoteDataGridViewTextBoxColumn
+        '
+        Me.NoteDataGridViewTextBoxColumn.DataPropertyName = "Note"
+        Me.NoteDataGridViewTextBoxColumn.HeaderText = "Note"
+        Me.NoteDataGridViewTextBoxColumn.Name = "NoteDataGridViewTextBoxColumn"
+        '
+        'OrderedByDataGridViewTextBoxColumn
+        '
+        Me.OrderedByDataGridViewTextBoxColumn.DataPropertyName = "Ordered_By"
+        Me.OrderedByDataGridViewTextBoxColumn.HeaderText = "Ordered_By"
+        Me.OrderedByDataGridViewTextBoxColumn.Name = "OrderedByDataGridViewTextBoxColumn"
+        '
+        'ProceedByDataGridViewTextBoxColumn
+        '
+        Me.ProceedByDataGridViewTextBoxColumn.DataPropertyName = "Proceed_By"
+        Me.ProceedByDataGridViewTextBoxColumn.HeaderText = "Proceed_By"
+        Me.ProceedByDataGridViewTextBoxColumn.Name = "ProceedByDataGridViewTextBoxColumn"
+        '
         'finance
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -232,6 +367,8 @@ Partial Class finance
         Me.MenuStrip.PerformLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DatabaseDataSet1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.AkuntingBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -253,4 +390,22 @@ Partial Class finance
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents DatabaseDataSet1 As databaseDataSet1
+    Friend WithEvents AkuntingBindingSource As BindingSource
+    Friend WithEvents AkuntingTableAdapter As databaseDataSet1TableAdapters.akuntingTableAdapter
+    Friend WithEvents TableAdapterManager As databaseDataSet1TableAdapters.TableAdapterManager
+    Friend WithEvents NoDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
+    Friend WithEvents TanggalDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
+    Friend WithEvents UserIDDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
+    Friend WithEvents NamaDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
+    Friend WithEvents NoTelpDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
+    Friend WithEvents ProdFirmax3TDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
+    Friend WithEvents ProdO2max3TDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
+    Friend WithEvents TOTALpcsTDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
+    Friend WithEvents TOTALSetTDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
+    Friend WithEvents AmountTDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
+    Friend WithEvents TotaluangmskDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
+    Friend WithEvents NoteDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
+    Friend WithEvents OrderedByDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
+    Friend WithEvents ProceedByDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
 End Class
