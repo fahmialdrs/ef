@@ -254,7 +254,7 @@ Partial Class mobilestockist
         Me.back.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.back.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.back.Image = CType(resources.GetObject("back.Image"), System.Drawing.Image)
-        Me.back.Location = New System.Drawing.Point(1157, 610)
+        Me.back.Location = New System.Drawing.Point(1161, 547)
         Me.back.Name = "back"
         Me.back.Size = New System.Drawing.Size(77, 72)
         Me.back.TabIndex = 58
@@ -264,7 +264,7 @@ Partial Class mobilestockist
         '
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Image = CType(resources.GetObject("Button3.Image"), System.Drawing.Image)
-        Me.Button3.Location = New System.Drawing.Point(1147, 463)
+        Me.Button3.Location = New System.Drawing.Point(1151, 400)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(98, 97)
         Me.Button3.TabIndex = 57
@@ -276,7 +276,7 @@ Partial Class mobilestockist
         '
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button2.Image = CType(resources.GetObject("Button2.Image"), System.Drawing.Image)
-        Me.Button2.Location = New System.Drawing.Point(1147, 363)
+        Me.Button2.Location = New System.Drawing.Point(1151, 300)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(98, 97)
         Me.Button2.TabIndex = 56
@@ -289,7 +289,7 @@ Partial Class mobilestockist
         Me.Button1.FlatAppearance.BorderSize = 0
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button1.Image = CType(resources.GetObject("Button1.Image"), System.Drawing.Image)
-        Me.Button1.Location = New System.Drawing.Point(1147, 260)
+        Me.Button1.Location = New System.Drawing.Point(1151, 197)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(98, 97)
         Me.Button1.TabIndex = 55
@@ -534,7 +534,7 @@ Partial Class mobilestockist
         Me.Label31.AutoSize = True
         Me.Label31.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.Label31.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label31.Location = New System.Drawing.Point(1086, 697)
+        Me.Label31.Location = New System.Drawing.Point(1090, 634)
         Me.Label31.Name = "Label31"
         Me.Label31.Size = New System.Drawing.Size(212, 18)
         Me.Label31.TabIndex = 78
