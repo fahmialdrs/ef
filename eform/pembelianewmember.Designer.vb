@@ -70,6 +70,11 @@ Partial Class pembelianewmember
         Me.Label23 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.nama = New System.Windows.Forms.TextBox()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.proceeded = New System.Windows.Forms.TextBox()
+        Me.ordered = New System.Windows.Forms.TextBox()
         Me.Panel3.SuspendLayout()
         CType(Me.o2max3r, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.firmax3r, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -120,6 +125,9 @@ Partial Class pembelianewmember
         '
         'Panel3
         '
+        Me.Panel3.Controls.Add(Me.Label10)
+        Me.Panel3.Controls.Add(Me.Label9)
+        Me.Panel3.Controls.Add(Me.Label8)
         Me.Panel3.Controls.Add(Me.Label16)
         Me.Panel3.Controls.Add(Me.Label15)
         Me.Panel3.Controls.Add(Me.Label17)
@@ -182,6 +190,7 @@ Partial Class pembelianewmember
         Me.amountr.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.amountr.Location = New System.Drawing.Point(171, 162)
         Me.amountr.Name = "amountr"
+        Me.amountr.ReadOnly = True
         Me.amountr.Size = New System.Drawing.Size(846, 22)
         Me.amountr.TabIndex = 67
         Me.amountr.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -229,6 +238,7 @@ Partial Class pembelianewmember
         Me.totalpcs.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.totalpcs.Location = New System.Drawing.Point(171, 86)
         Me.totalpcs.Name = "totalpcs"
+        Me.totalpcs.ReadOnly = True
         Me.totalpcs.Size = New System.Drawing.Size(846, 22)
         Me.totalpcs.TabIndex = 60
         Me.totalpcs.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -256,6 +266,7 @@ Partial Class pembelianewmember
         Me.totalset.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.totalset.Location = New System.Drawing.Point(171, 125)
         Me.totalset.Name = "totalset"
+        Me.totalset.ReadOnly = True
         Me.totalset.Size = New System.Drawing.Size(846, 22)
         Me.totalset.TabIndex = 64
         Me.totalset.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -524,7 +535,7 @@ Partial Class pembelianewmember
         '
         Me.Label24.AutoSize = True
         Me.Label24.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label24.Location = New System.Drawing.Point(582, 497)
+        Me.Label24.Location = New System.Drawing.Point(595, 497)
         Me.Label24.Name = "Label24"
         Me.Label24.Size = New System.Drawing.Size(101, 16)
         Me.Label24.TabIndex = 45
@@ -534,7 +545,7 @@ Partial Class pembelianewmember
         '
         Me.Label23.AutoSize = True
         Me.Label23.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label23.Location = New System.Drawing.Point(173, 497)
+        Me.Label23.Location = New System.Drawing.Point(186, 497)
         Me.Label23.Name = "Label23"
         Me.Label23.Size = New System.Drawing.Size(83, 16)
         Me.Label23.TabIndex = 44
@@ -566,6 +577,55 @@ Partial Class pembelianewmember
         Me.nama.Size = New System.Drawing.Size(840, 22)
         Me.nama.TabIndex = 9
         '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.BackColor = System.Drawing.SystemColors.ControlLight
+        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.Location = New System.Drawing.Point(174, 165)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(32, 16)
+        Me.Label10.TabIndex = 71
+        Me.Label10.Text = "Rp."
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.BackColor = System.Drawing.SystemColors.ControlLight
+        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Location = New System.Drawing.Point(975, 128)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(29, 16)
+        Me.Label9.TabIndex = 70
+        Me.Label9.Text = "set"
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.BackColor = System.Drawing.SystemColors.ControlLight
+        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(975, 88)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(33, 16)
+        Me.Label8.TabIndex = 69
+        Me.Label8.Text = "pcs"
+        '
+        'proceeded
+        '
+        Me.proceeded.Location = New System.Drawing.Point(568, 559)
+        Me.proceeded.Name = "proceeded"
+        Me.proceeded.Size = New System.Drawing.Size(172, 20)
+        Me.proceeded.TabIndex = 56
+        Me.proceeded.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'ordered
+        '
+        Me.ordered.Location = New System.Drawing.Point(143, 559)
+        Me.ordered.Name = "ordered"
+        Me.ordered.Size = New System.Drawing.Size(172, 20)
+        Me.ordered.TabIndex = 55
+        Me.ordered.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
         'pembelianewmember
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -573,6 +633,8 @@ Partial Class pembelianewmember
         Me.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1354, 733)
+        Me.Controls.Add(Me.proceeded)
+        Me.Controls.Add(Me.ordered)
         Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.Label31)
         Me.Controls.Add(Me.back)
@@ -653,4 +715,9 @@ Partial Class pembelianewmember
     Friend WithEvents Label23 As Label
     Friend WithEvents Panel1 As Panel
     Friend WithEvents nama As TextBox
+    Friend WithEvents Label10 As Label
+    Friend WithEvents Label9 As Label
+    Friend WithEvents Label8 As Label
+    Friend WithEvents proceeded As TextBox
+    Friend WithEvents ordered As TextBox
 End Class
