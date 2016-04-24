@@ -10,3 +10,15 @@ c:\users\adeputra rizki\documents\visual studio 2015\Projects\WindowsApplication
 c:\users\adeputra rizki\documents\visual studio 2015\Projects\WindowsApplication7\WindowsApplication7\obj\Debug\WindowsApplication7.xml
 c:\users\adeputra rizki\documents\visual studio 2015\Projects\WindowsApplication7\WindowsApplication7\obj\Debug\WindowsApplication7.pdb
 C:\Users\adeputra rizki\Documents\Visual Studio 2015\Projects\WindowsApplication7\WindowsApplication7\bin\Debug\Database.mdb
+C:\Users\fahmi\Documents\Visual Studio 2015\Projects\eform\program tester connect database\WindowsApplication7\WindowsApplication7\bin\Debug\WindowsApplication7.exe.config
+C:\Users\fahmi\Documents\Visual Studio 2015\Projects\eform\program tester connect database\WindowsApplication7\WindowsApplication7\obj\Debug\WindowsApplication7.exe
+C:\Users\fahmi\Documents\Visual Studio 2015\Projects\eform\program tester connect database\WindowsApplication7\WindowsApplication7\obj\Debug\WindowsApplication7.xml
+C:\Users\fahmi\Documents\Visual Studio 2015\Projects\eform\program tester connect database\WindowsApplication7\WindowsApplication7\obj\Debug\WindowsApplication7.pdb
+C:\Users\fahmi\Documents\Visual Studio 2015\Projects\eform\program tester connect database\WindowsApplication7\WindowsApplication7\bin\Debug\Database.mdb
+C:\Users\fahmi\Documents\Visual Studio 2015\Projects\eform\program tester connect database\WindowsApplication7\WindowsApplication7\bin\Debug\WindowsApplication7.exe
+C:\Users\fahmi\Documents\Visual Studio 2015\Projects\eform\program tester connect database\WindowsApplication7\WindowsApplication7\bin\Debug\WindowsApplication7.pdb
+C:\Users\fahmi\Documents\Visual Studio 2015\Projects\eform\program tester connect database\WindowsApplication7\WindowsApplication7\bin\Debug\WindowsApplication7.xml
+C:\Users\fahmi\Documents\Visual Studio 2015\Projects\eform\program tester connect database\WindowsApplication7\WindowsApplication7\obj\Debug\WindowsApplication7.vbprojResolveAssemblyReference.cache
+C:\Users\fahmi\Documents\Visual Studio 2015\Projects\eform\program tester connect database\WindowsApplication7\WindowsApplication7\obj\Debug\WindowsApplication7.form1.resources
+C:\Users\fahmi\Documents\Visual Studio 2015\Projects\eform\program tester connect database\WindowsApplication7\WindowsApplication7\obj\Debug\WindowsApplication7.Resources.resources
+C:\Users\fahmi\Documents\Visual Studio 2015\Projects\eform\program tester connect database\WindowsApplication7\WindowsApplication7\obj\Debug\WindowsApplication7.vbproj.GenerateResource.Cache
